@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/</loc></url><url><loc>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/categories/</loc></url><url><loc>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/events/</loc></url><url><loc>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/proposal/</loc></url><url><loc>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/evaluation/</loc></url><url><loc>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/feedback/</loc></url><url><loc>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/tags/</loc></url><url><loc>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/blogs/</loc></url><url><loc>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/worklog/</loc></url><url><loc>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/workshop/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/FCJ-report-HUGO-SE192671/</loc>
+  </url><url>
+    <loc>http://localhost:1313/FCJ-report-HUGO-SE192671/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/FCJ-report-HUGO-SE192671/events/</loc>
+  </url><url>
+    <loc>http://localhost:1313/FCJ-report-HUGO-SE192671/proposal/</loc>
+  </url><url>
+    <loc>http://localhost:1313/FCJ-report-HUGO-SE192671/evaluation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/FCJ-report-HUGO-SE192671/feedback/</loc>
+  </url><url>
+    <loc>http://localhost:1313/FCJ-report-HUGO-SE192671/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/FCJ-report-HUGO-SE192671/blogs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/FCJ-report-HUGO-SE192671/worklog/</loc>
+  </url><url>
+    <loc>http://localhost:1313/FCJ-report-HUGO-SE192671/workshop/</loc>
+  </url>
+</urlset>
