@@ -1,7 +1,10 @@
 ---
 title: "AWS Internship Report"
 type: "page"
+params:
+  defaultTheme: dark
 ---
+# Hình đại diện
 
 # Thông tin sinh viên
 
