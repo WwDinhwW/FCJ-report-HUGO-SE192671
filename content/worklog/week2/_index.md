@@ -1,5 +1,5 @@
 ---
-title: "Tuần 2: TBD"
+title: "Week 2: TBD"
 hideSummary: true
 ---
 

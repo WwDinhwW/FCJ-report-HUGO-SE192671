@@ -1,7 +1,7 @@
 baseURL = "https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/"
 languageCode = "en-us"
-title = "Internship Report"
-theme = "PaperMod"
+title = "AWS INTERNSHIP REPORT"
+theme = 'hugo-theme-relearn'
 
 [caches]
 [caches.images]

@@ -1,5 +1,5 @@
 ---
-title: "Workshop"
+title: "5. Workshop"
 type: "page"
 ---
 

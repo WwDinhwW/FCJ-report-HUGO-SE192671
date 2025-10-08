@@ -1,5 +1,5 @@
 ---
-title: "Translated Blogs"
+title: "3. Translated Blogs"
 type: "page"
 ---
 

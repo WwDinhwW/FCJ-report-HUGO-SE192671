@@ -1,8 +1,6 @@
 ---
-title: "AWS Internship Report"
+title: "Home Page"
 type: "page"
-params:
-  defaultTheme: dark
 ---
 # Hình đại diện
 

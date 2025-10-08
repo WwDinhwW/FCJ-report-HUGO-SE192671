@@ -1,5 +1,5 @@
 ---
-title: "Proposal"
+title: "2. Proposal"
 type: "page"
 ---
 
