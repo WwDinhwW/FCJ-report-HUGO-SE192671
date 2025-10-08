@@ -21,10 +21,10 @@ params:
 
 # Mục lục báo cáo
 
-- [Worklog (Nhật ký làm việc theo tuần)](/worklog/)
-- [Proposal (Đề xuất dự án)](/proposal/)
-- [Translated Blogs (Các bài blog đã dịch)](/blogs/)
-- [Events Participated (Các sự kiện đã tham gia)](/events/)
-- [Workshop (Nội dung workshop)](/workshop/)
-- [Self-evaluation (Tự đánh giá bản thân)](/evaluation/)
-- [Sharing and Feedback (Chia sẻ và góp ý)](/feedback/)
+- [Worklog (Nhật ký làm việc theo tuần)](worklog/)
+- [Proposal (Đề xuất dự án)](proposal/)
+- [Translated Blogs (Các bài blog đã dịch)](blogs/)
+- [Events Participated (Các sự kiện đã tham gia)](events/)
+- [Workshop (Nội dung workshop)](workshop/)
+- [Self-evaluation (Tự đánh giá bản thân)](evaluation/)
+- [Sharing and Feedback (Chia sẻ và góp ý)](feedback/)
