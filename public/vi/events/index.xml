@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4. Sự kiện tham gia :: AWS Báo Cáo Thực Tập</title>
+    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/vi/events/index.html</link>
+    <description>Event 1: AWS Cloud Day Vietnam 2025</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/vi/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sự kiện 1</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/vi/events/event_1/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/vi/events/event_1/index.html</guid>
+      <description>AWS Cloud Day Vietnam 2025 Mục Đích Của Sự Kiện Giới thiệu các xu hướng công nghệ mới nhất từ AWS, đặc biệt là Generative AI. Chia sẻ case study từ doanh nghiệp lớn tại Việt Nam và khu vực. Thảo luận về chiến lược lãnh đạo, quản trị tổ chức trong kỷ nguyên AI. Tìm hiểu best practices về bảo mật và ứng dụng AI Agents trong thực tế. Danh Sách Diễn Giả Hon. Government speaker – Phát biểu khai mạc. Eric Yeo – Country General Manager, Vietnam, Cambodia, Laos &amp; Myanmar, AWS. Dr. Jens Lottner – CEO, Techcombank. Ms. Trang Phung – CEO &amp; Co-Founder, U2U Network. Jaime Valles – Vice President, General Manager Asia Pacific and Japan, AWS. Jeff Johnson – Managing Director, ASEAN, AWS (Moderator). Panelists: Vu Van, Co-founder &amp; CEO, ELSA Corp Nguyen Hoa Binh, Chairman, Nexttech Group Dieter Botha, CEO, TymeX Taiki Dang – Solutions Architect, AWS. Michael Armentano – Principal WW GTM Specialist, AWS. Nội Dung Nổi Bật Phần 1: Main Sessions (AWS Cloud Day Vietnam) Opening &amp; Keynote (Eric Yeo, AWS): Giới thiệu tầm nhìn AWS tại Việt Nam và Đông Nam Á. Customer Keynote 1 (Techcombank): Ứng dụng AI trong tài chính – tăng hiệu quả vận hành, cải thiện trải nghiệm khách hàng. Customer Keynote 2 (U2U Network): Kết hợp blockchain và AI để xây dựng hệ sinh thái phi tập trung. AWS Keynote (Jaime Valles): Xu hướng công nghệ khu vực, chiến lược hỗ trợ doanh nghiệp đổi mới. Panel Discussion (Jeff Johnson + các CEO): Lãnh đạo cần định hướng văn hóa đổi mới. GenAI là công cụ chiến lược chứ không chỉ là công nghệ. Quản trị thay đổi là yếu tố then chốt khi tích hợp AI. Phần 2: GenAI Track Securing Generative AI Applications (Taiki Dang):</description>
+    </item>
+  </channel>
+</rss>
