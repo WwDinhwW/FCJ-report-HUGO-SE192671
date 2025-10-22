@@ -1,9 +1,9 @@
 ---
-title: "Tuần 1: Làm quen với AWS và các dịch vụ AWS cơ bản"
+title: "Tuần 2: TBD"
 type:  "page"
 ---
 
-# Mục tiêu tuần 1:
+# Mục tiêu tuần 2:
 
 * Làm quen với môi trường First Cloud Journey.
 * Hiểu dịch vụ AWS cơ bản, chúng là gì và hoạt động như thế nào.

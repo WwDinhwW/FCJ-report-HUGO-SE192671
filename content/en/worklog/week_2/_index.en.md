@@ -1,6 +1,6 @@
 ---
 title: "Week 2: TBD"
-hideSummary: true
+type:  "page"
 ---
 
 # Mục tiêu tuần 2:
