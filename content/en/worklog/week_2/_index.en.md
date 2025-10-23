@@ -1,54 +1,37 @@
 ---
-title: "Week 2: TBD"
-type:  "page"
+title: "Week 2: Exploring AWS Compute and Storage Services. Getting familiar with HUGO and related development tools"
+type: "page"
 ---
 
-# Mục tiêu tuần 2:
+# Week 2 Objectives:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Understand the key compute and storage services on AWS.
+* Get familiar with development and deployment tools (HUGO, PowerShell).
+* Learn the basics of containerization and its usage on AWS (ECS, EKS, Docker).
+* Attend an AWS-hosted event to expand knowledge and community connection.
 
-# Các công việc cần triển khai trong tuần này:
+# Tasks Completed This Week:
 
-<!--
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-|-----|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|-------------------------------------------|
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
--->
+| Day | Task                                                                                                                                                                                                                                                                                                                                | Start Date | End Date   | Reference Source                     |
+|-----|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------|--------------------------------------|
+| Mon | - Reviewed EC2 concepts from Week 1: Instance Types, AMI, Key Pair, Elastic Block Store. <br> - Continued with extended topics on Auto Scaling, EFS/FSx, and Lightsail.                                                                                                                                                             | 15/09/2025 | 15/09/2025 | Internet & Mentor-provided materials |
+| Tue | - Studied AWS storage services: <br>&emsp; + Amazon S3 (Simple Storage Service) <br>&emsp; + S3 Bucket structure, Access Point, Storage Class <br>&emsp; + Static Website Hosting and CORS configuration <br>&emsp; + Glacier and cold storage classes <br> - Learned about SSL/TLS, data encryption, and secure data transmission. | 16/09/2025 | 16/09/2025 | Internet & Mentor-provided materials |
+| Wed | - Installed and learned to use **HUGO** for building static websites. <br> - Installed and practiced with **PowerShell** for Windows environment operations.                                                                                                                                                                        | 17/09/2025 | 17/09/2025 | Internet & HUGO Documentation        |
+| Thu | - **Attended the Vietnam Cloud Day 2025** event hosted by AWS. <br> - Took notes on key topics, trends, and AWS’s strategy in Vietnam.                                                                                                                                                                                              | 18/09/2025 | 18/09/2025 | AWS Vietnam Cloud Day 2025 Event     |
+| Fri | - Learned about containerization concepts: <br>&emsp; + Docker, Kubernetes <br>&emsp; + AWS ECS (Elastic Container Service) and EKS (Elastic Kubernetes Service). <br> - Understood how AWS deploys and manages containers in production environments.                                                                              | 19/09/2025 | 19/09/2025 | Internet & Mentor-provided materials |
 
-# Kết quả đạt được tuần 2:
+# Results Achieved in Week 2:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản:
-  * Compute
-  * Storage
-  * Networking
-  * Database
-  * ...
+* Strengthened understanding of EC2, Auto Scaling, and extended compute services.
+* Gained in-depth knowledge of Amazon S3 — storage management, access control, and data classes.
+* Successfully installed and used HUGO and PowerShell for development workflows.
+* Participated in AWS Vietnam Cloud Day 2025, gaining insights into AWS strategies and trends.
+* Learned the fundamentals of containerization and how AWS applies it through ECS/EKS.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+# Modules Completed in Week 2:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Module 03-01 - Compute VM on AWS
+- Module 03-02 - EC2 Autoscaling - EFS/FSx - Lightsail - MGN
+- Module 04-01 - Storage Services on AWS
+- Module 04-02 - Amazon Simple Storage Service (S3) - Access Point - Storage Class
+- Module 04-03 - S3 Static Website & CORS - Control Access - Object Key & Performance - Glacier

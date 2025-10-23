@@ -36,3 +36,4 @@ type:  "page"
 - Module 01-07 - Thực Hành và Nghiên Cứu Bổ Sung
 - Module 02-01 - AWS Virtual Private Cloud
 - Module 02-02 - VPC Security and Multi-VPC features
+- Module 02-03 - VPN - DirectConnect - LoadBalancer - ExtraResources

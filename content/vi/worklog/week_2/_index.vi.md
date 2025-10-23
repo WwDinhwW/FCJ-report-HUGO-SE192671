@@ -1,39 +1,37 @@
 ---
-title: "Tuần 2: TBD"
-type:  "page"
+title: "Tuần 2: Tìm hiểu về dịch vụ lưu trữ và điện toán trên AWS. Làm quen với HUGO và các công cụ phát triển liên quan"
+type: "page"
 ---
 
 # Mục tiêu tuần 2:
 
-* Làm quen với môi trường First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, chúng là gì và hoạt động như thế nào.
+* Hiểu các dịch vụ lưu trữ và điện toán (compute, storage) trên AWS.
+* Làm quen với các công cụ hỗ trợ phát triển và triển khai (HUGO, PowerShell).
+* Tìm hiểu cơ bản về containerization và xu hướng sử dụng trong AWS (ECS, EKS, Docker).
+* Tham gia sự kiện thực tế của AWS để mở rộng kiến thức và kết nối cộng đồng.
 
 # Các công việc hoàn thành trong tuần này:
 
-| Thứ | Công việc                                                                                                                                                                                                                                                                                                                                                                                                                                    | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|-------------------------------------------|
-| 2   | - Làm quen với môi trường làm việc FCJ <br/> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                                                                                                                                                                                                                                                                        | 08/09/2025   | 08/09/2025      | <https://policies.fcjuni.com/>            
-| 3   | - Tìm hiểu các công nghệ, khái niệm Networking: <br>&emsp; + NIC (Network Interface Card) <br>&emsp; + DNS <br>&emsp; + IP Addresses <br>&emsp; + CDN (Content Delivery Network)                                                                                                                                                                                                                                                             | 09/09/2025   | 09/09/2025      | Internet và tài liệu các mentor cung cấp  |
-| 4   | - Lên văn phòng <br> - Tiếp tục tìm hiểu các công nghệ, khái niệm Networking: <br>&emsp; + IPv4/6 <br>&emsp; + NAT (Network Address Translator) <br>&emsp; + CIDR  <br>&emsp; + DHCP <br>&emsp; + VPN <br>&emsp; + ENI (Elastic Network Interface) <br>&emsp; + Internet Gateway (AWS)                                                                                                                                                                         | 10/09/2025   | 10/09/2025      | Internet và tài liệu các mentor cung cấp |
-| 5   | - Tìm hiểu các dịch vụ AWS: <br>&emsp; + EC2 (Elastic Compute Cloud) <br>&emsp; + S3 (Simple Storage Service) <br>&emsp; + RDS / DynamoDB (Databases) <br>&emsp; + VPC (Virtual Private Cloud) <br>&emsp; + IAM (Identity & Access Management) <br>&emsp; + CloudWatch <br>&emsp; + VPC peering <br>&emsp; + Transit Gateway <br>&emsp; + Route table <br>&emsp; + DirectConnect <br>&emsp; + NAT Gateway <br>&emsp; + Elastic Load Balancer | 11/09/2025   | 11/09/2025      | Internet và tài liệu các mentor cung cấp |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo tài khoản root AWS <br>&emsp; + Tạo một EC2 instance <br>&emsp; + Tìm hiểu Access Keys của một EC2 instance, mục đích và cách sử dụng                                                                                                                                                                                                                                                                      | 12/09/2025   | 12/09/2025      | Internet và tài liệu các mentor cung cấp |
+| Thứ | Công việc                                                                                                                                                                                                                                                                                                                                    | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                           |
+|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|------------------------------------------|
+| 2   | - Ôn tập lại các khái niệm EC2 từ tuần trước: Instance Type, AMI, Key Pair, Elastic Block Store. <br> - Làm bài học mở rộng về Auto Scaling, EFS/FSx và Lightsail.                                                                                                                                                                           | 15/09/2025   | 15/09/2025      | Internet và tài liệu các mentor cung cấp |
+| 3   | - Tìm hiểu các dịch vụ lưu trữ của AWS: <br>&emsp; + Amazon S3 (Simple Storage Service) <br>&emsp; + Cấu trúc S3 Bucket, Access Point, Storage Class <br>&emsp; + Static Website Hosting và cấu hình CORS <br>&emsp; + Glacier và các lớp lưu trữ lạnh <br> - Tìm hiểu các khái niệm liên quan: SSL/TLS, mã hóa dữ liệu, bảo mật truyền tải. | 16/09/2025   | 16/09/2025      | Internet và tài liệu các mentor cung cấp |
+| 4   | - Cài đặt và làm quen với **HUGO** để tạo trang web tĩnh. <br> - Cài đặt và sử dụng **PowerShell** cho thao tác môi trường Windows.                                                                                                                                                                                                          | 17/09/2025   | 17/09/2025      | Internet và hướng dẫn HUGO Docs          |
+| 5   | - **Tham dự sự kiện Vietnam Cloud Day 2025** do AWS tổ chức. <br> - Ghi chép nội dung, chủ đề chính về điện toán đám mây tại Việt Nam.                                                                                                                                                                                                       | 18/09/2025   | 18/09/2025      | Sự kiện AWS Vietnam Cloud Day 2025       |
+| 6   | - Tìm hiểu tổng quan về containerization: <br>&emsp; + Docker, Kubernetes <br>&emsp; + Dịch vụ ECS (Elastic Container Service) và EKS (Elastic Kubernetes Service). <br> - Hiểu cách AWS triển khai và quản lý container trong môi trường thực tế.                                                                                           | 19/09/2025   | 19/09/2025      | Internet và tài liệu các mentor cung cấp |
 
-# Kết quả đạt được tuần 1:
+# Kết quả đạt được tuần 2:
 
-* Hiểu AWS và các dịch vụ cơ bản của AWS là gì, chúng được sử dụng như thế nào.
-* Hiểu các công nghệ, khái niệm chung về Networking, để thấy được cách các dịch vụ của AWS hoạt động như thế nào.
-* Đã tạo và cấu hình AWS Free Tier root account thành công.
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Hoàn thiện kiến thức EC2, Auto Scaling và các dịch vụ điện toán mở rộng.
+* Hiểu rõ cơ chế hoạt động, quản lý truy cập và lưu trữ dữ liệu của Amazon S3.
+* Cài đặt và sử dụng được HUGO, PowerShell trong môi trường làm việc.
+* Tham gia sự kiện Vietnam Cloud Day 2025, nắm bắt xu hướng và định hướng của AWS tại Việt Nam.
+* Có kiến thức tổng quan về containerization và cách ứng dụng trong AWS (ECS/EKS).
 
-# Các module đã xem tuần 1:
-- Module 01-01 - Điện Toán Đám Mây Là Gì ?
-- Module 01-02 - Điều Gì Tạo Nên Sự Khác Biệt Của AWS ?
-- Module 01-03 - Bắt Đầu Hành Trình Lên Mây Như Thế Nào
-- Module 01-04 - Hạ Tầng Toàn Cầu Của AWS
-- Module 01-05 - Công Cụ Quản Lý AWS Services
-- Module 01-06 - Tối Ưu Hóa Chi Phí Trên AWS và Làm Việc Với AWS Support
-- Module 01-07 - Thực Hành và Nghiên Cứu Bổ Sung
-- Module 02-01 - AWS Virtual Private Cloud
-- Module 02-02 - VPC Security and Multi-VPC features
-- Module 02-03 - VPN - DirectConnect - LoadBalancer - ExtraResources
+# Các module đã xem tuần 2:
 
+- Module 03-01 - Compute VM on AWS
+- Module 03-02 - EC2 Autoscaling - EFS/FSx - Lightsail - MGN
+- Module 04-01 - Dịch Vụ Lưu Trữ Trên AWS
+- Module 04-02 - Amazon Simple Storage Service (S3) - Access Point - Storage Class
+- Module 04-03 - S3 Static Website & CORS - Control Access - Object Key & Performance - Glacier
