@@ -3,7 +3,7 @@ title: "Home"
 type: "page"
 ---
 # Avatar
-![Student Avatar](/images/avatar.png)
+![Student Avatar](/images/1-Home/avatar.jpg)
 
 # Information
 
