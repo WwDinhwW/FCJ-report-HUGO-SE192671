@@ -1,5 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Event 4 :: AWS Intership Report</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/events/event_4/index.html</link><description>EVENT REPORT: AWS Cloud Mastery Series #2 — DevOps on AWS Date: Monday, November 17, 2025
-Time: 8:30 AM – 5:00 PM
-Location: AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City
-Objective: Provide comprehensive understanding of DevOps culture, performance principles, and AWS DevOps tooling to build CI/CD pipelines, Infrastructure as Code (IaC), and full-stack observability.
-MORNING SESSION (8:30 AM – 12:00 PM): CI/CD &amp; INFRASTRUCTURE AS CODE 1. Welcome &amp; DevOps Mindset (8:30 – 9:00 AM) Recap of previous AI/ML session, shifting focus toward productionizing ML and application workloads. Emphasis on DevOps culture and collaboration between Development and Operations. Introduction to key performance metrics including DORA metrics and MTTR (Mean Time To Recovery). 2. AWS DevOps Services — CI/CD Pipeline Building (9:00 – 10:30 AM) Deep dive into AWS Code-family services for Continuous Integration (CI) and Continuous Deployment (CD) automation:</description><generator>Hugo</generator><language>en</language><atom:link href="https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/events/event_4/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event 4 :: AWS Intership Report</title>
+    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/events/event_4/index.html</link>
+    <description>EVENT REPORT: AWS Cloud Mastery Series #2 — DevOps on AWS Date: Monday, November 17, 2025&#xA;Time: 8:30 AM – 5:00 PM&#xA;Location: AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City&#xA;Objective: Provide comprehensive understanding of DevOps culture, performance principles, and AWS DevOps tooling to build CI/CD pipelines, Infrastructure as Code (IaC), and full-stack observability.&#xA;MORNING SESSION (8:30 AM – 12:00 PM): CI/CD &amp; INFRASTRUCTURE AS CODE 1. Welcome &amp; DevOps Mindset (8:30 – 9:00 AM) Recap of previous AI/ML session, shifting focus toward productionizing ML and application workloads. Emphasis on DevOps culture and collaboration between Development and Operations. Introduction to key performance metrics including DORA metrics and MTTR (Mean Time To Recovery). 2. AWS DevOps Services — CI/CD Pipeline Building (9:00 – 10:30 AM) Deep dive into AWS Code-family services for Continuous Integration (CI) and Continuous Deployment (CD) automation:</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/en/events/event_4/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
