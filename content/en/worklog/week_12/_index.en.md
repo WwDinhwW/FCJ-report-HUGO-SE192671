@@ -3,15 +3,13 @@ title: "Week 12: Strengthening AWS Security Architecture and Mastering Cloud Pro
 type: "page"
 ---
 
-# Weekly Objectives:
-
+# Objectives:
 * Deepen understanding of AWS Security Pillars and modern cloud security strategies.
 * Learn identity governance, detection mechanisms, infrastructure protection, and data security on AWS.
 * Strengthen practical skills in securing workloads using IAM, KMS, logging systems, and network segmentation.
 * Consolidate all security-related knowledge into final documentation for the Report Site.
 
-# Tasks Completed This Week:
-
+# Tasks Completed:
 | Day | Tasks                                                                                                                                                                                                                                                                                                                      | Start Date | Completion Date | Reference Sources           |
 |-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------------|-----------------------------|
 | Mon | - Studied AWS **Security Pillar** concepts: Least Privilege, Zero Trust, and Defense in Depth. <br> - Reviewed the Shared Responsibility Model and how to apply it across cloud workloads.                                                                                                                                 | 24/11/2025 | 24/11/2025      | AWS Docs, Internet          |
@@ -20,11 +18,9 @@ type: "page"
 | Thu | - Focused on **Infrastructure Protection**: VPC segmentation, private/public subnet design, security groups vs NACLs, WAF integration, and Shield protections. <br> - Reviewed workload protection basics for EC2 and containerized environments.                                                                          | 27/11/2025 | 27/11/2025      | Internet, AWS Docs          |
 | Fri | - Studied **Data Protection**: encryption at-rest/in-transit, KMS key policies, key rotation, Secrets Manager, and Parameter Store usage patterns. <br> - Reviewed common Incident Response playbooks: compromised credentials, S3 public exposure, malware detection, isolation steps, and automated response via Lambda. | 28/11/2025 | 28/11/2025      | AWS IR Docs, security blogs |
 
-# Weekly Achievements:
-
+# Results:
 * Gained a full understanding of AWS Security Pillar concepts and how to enforce Least Privilege and Zero Trust.
 * Strengthened identity and access governance skills across multi-account structures.
 * Achieved solid command of detection systems (CloudTrail, GuardDuty, Security Hub) and logging architectures.
 * Understood end-to-end infrastructure protection patterns including segmentation, WAF, Shield, SG/NACL design.
 * Mastered data security fundamentals with KMS, encryption, and secrets management.
-* Completed comprehensive security documentation for the Report Site — finalizing the internship learning record.

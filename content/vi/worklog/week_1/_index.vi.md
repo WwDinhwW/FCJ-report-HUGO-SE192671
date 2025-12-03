@@ -3,14 +3,12 @@ title: "Tuần 1: Làm quen với AWS. Tìm hiểu các khái niệm Networking 
 type:  "page"
 ---
 
-# Mục tiêu tuần 1:
-
+# Mục tiêu:
 * Làm quen với môi trường First Cloud Journey.
 * Hiểu các khái niệm Networking liên quan tới các dịch vụ AWS
 * Hiểu các dịch vụ AWS cơ bản, chúng là gì và hoạt động như thế nào.
 
-# Các công việc hoàn thành trong tuần này:
-
+# Các công việc hoàn thành:
 | Thứ | Công việc                                                                                                                                                                                                                                                                                                                                                                                  | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                           |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|------------------------------------------|
 | 2   | - Làm quen với môi trường làm việc FCJ <br/> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                                                                                                                                                                                                                      | 08/09/2025   | 08/09/2025      | <https://policies.fcjuni.com/>           |
@@ -19,14 +17,13 @@ type:  "page"
 | 5   | - Tìm hiểu các dịch vụ AWS: <br>&emsp; + IAM <br>&emsp; + EC2 (Elastic Compute Cloud) <br>&emsp; + VPC (Virtual Private Cloud) <br>&emsp; + VPC peering <br>&emsp; + Transit Gateway <br>&emsp; + NAT Gateway <br>&emsp; + Route table                                                                                                                                                     | 11/09/2025   | 11/09/2025      | Internet và tài liệu các mentor cung cấp |
 | 6   | - **Thực hành:** <br>&emsp; + Tạo tài khoản root AWS <br>&emsp; + Tạo một EC2 instance <br>&emsp; + Tìm hiểu Access Keys của một EC2 instance, mục đích và cách sử dụng                                                                                                                                                                                                                    | 12/09/2025   | 12/09/2025      | Internet và tài liệu các mentor cung cấp |
 
-# Kết quả đạt được tuần 1:
-
+# Kết quả đạt được:
 * Hiểu AWS và các dịch vụ cơ bản của AWS là gì, chúng được sử dụng như thế nào.
 * Hiểu các công nghệ, khái niệm chung về Networking, để thấy được cách các dịch vụ của AWS hoạt động như thế nào.
 * Đã tạo và cấu hình AWS Free Tier root account thành công.
 * Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
 
-# Các module đã xem tuần 1:
+# Các module đã học:
 - Module 01-01 - Điện Toán Đám Mây Là Gì ?
 - Module 01-02 - Điều Gì Tạo Nên Sự Khác Biệt Của AWS ?
 - Module 01-03 - Bắt Đầu Hành Trình Lên Mây Như Thế Nào

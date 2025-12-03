@@ -3,15 +3,13 @@ title: "Week 6: Enhancing Multilingual Report Site and Exploring Basic DevOps Pr
 type: "page"
 ---
 
-# Weekly Objectives:
-
+# Objectives:
 * Extend and improve the **Report Site** with multilingual (i18n) support.
 * Review and reinforce core AWS concepts from previous weeks (Database, IAM, KMS).
 * Get familiar with **basic DevOps workflows** on AWS, including CI/CD automation and infrastructure management.
 * Study monitoring, logging, and cost optimization services in AWS.
 
-# Tasks Completed This Week:
-
+# Tasks Completed:
 | Day | Tasks                                                                                                                                                                                                                                                                              | Start Date | Completion Date | Reference Sources                        |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------------|------------------------------------------|
 | Mon | - Worked at the office. <br> - Implement **multilingual (i18n)** support for the Report Site.                                                                                                                                                                                      | 13/10/2025 | 13/10/2025      | HUGO Docs and GitHub Pages Documentation |
@@ -20,8 +18,7 @@ type: "page"
 | Thu | - Studied AWS **Monitoring and Logging** tools: CloudWatch, CloudTrail, and AWS Config. <br> - Learned the basics of **Infrastructure as Code (IaC)** and how it can be applied in AWS deployments.                                                                                | 16/10/2025 | 16/10/2025      | Internet and AWS Documentation           |
 | Fri | - Consolidated weekly progress and prepared for the upcoming DevOps practical phase. <br> - Updated and refined bilingual content across previous report weeks.                                                                                                                    | 17/10/2025 | 17/10/2025      | Internet and official docs               |
 
-# Weekly Achievements:
-
+# Results:
 * Successfully implemented multilingual functionality for the report site.
 * Gained hands-on understanding of the DevOps workflow using GitHub Actions and CI/CD pipelines.
 * Strengthened foundational knowledge of AWS monitoring and automation tools (CloudWatch, CloudTrail, AWS Config).

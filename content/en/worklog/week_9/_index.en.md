@@ -3,15 +3,13 @@ title: "Week 9: Deepening Cloud Optimization Skills and Exploring Web Applicatio
 type: "page"
 ---
 
-# Weekly Objectives:
-
+# Objectives:
 * Strengthen cloud optimization knowledge across performance, cost management, and scaling.
 * Explore web application security fundamentals and threat mitigation patterns.
 * Practice hands-on AWS labs to reinforce concepts learned in previous weeks.
 * Improve understanding of CDN behavior, caching strategy, and edge security controls.
 
-# Tasks Completed This Week:
-
+# Tasks Completed:
 | Day | Tasks                                                                                                                                                                                                              | Start Date | Completion Date | Reference Sources                   |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------------|-------------------------------------|
 | Mon | - Continued reviewing AWS architectural best practices with focus on performance optimization. <br> - Added new technical explanations to the Report Site regarding compute and storage efficiency.                | 03/11/2025 | 03/11/2025      | Internet, AWS Docs, mentor guidance |
@@ -20,10 +18,9 @@ type: "page"
 | Thu | - Learned core web application protection strategies: mitigating OWASP Top 10 risks, rate limiting, and bot defense patterns. <br> - Studied how AWS WAF rulesets protect applications at scale.                   | 06/11/2025 | 06/11/2025      | AWS Security Docs, Internet         |
 | Fri | - Reinforced the week’s learning with lab-style exercises: configuring WAF rules, testing caching impacts, and analyzing request flow through CloudFront. <br> - Documented findings for future optimization work. | 07/11/2025 | 07/11/2025      | Internet, mentor-provided materials |
 
-# Weekly Achievements:
-
+# Results:
 * Strengthened understanding of AWS performance optimization techniques across compute, storage, and networking.
 * Improved familiarity with CDN behavior, caching, edge optimization, and request flow.
 * Gained practical security knowledge: threat mitigation, OWASP Top 10 patterns, and WAF-based protection.
-* Reinforced learning through hands-on labs and documented best practices in the Report Site.
+* Reinforced learning through hands-on labs.
 * Progressed steadily toward more advanced optimization and security architecture work.

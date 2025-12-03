@@ -3,15 +3,13 @@ title: "Week 10: Exploring AWS AI/ML Foundations and Modern Generative AI Archit
 type: "page"
 ---
 
-# Weekly Objectives:
-
+# Objectives:
 * Understand the core components of AWS’s AI/ML ecosystem and its end-to-end workflow.
 * Learn how SageMaker supports data preparation, training, tuning, deployment, and MLOps integration.
 * Study foundational models (FMs), prompt engineering techniques, and Retrieval-Augmented Generation (RAG).
 * Strengthen architectural thinking for scalable, secure, and efficient ML solutions on AWS.
 
-# Tasks Completed This Week:
-
+# Tasks Completed:
 | Day | Tasks                                                                                                                                                                                                                                                             | Start Date | Completion Date | Reference Sources                      |
 |-----|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------------|----------------------------------------|
 | Mon | - Reviewed the overall AI/ML landscape and how AWS services support each stage of the ML lifecycle. <br> - Studied best practices for preparing and labeling datasets for ML workflows.                                                                           | 10/11/2025 | 10/11/2025      | AWS Docs, Internet, internal materials |
@@ -20,10 +18,8 @@ type: "page"
 | Thu | - Explored **Retrieval-Augmented Generation (RAG)**: vector stores, knowledge bases, embedding generation, and orchestration workflows. <br> - Learned how Bedrock Agents execute multi-step workflows and integrate external tools.                              | 13/11/2025 | 13/11/2025      | AWS Docs, mentor guidance              |
 | Fri | - Studied safety systems in generative AI: guardrails, content filtering, and responsible AI patterns. <br> - Documented architectural insights into the Report Site, including ML workflow breakdown and optimized inference design.                             | 14/11/2025 | 14/11/2025      | AWS Docs, Internet, internal resources |
 
-# Weekly Achievements:
-
+# Results:
 * Gained a solid foundation in AWS’s AI/ML ecosystem, from data preparation to deployment.
 * Understood modern generative AI workflows using Amazon Bedrock and relevant Foundation Models.
 * Learned prompt engineering techniques and RAG architectures for building intelligent applications.
 * Strengthened architectural awareness for scalable, cost-effective ML deployments.
-* Added detailed documentation on AI/ML design principles to the Report Site.

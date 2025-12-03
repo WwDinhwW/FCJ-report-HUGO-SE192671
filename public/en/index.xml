@@ -1,60 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home :: AWS Intership Report</title>
-    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/index.html</link>
-    <description>Avatar Information Name: Lê Vương Định Phone Number: 0905215314 Email: ledinh539@gmail.com Education: FPT University Student Code: SE192671 Major: Information System Organization: AWS Việt Nam Position and Duration: Cloud Engineer Intern (09/2025 – 12/2025) Table of Contents Worklog Proposal Translated Blogs Events Participated Workshop Self-evaluation Sharing and Feedback</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/en/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>1. Worklog</title>
-      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/worklog/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/en/worklog/index.html</guid>
-      <description>Week 1: Làm quen với AWS Control Console và các dịch vụ AWS cơ bản</description>
-    </item>
-    <item>
-      <title>2. Proposal</title>
-      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/proposal/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/en/proposal/index.html</guid>
-      <description>Work In Progress</description>
-    </item>
-    <item>
-      <title>3. Translated Blogs</title>
-      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/blogs/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/en/blogs/index.html</guid>
-      <description>This section will list and introduce the blogs that I have translated.&#xA;Blog 1 - Implementing DevSecOps Ecosystem for Amazon Connect at NatWest. NatWest implemented Amazon Connect with a full DevSecOps ecosystem to power a large-scale, multi-team contact center. Instead of multiple instances, they ran a single shared Connect instance but separated environments across AWS accounts for dev, test, pre-prod, prod, and DR — improving control, security, and stability. Infrastructure was managed through modular Terraform, letting teams deploy independently while enforcing consistent naming, tagging, and security standards. For faster delivery, they built export-import CI/CD pipelines for Amazon Lex bots and QuickSight dashboards instead of writing everything as IaC. Security was multi-layered, combining preventive guardrails (modules, SCPs, static scanning) and detective controls (Config, Inspector, CloudWatch, Security Hub). They also developed utilities to export contact flows as Terraform, manage Contact Lens rules, and generate performance insights. The result: faster development, more reliable releases, stronger security, and a standardized way to operate Amazon Connect across the organization.</description>
-    </item>
-    <item>
-      <title>4. Events Attended</title>
-      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/events/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/en/events/index.html</guid>
-      <description>During my internship, I participated in six AWS events — each one a memorable experience filled with new knowledge, hands-on learning, valuable insights, along with fun moments and community interaction.&#xA;Event 1 Event Name: AWS Cloud Day Vietnam 2025 &amp; GenAI Track&#xA;Time: 09:00 AM, September 18, 2025&#xA;Location: Level 26, Bitexco Financial Tower, 02 Hai Trieu Street, Saigon, Ho Chi Minh City&#xA;Role: Attendee&#xA;Event 2 Event Name: AWS Cloud Mastery Series #1 : AI/ML/GenAI on AWS&#xA;Time: 8:30 AM – 12:00 PM, November 15, 2025&#xA;Location: Level 26, Bitexco Financial Tower, 02 Hai Trieu Street, Saigon, Ho Chi Minh City&#xA;Role: Attendee</description>
-    </item>
-    <item>
-      <title>5. Workshop</title>
-      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/workshop/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/en/workshop/index.html</guid>
-      <description>Work In Progress</description>
-    </item>
-    <item>
-      <title>6. Self-Evaluation</title>
-      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/evaluation/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/en/evaluation/index.html</guid>
-      <description>Work In Progress</description>
-    </item>
-    <item>
-      <title>7. Sharing and Feedback</title>
-      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/feedback/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/en/feedback/index.html</guid>
-      <description>Work In Progress</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home :: AWS Intership Report</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/index.html</link><description>Avatar Information Name: Lê Vương Định Phone Number: 0905215314 Email: ledinh539@gmail.com Education: FPT University Student Code: SE192671 Major: Information System Organization: AWS Việt Nam Position and Duration: Cloud Engineer Intern (09/2025 – 12/2025) Table of Contents Worklog Proposal Translated Blogs Events Participated Workshop Self-evaluation Sharing and Feedback</description><generator>Hugo</generator><language>en</language><atom:link href="https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/index.xml" rel="self" type="application/rss+xml"/><item><title>1. Worklog</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/worklog/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/worklog/index.html</guid><description>Week 1: Làm quen với AWS Control Console và các dịch vụ AWS cơ bản</description></item><item><title>2. Proposal</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/proposal/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/proposal/index.html</guid><description>Work In Progress</description></item><item><title>3. Translated Blogs</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/blogs/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/blogs/index.html</guid><description>This section will list and introduce the blogs that I have translated.
+Blog 1 - Implementing DevSecOps Ecosystem for Amazon Connect at NatWest. NatWest implemented Amazon Connect with a full DevSecOps ecosystem to power a large-scale, multi-team contact center. Instead of multiple instances, they ran a single shared Connect instance but separated environments across AWS accounts for dev, test, pre-prod, prod, and DR — improving control, security, and stability. Infrastructure was managed through modular Terraform, letting teams deploy independently while enforcing consistent naming, tagging, and security standards. For faster delivery, they built export-import CI/CD pipelines for Amazon Lex bots and QuickSight dashboards instead of writing everything as IaC. Security was multi-layered, combining preventive guardrails (modules, SCPs, static scanning) and detective controls (Config, Inspector, CloudWatch, Security Hub). They also developed utilities to export contact flows as Terraform, manage Contact Lens rules, and generate performance insights. The result: faster development, more reliable releases, stronger security, and a standardized way to operate Amazon Connect across the organization.</description></item><item><title>4. Events Attended</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/events/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/events/index.html</guid><description>During my internship, I participated in six AWS events — each one a memorable experience filled with new knowledge, hands-on learning, valuable insights, along with fun moments and community interaction.
+Event 1 Event Name: AWS Cloud Day Vietnam 2025 &amp; GenAI Track
+Time: 09:00 AM, September 18, 2025
+Location: Level 26, Bitexco Financial Tower, 02 Hai Trieu Street, Saigon, Ho Chi Minh City
+Role: Attendee
+Event 2 Event Name: AWS Cloud Mastery Series #1 : AI/ML/GenAI on AWS
+Time: 8:30 AM – 12:00 PM, November 15, 2025
+Location: Level 26, Bitexco Financial Tower, 02 Hai Trieu Street, Saigon, Ho Chi Minh City
+Role: Attendee</description></item><item><title>5. Workshop</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/workshop/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/workshop/index.html</guid><description>Work In Progress</description></item><item><title>6. Self-Evaluation</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/evaluation/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/evaluation/index.html</guid><description>Work In Progress</description></item><item><title>7. Sharing and Feedback</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/feedback/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/feedback/index.html</guid><description>Work In Progress</description></item></channel></rss>

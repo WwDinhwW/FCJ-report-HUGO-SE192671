@@ -3,15 +3,13 @@ title: "Tuần 7: Tối ưu hóa hệ thống backend và mở rộng các tính
 type: "page"
 ---
 
-# Mục tiêu tuần 7:
-
+# Mục tiêu:
 * Phát triển và mở rộng các route API chính trong dự án backend (CloudWatch, Cost Explorer, S3, SecurityHub).
 * Tối ưu hóa hiệu suất xử lý bất đồng bộ (asynchronous) và cải thiện caching layer với Redis.
 * Nghiên cứu chuyên sâu về cơ chế thực thi của Python, GIL và song song hóa (parallel processing).
 * Nâng cao khả năng giám sát và phân tích chi phí dịch vụ AWS thông qua các API tự xây dựng.
 
-# Các công việc hoàn thành trong tuần này:
-
+# Các công việc hoàn thành:
 | Thứ | Công việc                                                                                                                                                                                                                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                       |
 |-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|--------------------------------------|
 | 2   | - Làm việc tại văn phòng, thêm route **api/routes/cloudwatch.py** để thu thập dữ liệu giám sát. <br> - Tối ưu hóa hàm xử lý log và caching kết quả CloudWatch bằng Redis.                                                                                      | 20/10/2025   | 20/10/2025      | Internet, mentor hướng dẫn, AWS Docs |
@@ -20,8 +18,7 @@ type: "page"
 | 5   | - Cập nhật nội dung trang **Report Site**, bổ sung mục “Cloud Optimization” trình bày quy trình tối ưu hóa chi phí thực tế. <br> - Viết hướng dẫn cấu hình cache và async tasks trong dự án.                                                                   | 23/10/2025   | 23/10/2025      | Internet, mentor hướng dẫn           |
 | 6   | - Thêm route **api/routes/securityhub.py** để phân tích cảnh báo bảo mật. <br> - Nghiên cứu cơ chế hoạt động cấp thấp của **Python**: GIL (Global Interpreter Lock), async, và parallel processing. <br> - Cải thiện luồng xử lý Redis/FastAPI trong hệ thống. | 24/10/2025   | 24/10/2025      | Internet, tài liệu kỹ thuật nội bộ   |
 
-# Kết quả đạt được tuần 7:
-
+# Kết quả đạt được:
 * Hoàn thiện các route chính của hệ thống backend, bao gồm CloudWatch, Cost Explorer, S3, và SecurityHub.
 * Cải thiện đáng kể hiệu suất hệ thống thông qua caching và xử lý bất đồng bộ.
 * Hiểu sâu hơn về cơ chế hoạt động nội bộ của Python và cách tối ưu ứng dụng FastAPI.

@@ -3,15 +3,13 @@ title: "Tuần 12: Củng cố kiến trúc bảo mật AWS và hoàn thiện k�
 type: "page"
 ---
 
-# Mục tiêu tuần 12:
-
+# Mục tiêu:
 * Hiểu sâu về **Security Pillar** trong AWS Well-Architected Framework và các chiến lược bảo mật hiện đại.
 * Nắm vững quản trị danh tính, cơ chế phát hiện, bảo vệ hạ tầng và bảo mật dữ liệu trên AWS.
 * Tăng cường kỹ năng triển khai bảo mật thực tế: IAM, KMS, logging, phân tách mạng, bảo vệ workload.
 * Tổng hợp toàn bộ kiến thức bảo mật để hoàn thiện nội dung cuối cùng cho Report Site.
 
-# Các công việc hoàn thành trong tuần này:
-
+# Các công việc hoàn thành:
 | Thứ | Công việc                                                                                                                                                                                                                                                                                          | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu              |
 |-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|-----------------------------|
 | 2   | - Học các nguyên tắc cốt lõi của **Security Pillar**: Least Privilege, Zero Trust, Defense in Depth. <br> - Ôn lại **Shared Responsibility Model** và cách áp dụng vào từng loại workload trên AWS.                                                                                                | 24/11/2025   | 24/11/2025      | AWS Docs, Internet          |
@@ -20,11 +18,9 @@ type: "page"
 | 5   | - Tập trung vào **Infrastructure Protection**: phân tách mạng VPC, thiết kế subnet private/public, Security Group vs NACLs, tích hợp WAF và Shield. <br> - Ôn tập các cơ chế bảo vệ workload (EC2, ECS/EKS).                                                                                       | 27/11/2025   | 27/11/2025      | AWS Docs, tài nguyên nội bộ |
 | 6   | - Học về **Data Protection**: mã hóa dữ liệu (at-rest & in-transit), chính sách KMS, key rotation, Secrets Manager và Parameter Store. <br> - Tổng hợp các playbook **Incident Response**: lộ IAM key, S3 public exposure, phát hiện malware, cô lập workload và tự động hóa phản ứng bằng Lambda. | 28/11/2025   | 28/11/2025      | AWS IR Docs, Security Blogs |
 
-# Kết quả đạt được tuần 12:
-
+# Kết quả đạt được:
 * Nắm vững toàn bộ Security Pillar và áp dụng được các mô hình Least Privilege và Zero Trust.
 * Tăng cường kỹ năng quản trị danh tính, phân quyền và quản lý truy cập trong môi trường nhiều tài khoản.
 * Hiểu rõ hệ thống phát hiện và giám sát (CloudTrail, GuardDuty, Security Hub) và kiến trúc logging theo nhiều tầng.
 * Thành thạo các kỹ thuật bảo vệ hạ tầng: segmentation, WAF, Shield, thiết kế SG/NACL hợp lý.
 * Nắm chắc nền tảng bảo mật dữ liệu với KMS, mã hóa và quản lý secrets.
-* Hoàn thành tài liệu tổng hợp về bảo mật cho Report Site — đánh dấu tuần cuối của kỳ thực tập.

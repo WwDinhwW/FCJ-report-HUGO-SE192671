@@ -3,15 +3,13 @@ title: "Week 2: Exploring AWS Compute and Storage Services. Getting familiar wit
 type: "page"
 ---
 
-# Week 2 Objectives:
-
+# Objectives:
 * Understand the key compute and storage services on AWS.
 * Get familiar with development and deployment tools (HUGO, PowerShell).
 * Learn the basics of containerization and its usage on AWS (ECS, EKS, Docker).
 * Attend an AWS-hosted event to expand knowledge and community connection.
 
-# Tasks Completed This Week:
-
+# Tasks Completed:
 | Day | Task                                                                                                                                                                                                                                                                                                                                | Start Date | End Date   | Reference Source                     |
 |-----|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------|--------------------------------------|
 | Mon | - Reviewed EC2 concepts from Week 1: Instance Types, AMI, Key Pair, Elastic Block Store. <br> - Continued with extended topics on Auto Scaling, EFS/FSx, and Lightsail.                                                                                                                                                             | 15/09/2025 | 15/09/2025 | Internet & Mentor-provided materials |
@@ -20,16 +18,14 @@ type: "page"
 | Thu | - **Attended the Vietnam Cloud Day 2025** event hosted by AWS. <br> - Took notes on key topics, trends, and AWS’s strategy in Vietnam.                                                                                                                                                                                              | 18/09/2025 | 18/09/2025 | AWS Vietnam Cloud Day 2025 Event     |
 | Fri | - Learned about containerization concepts: <br>&emsp; + Docker, Kubernetes <br>&emsp; + AWS ECS (Elastic Container Service) and EKS (Elastic Kubernetes Service). <br> - Understood how AWS deploys and manages containers in production environments.                                                                              | 19/09/2025 | 19/09/2025 | Internet & Mentor-provided materials |
 
-# Results Achieved in Week 2:
-
+# Results:
 * Strengthened understanding of EC2, Auto Scaling, and extended compute services.
 * Gained in-depth knowledge of Amazon S3 — storage management, access control, and data classes.
 * Successfully installed and used HUGO and PowerShell for development workflows.
 * Participated in AWS Vietnam Cloud Day 2025, gaining insights into AWS strategies and trends.
 * Learned the fundamentals of containerization and how AWS applies it through ECS/EKS.
 
-# Modules Completed in Week 2:
-
+# Modules Learned:
 - Module 03-01 - Compute VM on AWS
 - Module 03-02 - EC2 Autoscaling - EFS/FSx - Lightsail - MGN
 - Module 04-01 - Storage Services on AWS

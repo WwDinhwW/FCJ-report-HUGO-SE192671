@@ -3,15 +3,13 @@ title: "Tuần 10: Khám phá nền tảng AI/ML của AWS và các kiến trúc
 type: "page"
 ---
 
-# Mục tiêu tuần 10:
-
+# Mục tiêu:
 * Hiểu tổng quan hệ sinh thái AI/ML của AWS và quy trình vận hành A–Z của một mô hình máy học.
 * Tìm hiểu cách Amazon SageMaker hỗ trợ chuẩn bị dữ liệu, huấn luyện, tinh chỉnh, triển khai và MLOps.
 * Nắm các khái niệm về Foundation Models (FMs), kỹ thuật Prompt Engineering, và kiến trúc Retrieval-Augmented Generation (RAG).
 * Tăng cường tư duy kiến trúc cho các giải pháp ML có khả năng mở rộng, tối ưu chi phí và bảo mật.
 
-# Các công việc hoàn thành trong tuần này:
-
+# Các công việc hoàn thành:
 | Thứ | Công việc                                                                                                                                                                                                                                             | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                        |
 |-----|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------|---------------------------------------|
 | 2   | - Tìm hiểu tổng quan về lĩnh vực AI/ML và cách các dịch vụ AWS hỗ trợ từng giai đoạn của vòng đời mô hình. <br> - Nghiên cứu quy trình chuẩn bị và gán nhãn dữ liệu cho bài toán ML.                                                                  | 10/11/2025   | 10/11/2025      | AWS Docs, Internet, tài liệu nội bộ   |
@@ -20,10 +18,8 @@ type: "page"
 | 5   | - Học về kiến trúc **Retrieval-Augmented Generation (RAG)**: vector store, embedding, knowledge base, cơ chế truy xuất và phối hợp workflow. <br> - Khám phá cách **Bedrock Agents** thực thi workflow đa bước và tích hợp với các công cụ bên ngoài. | 13/11/2025   | 13/11/2025      | AWS Docs, tài liệu mentor cung cấp    |
 | 6   | - Tìm hiểu hệ thống an toàn của generative AI: guardrails, lọc nội dung, responsible AI patterns. <br> - Viết tài liệu tổng hợp và mở rộng cho Report Site: kiến trúc ML, tối ưu hiệu năng và inference workflow.                                     | 14/11/2025   | 14/11/2025      | AWS Docs, Internet, tài nguyên nội bộ |
 
-# Kết quả đạt được tuần 10:
-
+# Kết quả đạt được:
 * Nắm vững nền tảng AI/ML trên AWS từ xử lý dữ liệu đến triển khai mô hình.
 * Hiểu sâu về quy trình Generative AI với Amazon Bedrock và các Foundation Models phổ biến.
 * Thực hành các kỹ thuật Prompt Engineering và kiến trúc RAG cho ứng dụng AI hiện đại.
 * Tư duy kiến trúc được cải thiện rõ rệt cho các hệ thống ML tối ưu chi phí và hiệu năng.
-* Cập nhật nội dung chuyên sâu về AI/ML vào trang Report Site.

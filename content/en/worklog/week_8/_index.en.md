@@ -3,15 +3,13 @@ title: "Week 8: Strengthening Foundational AWS Knowledge and Expanding Cloud Opt
 type: "page"
 ---
 
-# Weekly Objectives:
-
+# Objectives:
 * Reinforce foundational cloud concepts to prepare for deeper optimization work.
 * Review cost management, security best practices, and performance tuning across major AWS services.
 * Improve understanding of content delivery and edge optimization using AWS global infrastructure.
 * Strengthen hands-on skills through structured practice and lab-style exercises.
 
-# Tasks Completed This Week:
-
+# Tasks Completed:
 | Day | Tasks                                                                                                                                                                                                                                                              | Start Date | Completion Date | Reference Sources                   |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------------|-------------------------------------|
 | Mon | - Studied core prerequisites for cloud optimization: compute efficiency, storage tiering, and network design. <br> - Reviewed concepts around global AWS infrastructure, edge locations, and how they impact latency and performance.                              | 27/10/2025 | 27/10/2025      | AWS Docs, Internet, mentor guidance |
@@ -20,10 +18,8 @@ type: "page"
 | Thu | - Strengthened understanding of application security fundamentals: AWS WAF, mitigating common web threats, rate limiting, and bot protection strategies. <br> - Applied these concepts in theoretical scenarios to improve overall architectural security posture. | 30/10/2025 | 30/10/2025      | AWS Security Docs, Internet         |
 | Fri | - Conducted a comprehensive review of learned topics: optimization strategies, caching, IAM hardening, network segmentation, and monitoring best practices. <br> - Documented updated understanding into the Report Site for long-term reference.                  | 31/10/2025 | 31/10/2025      | Internet, mentor-provided materials |
 
-# Weekly Achievements:
-
+# Results:
 * Built a stronger foundation in AWS optimization techniques across compute, storage, networking, and security.
 * Gained deeper insight into edge delivery systems, caching layers, and how CloudFront improves performance and reduces cost.
 * Improved understanding of AWS WAF and common methods for mitigating modern web threats.
 * Reinforced core AWS service knowledge through practical review and structured lab-style exercises.
-* Updated and expanded the Report Site with refined insights on optimization and best practices.
