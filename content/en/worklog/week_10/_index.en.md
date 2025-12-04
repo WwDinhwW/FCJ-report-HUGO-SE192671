@@ -1,6 +1,7 @@
 ---
 title: "Week 10: Exploring AWS AI/ML Foundations and Modern Generative AI Architectures"
 type: "page"
+weight: "10"
 ---
 
 # Objectives:

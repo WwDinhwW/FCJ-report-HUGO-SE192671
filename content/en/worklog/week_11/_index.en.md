@@ -1,6 +1,7 @@
 ---
 title: "Week 11: Edge Computing, Content Delivery Optimization, and Web Application Security on AWS"
 type: "page"
+weight: "11"
 ---
 
 # Objectives:

@@ -1,6 +1,7 @@
 ---
 title: "Week 7: Backend System Optimization and Expanding AWS Cost Monitoring Features"
 type: "page"
+weight: "7"
 ---
 
 # Objectives:

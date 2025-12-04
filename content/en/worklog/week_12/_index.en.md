@@ -1,6 +1,7 @@
 ---
 title: "Week 12: Strengthening AWS Security Architecture and Mastering Cloud Protection Best Practices"
 type: "page"
+weight: "12"
 ---
 
 # Objectives:

@@ -1,6 +1,7 @@
 ---
 title: "Tuần 1: Làm quen với AWS. Tìm hiểu các khái niệm Networking liên quan và các dịch vụ AWS cơ bản"
 type:  "page"
+weight: "1"
 ---
 
 # Mục tiêu:

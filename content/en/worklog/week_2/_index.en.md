@@ -1,6 +1,7 @@
 ---
 title: "Week 2: Exploring AWS Compute and Storage Services. Getting familiar with HUGO and related development tools"
 type: "page"
+weight: "2"
 ---
 
 # Objectives:

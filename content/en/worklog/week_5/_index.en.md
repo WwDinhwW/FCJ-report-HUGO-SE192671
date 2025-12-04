@@ -1,6 +1,7 @@
 ---
 title: "Week 5: Strengthening AWS Database Knowledge and Enhancing the Internship Report Site"
 type: "page"
+weight: "5"
 ---
 
 # Objectives:

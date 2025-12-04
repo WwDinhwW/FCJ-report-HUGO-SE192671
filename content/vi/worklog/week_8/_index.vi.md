@@ -1,6 +1,7 @@
 ---
 title: "Tuần 8: Củng cố kiến thức nền tảng AWS và mở rộng kỹ năng Tối Ưu Hóa Đám Mây"
 type: "page"
+weight: "8"
 ---
 
 # Mục tiêu:

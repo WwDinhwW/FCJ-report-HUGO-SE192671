@@ -1,6 +1,7 @@
 ---
 title: "Week 9: Deepening Cloud Optimization Skills and Exploring Web Application Performance & Security"
 type: "page"
+weight: "9"
 ---
 
 # Objectives:

@@ -1,6 +1,7 @@
 ---
 title: "Tuần 5: Củng cố kiến thức cơ sở dữ liệu trên AWS và hoàn thiện trang báo cáo thực tập"
 type: "page"
+weight: "5"
 ---
 
 # Mục tiêu:

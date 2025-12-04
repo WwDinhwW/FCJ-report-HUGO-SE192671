@@ -1,6 +1,7 @@
 ---
 title: "Tuần 10: Khám phá nền tảng AI/ML của AWS và các kiến trúc Generative AI hiện đại"
 type: "page"
+weight: "10"
 ---
 
 # Mục tiêu:

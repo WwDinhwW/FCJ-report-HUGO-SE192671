@@ -1,6 +1,7 @@
 ---
 title: "Tuần 9: Mở rộng kỹ năng Tối Ưu Hóa Đám Mây và Tìm hiểu Hiệu Năng & Bảo Mật Ứng Dụng Web"
 type: "page"
+weight: "9"
 ---
 
 # Mục tiêu:

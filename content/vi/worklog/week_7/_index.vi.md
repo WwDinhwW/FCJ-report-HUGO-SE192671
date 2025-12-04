@@ -1,6 +1,7 @@
 ---
 title: "Tuần 7: Tối ưu hóa hệ thống backend và mở rộng các tính năng giám sát chi phí AWS"
 type: "page"
+weight: "7"
 ---
 
 # Mục tiêu:

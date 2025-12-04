@@ -1,6 +1,7 @@
 ---
 title: "Week 4: Security and Identity Management on AWS. Integrating CloudWatch and Cost Explorer into the project"
 type: "page"
+weight: "4"
 ---
 
 # Objectives:

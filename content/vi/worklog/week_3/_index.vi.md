@@ -1,6 +1,7 @@
 ---
 title: "Tuần 3: Thiết lập trang báo cáo với Hugo, tìm hiểu bảo mật và cơ sở dữ liệu trên AWS"
 type: "page"
+weight: "3"
 ---
 
 # Mục tiêu:

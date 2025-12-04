@@ -1,6 +1,7 @@
 ---
 title: "Week 8: Strengthening Foundational AWS Knowledge and Expanding Cloud Optimization Skills"
 type: "page"
+weight: "8"
 ---
 
 # Objectives:

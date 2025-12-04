@@ -1,6 +1,7 @@
 ---
 title: "Tuần 2: Tìm hiểu về dịch vụ lưu trữ và điện toán trên AWS. Làm quen với HUGO và các công cụ phát triển liên quan"
 type: "page"
+weight: "2"
 ---
 
 # Mục tiêu:

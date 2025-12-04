@@ -1,6 +1,7 @@
 ---
 title: "Week 3: Setting up the report site with Hugo, exploring AWS security and database services"
 type: "page"
+weight: "3"
 ---
 
 # Objectives:

@@ -1,6 +1,7 @@
 ---
 title: "Week 6: Enhancing Multilingual Report Site and Exploring Basic DevOps Practices on AWS"
 type: "page"
+weight: "6"
 ---
 
 # Objectives:
@@ -12,7 +13,7 @@ type: "page"
 # Tasks Completed:
 | Day | Tasks                                                                                                                                                                                                                                                                              | Start Date | Completion Date | Reference Sources                        |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------------|------------------------------------------|
-| Mon | - Worked at the office. <br> - Implement **multilingual (i18n)** support for the Report Site.                                                                                                                                                                                      | 13/10/2025 | 13/10/2025      | HUGO Docs and GitHub Pages Documentation |
+| Mon | - Worked at the office. <br> - Implement **multilingual** support for the Report Site.                                                                                                                                                                                             | 13/10/2025 | 13/10/2025      | HUGO Docs and GitHub Pages Documentation |
 | Tue | - Reviewed core **DevOps concepts**: CI/CD pipeline, GitHub Actions, staging and production environments. <br> - Optimized workflow YAML configurations from previous deployments for improved automation.                                                                         | 14/10/2025 | 14/10/2025      | Internet and official docs               |
 | Wed | - Updated and tested the Report Site UI after adding multilingual support. <br> - Wrote an internal guideline for configuring the **Relearn** theme and translating site content. <br> - Studied **AWS CloudFormation** and **CodePipeline** for DevOps infrastructure automation. | 15/10/2025 | 15/10/2025      | Internet and AWS Documentation           |
 | Thu | - Studied AWS **Monitoring and Logging** tools: CloudWatch, CloudTrail, and AWS Config. <br> - Learned the basics of **Infrastructure as Code (IaC)** and how it can be applied in AWS deployments.                                                                                | 16/10/2025 | 16/10/2025      | Internet and AWS Documentation           |

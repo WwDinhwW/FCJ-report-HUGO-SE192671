@@ -1,6 +1,7 @@
 ---
 title: "Tuần 4: Bảo mật và quản lý danh tính trên AWS. Tích hợp CloudWatch và Cost Explorer vào dự án thực tế"
 type: "page"
+weight: "4"
 ---
 
 # Mục tiêu:

@@ -1,6 +1,7 @@
 ---
 title: "Tuần 11: Tối ưu phân phối nội dung tại Edge và tăng cường bảo mật ứng dụng Web trên AWS"
 type: "page"
+weight: "11"
 ---
 
 # Mục tiêu:

@@ -1,6 +1,7 @@
 ---
 title: "Tuần 6: Hoàn thiện trang báo cáo đa ngôn ngữ và tìm hiểu quy trình DevOps cơ bản trên AWS"
 type: "page"
+weight: "6"
 ---
 
 # Mục tiêu:

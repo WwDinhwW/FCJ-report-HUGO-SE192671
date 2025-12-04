@@ -1,6 +1,7 @@
 ---
 title: "Week 1: Introduction to AWS and Basic AWS Services"
 type:  "page"
+weight: "1"
 ---
 
 # Objectives:

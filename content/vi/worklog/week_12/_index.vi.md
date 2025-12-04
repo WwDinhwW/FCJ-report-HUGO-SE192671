@@ -1,6 +1,7 @@
 ---
 title: "Tuần 12: Củng cố kiến trúc bảo mật AWS và hoàn thiện kỹ năng bảo vệ hệ thống đám mây"
 type: "page"
+weight: "12"
 ---
 
 # Mục tiêu:
