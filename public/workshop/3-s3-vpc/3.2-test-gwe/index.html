@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/FCJ-report-HUGO-SE192671/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=FCJ-report-HUGO-SE192671/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.150.0">
+    <meta name="generator" content="Relearn 8.1.1+9d74be278d6e8456f2f18305c9b27e38bc2de91c">
+    <meta name="description" content="Tạo S3 bucket Đi đến S3 management console Trong Bucket console, chọn Create bucket Trong Create bucket console Đặt tên bucket: chọn 1 tên mà không bị trùng trong phạm vi toàn cầu (gợi ý: lab&lt;số-lab&gt;&lt;tên-bạn&gt;) Giữ nguyên giá trị của các fields khác (default) Kéo chuột xuống và chọn Create bucket">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Kiểm tra Gateway Endpoint :: AWS Báo Cáo Thực Tập">
+    <meta name="twitter:description" content="Tạo S3 bucket Đi đến S3 management console Trong Bucket console, chọn Create bucket Trong Create bucket console Đặt tên bucket: chọn 1 tên mà không bị trùng trong phạm vi toàn cầu (gợi ý: lab&lt;số-lab&gt;&lt;tên-bạn&gt;) Giữ nguyên giá trị của các fields khác (default) Kéo chuột xuống và chọn Create bucket">
+    <meta property="og:url" content="http://localhost:1313/FCJ-report-HUGO-SE192671/workshop/3-s3-vpc/3.2-test-gwe/index.html">
+    <meta property="og:site_name" content="AWS Báo Cáo Thực Tập">
+    <meta property="og:title" content="Kiểm tra Gateway Endpoint :: AWS Báo Cáo Thực Tập">
+    <meta property="og:description" content="Tạo S3 bucket Đi đến S3 management console Trong Bucket console, chọn Create bucket Trong Create bucket console Đặt tên bucket: chọn 1 tên mà không bị trùng trong phạm vi toàn cầu (gợi ý: lab&lt;số-lab&gt;&lt;tên-bạn&gt;) Giữ nguyên giá trị của các fields khác (default) Kéo chuột xuống và chọn Create bucket">
+    <meta property="og:locale" content="vi">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Kiểm tra Gateway Endpoint :: AWS Báo Cáo Thực Tập">
+    <meta itemprop="description" content="Tạo S3 bucket Đi đến S3 management console Trong Bucket console, chọn Create bucket Trong Create bucket console Đặt tên bucket: chọn 1 tên mà không bị trùng trong phạm vi toàn cầu (gợi ý: lab&lt;số-lab&gt;&lt;tên-bạn&gt;) Giữ nguyên giá trị của các fields khác (default) Kéo chuột xuống và chọn Create bucket">
+    <meta itemprop="wordCount" content="473">
+    <title>Kiểm tra Gateway Endpoint :: AWS Báo Cáo Thực Tập</title>
+    <link href="/FCJ-report-HUGO-SE192671/workshop/3-s3-vpc/3.2-test-gwe/index.xml" rel="alternate" type="application/rss+xml" title="Kiểm tra Gateway Endpoint :: AWS Báo Cáo Thực Tập">
+    <link href="/FCJ-report-HUGO-SE192671/images/favicon.png?1764962650" rel="icon" type="image/png">
+    <link href="/FCJ-report-HUGO-SE192671/css/auto-complete/auto-complete.min.css?1764962650" rel="stylesheet">
+    <script src="/FCJ-report-HUGO-SE192671/js/auto-complete/auto-complete.min.js?1764962650" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/search-lunr.js?1764962650" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/search.js?1764962650" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/FCJ-report-HUGO-SE192671/searchindex.vi.js?1764962650";
+    </script>
+    <script src="/FCJ-report-HUGO-SE192671/js/lunr/lunr.min.js?1764962650" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/lunr/lunr.stemmer.support.min.js?1764962650" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/lunr/lunr.multi.min.js?1764962650" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/lunr/lunr.vi.min.js?1764962650" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['vi'];
+    </script>
+    <link href="/FCJ-report-HUGO-SE192671/fonts/fontawesome/css/fontawesome-all.min.css?1764962650" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/FCJ-report-HUGO-SE192671/fonts/fontawesome/css/fontawesome-all.min.css?1764962650" rel="stylesheet"></noscript>
+    <link href="/FCJ-report-HUGO-SE192671/css/perfect-scrollbar/perfect-scrollbar.min.css?1764962650" rel="stylesheet">
+    <link href="/FCJ-report-HUGO-SE192671/css/theme.css?1764962650" rel="stylesheet">
+    <link href="/FCJ-report-HUGO-SE192671/css/format-html.css?1764962650" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/workshop\/3-s3-vpc\/3.2-test-gwe\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313\/FCJ-report-HUGO-SE192671';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Sao chép vào bảng tạm`;
+      window.T_Copied_to_clipboard = `Sao chép vào bảng tạm!`;
+      window.T_Copy_link_to_clipboard = `Sao chép nối kết vào bảng tạm`;
+      window.T_Link_copied_to_clipboard = `Liên kết được sao chép vào bảng tạm!`;
+      window.T_Reset_view = `Đặt lại dạng xem`;
+      window.T_View_reset = `Xem đặt lại!`;
+      window.T_No_results_found = `Không tìm thấy kết quả nào cho "{0}"`;
+      window.T_N_results_found = `{1} kết quả được tìm thấy cho "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'workshop' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/FCJ-report-HUGO-SE192671/workshop/3-s3-vpc/3.2-test-gwe/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Mục lục (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/FCJ-report-HUGO-SE192671/index.html"><span itemprop="name">Trang Chủ</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/FCJ-report-HUGO-SE192671/workshop/index.html"><span itemprop="name">5. Bài tập (Workshop)</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/FCJ-report-HUGO-SE192671/workshop/3-s3-vpc/index.html"><span itemprop="name">Truy cập S3 từ VPC</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Kiểm tra Gateway Endpoint</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/FCJ-report-HUGO-SE192671/workshop/3-s3-vpc/3.1-create-gwe/index.html" title="Tạo một Gateway Endpoint (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/FCJ-report-HUGO-SE192671/workshop/4-s3-onprem/index.html" title="Truy cập S3 từ môi trường truyền thống (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Nội dung khác"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable page" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="kiểm-tra-gateway-endpoint">Kiểm tra Gateway Endpoint</h1>
+
+<h4 id="tạo-s3-bucket">Tạo S3 bucket</h4>
+<ol>
+<li>Đi đến S3 management console</li>
+<li>Trong Bucket console, chọn <strong>Create bucket</strong></li>
+</ol>
+<p><a href="#R-image-2f1d5408d86520f1c71c8d7d5c8b7b21" class="lightbox-link"><img alt="Create bucket" class="lazy lightbox figure-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/create-bucket.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2f1d5408d86520f1c71c8d7d5c8b7b21"><img alt="Create bucket" class="lazy lightbox lightbox-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/create-bucket.png"></a></p>
+<ol start="3">
+<li>Trong Create bucket console</li>
+</ol>
+<ul>
+<li>Đặt tên bucket: chọn 1 tên mà không bị trùng trong phạm vi toàn cầu (gợi ý: lab&lt;số-lab&gt;&lt;tên-bạn&gt;)</li>
+</ul>
+<p><a href="#R-image-84f689b9d15d4af62a8e3d55e5c8b2a7" class="lightbox-link"><img alt="Bucket name" class="lazy lightbox figure-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/bucket-name.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-84f689b9d15d4af62a8e3d55e5c8b2a7"><img alt="Bucket name" class="lazy lightbox lightbox-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/bucket-name.png"></a></p>
+<ul>
+<li>Giữ nguyên giá trị của các fields khác (default)</li>
+<li>Kéo chuột xuống và chọn <strong>Create bucket</strong></li>
+</ul>
+<p><a href="#R-image-3db03743b43eba0faa2d0426a8145966" class="lightbox-link"><img alt="Create" class="lazy lightbox figure-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/create-button.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3db03743b43eba0faa2d0426a8145966"><img alt="Create" class="lazy lightbox lightbox-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/create-button.png"></a></p>
+<ul>
+<li>Tạo thành công S3 bucket</li>
+</ul>
+<p><a href="#R-image-7b8d038c15face26f2fa321e13360c68" class="lightbox-link"><img alt="Success" class="lazy lightbox figure-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/bucket-success.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7b8d038c15face26f2fa321e13360c68"><img alt="Success" class="lazy lightbox lightbox-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/bucket-success.png"></a></p>
+<h4 id="kết-nối-với-ec2-bằng-session-manager">Kết nối với EC2 bằng session manager</h4>
+<ul>
+<li>
+<p>Trong workshop này, bạn sẽ dùng AWS Session Manager để kết nối đến các EC2 instances. Session Manager là 1 tính năng
+trong dịch vụ Systems Manager được quản lý hoàn toàn bởi AWS. System manager cho phép bạn quản lý Amazon EC2 instances
+và các máy ảo on-premises (VMs)thông qua 1 browser-based shell. Session Manager cung cấp khả năng quản lý phiên bản an
+toàn và có thể kiểm tra mà không cần mở cổng vào, duy trì máy chủ bastion host hoặc quản lý khóa SSH.</p>
+</li>
+<li>
+<p>First cloud journey <a href="https://000058.awsstudygroup.com/1-introduce/" rel="external">Lab</a> để hiểu sâu hơn về Session manager.</p>
+</li>
+</ul>
+<ol>
+<li>Trong AWS Management Console, gõ Systems Manager trong ô tìm kiếm và nhấn Enter:</li>
+</ol>
+<p><a href="#R-image-a77d9a4882c8577c89a11c6ffc308af8" class="lightbox-link"><img alt="system manager" class="lazy lightbox figure-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/sm.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a77d9a4882c8577c89a11c6ffc308af8"><img alt="system manager" class="lazy lightbox lightbox-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/sm.png"></a></p>
+<ol start="2">
+<li>Từ <strong>Systems Manager</strong> menu, tìm <strong>Node Management</strong> ở thanh bên trái và chọn <strong>Session Manager</strong>:</li>
+</ol>
+<p><a href="#R-image-d33e9e0a80a87687ff52de8260de067b" class="lightbox-link"><img alt="system manager" class="lazy lightbox figure-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/sm1.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d33e9e0a80a87687ff52de8260de067b"><img alt="system manager" class="lazy lightbox lightbox-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/sm1.png"></a></p>
+<ol start="3">
+<li>Click Start Session, và chọn EC2 instance tên <strong>Test-Gateway-Endpoint</strong>.
+
+<details open class=" box cstyle notices info">
+  <summary class="box-label" tabindex="-1">
+    <i class="fa-fw fas fa-info-circle"></i> 
+    Thông tin
+  </summary>
+  <div class="box-content">
+<p>Phiên bản EC2 này đã chạy trong &ldquo;VPC cloud&rdquo; và sẽ được dùng để kiểm tra khả năng kết nối với Amazon S3 thông qua điểm
+cuối Cổng mà bạn vừa tạo (s3-gwe).</p>
+  </div>
+</details></li>
+</ol>
+<p><a href="#R-image-33e0309b5f2a2007711ddbb235090e1a" class="lightbox-link"><img alt="Start session" class="lazy lightbox figure-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/start-session.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-33e0309b5f2a2007711ddbb235090e1a"><img alt="Start session" class="lazy lightbox lightbox-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/start-session.png"></a></p>
+<p>Session Manager sẽ mở browser tab mới với shell prompt: sh-4.2 $</p>
+<p><a href="#R-image-0965bf6b3adc6fbc7cae0ae0df95266d" class="lightbox-link"><img alt="Success" class="lazy lightbox figure-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/start-session-success.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0965bf6b3adc6fbc7cae0ae0df95266d"><img alt="Success" class="lazy lightbox lightbox-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/start-session-success.png"></a></p>
+<p>Bạn đã bắt đầu phiên kết nối đến EC2 trong VPC Cloud thành công. Trong bước tiếp theo, chúng ta sẽ tạo một S3 bucket và
+một tệp trong đó.</p>
+<h4 id="create-a-file-and-upload-to-s3-bucket">Create a file and upload to s3 bucket</h4>
+<ol>
+<li>Đổi về ssm-user&rsquo;s thư mục bằng lệnh &ldquo;cd ~&rdquo;</li>
+</ol>
+<p><a href="#R-image-531c4ca23077fef16182889f613cffb7" class="lightbox-link"><img alt="Change user&rsquo;s dir" class="lazy lightbox figure-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/cli1.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-531c4ca23077fef16182889f613cffb7"><img alt="Change user&rsquo;s dir" class="lazy lightbox lightbox-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/cli1.png"></a></p>
+<ol start="2">
+<li>Tạo 1 file để kiểm tra bằng lệnh &ldquo;fallocate -l 1G testfile.xyz&rdquo;, 1 file tên &ldquo;testfile.xyz&rdquo; có kích thước 1GB sẽ được
+tạo.</li>
+</ol>
+<p><a href="#R-image-fb68e669a5d82ef171f14d06d41d401f" class="lightbox-link"><img alt="Create file" class="lazy lightbox figure-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/cli-file.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fb68e669a5d82ef171f14d06d41d401f"><img alt="Create file" class="lazy lightbox lightbox-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/cli-file.png"></a></p>
+<ol start="3">
+<li>Tải file mình vừa tạo lên S3 với lệnh &ldquo;aws s3 cp testfile.xyz s3://your-bucket-name&rdquo;. Thay your-bucket-name bằng tên
+S3 bạn đã tạo.</li>
+</ol>
+<p><a href="#R-image-f175c60c004fb410f26f012c9d469bde" class="lightbox-link"><img alt="Uploaded" class="lazy lightbox figure-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/uploaded.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f175c60c004fb410f26f012c9d469bde"><img alt="Uploaded" class="lazy lightbox lightbox-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/uploaded.png"></a></p>
+<p>Bạn đã tải thành công tệp lên bộ chứa S3 của mình. Bây giờ bạn có thể kết thúc session.</p>
+<h4 id="kiểm-tra-object-trong-s3-bucket">Kiểm tra object trong S3 bucket</h4>
+<ol>
+<li>Đi đến S3 console.</li>
+<li>Click tên s3 bucket của bạn</li>
+<li>Trong Bucket console, bạn sẽ thấy tệp bạn đã tải lên S3 bucket của mình</li>
+</ol>
+<p><a href="#R-image-6bbe3c5293f85e0a7a7cf97f114f4dee" class="lightbox-link"><img alt="Check S3" class="lazy lightbox figure-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/check-s3-bucket.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6bbe3c5293f85e0a7a7cf97f114f4dee"><img alt="Check S3" class="lazy lightbox lightbox-image" loading="lazy" src="/images/5-Workshop/5.3-S3-vpc/check-s3-bucket.png"></a></p>
+<h4 id="tóm-tắt">Tóm tắt</h4>
+<p>Chúc mừng bạn đã hoàn thành truy cập S3 từ VPC. Trong phần này, bạn đã tạo gateway endpoint cho Amazon S3 và sử dụng AWS
+CLI để tải file lên. Quá trình tải lên hoạt động vì gateway endpoint cho phép giao tiếp với S3 mà không cần Internet
+gateway gắn vào &ldquo;VPC Cloud&rdquo;. Điều này thể hiện chức năng của gateway endpoint như một đường dẫn an toàn đến S3 mà không
+cần đi qua pub lic Internet.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<a id="logo" href="/FCJ-report-HUGO-SE192671/index.html">
+  <svg
+    id="Layer_1"
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 60 30"
+    width="30%"
+  >
+    <defs>
+      <style>
+        .cls-1 {
+          fill: #fff;
+        }
+        .cls-2 {
+          fill: #f90;
+          fill-rule: evenodd;
+        }
+      </style>
+    </defs>
+    <title>AWS-Logo_White-Color</title>
+    <path
+      class="cls-1"
+      d="M14.09,10.85a4.7,4.7,0,0,0,.19,1.48,7.73,7.73,0,0,0,.54,1.19.77.77,0,0,1,.12.38.64.64,0,0,1-.32.49l-1,.7a.83.83,0,0,1-.44.15.69.69,0,0,1-.49-.23,3.8,3.8,0,0,1-.6-.77q-.25-.42-.51-1a6.14,6.14,0,0,1-4.89,2.3,4.54,4.54,0,0,1-3.32-1.19,4.27,4.27,0,0,1-1.22-3.2A4.28,4.28,0,0,1,3.61,7.75,6.06,6.06,0,0,1,7.69,6.46a12.47,12.47,0,0,1,1.76.13q.92.13,1.91.36V5.73a3.65,3.65,0,0,0-.79-2.66A3.81,3.81,0,0,0,7.86,2.3a7.71,7.71,0,0,0-1.79.22,12.78,12.78,0,0,0-1.79.57,4.55,4.55,0,0,1-.58.22l-.26,0q-.35,0-.35-.52V2a1.09,1.09,0,0,1,.12-.58,1.2,1.2,0,0,1,.47-.35A10.88,10.88,0,0,1,5.77.32,10.19,10.19,0,0,1,8.36,0a6,6,0,0,1,4.35,1.35,5.49,5.49,0,0,1,1.38,4.09ZM7.34,13.38a5.36,5.36,0,0,0,1.72-.31A3.63,3.63,0,0,0,10.63,12,2.62,2.62,0,0,0,11.19,11a5.63,5.63,0,0,0,.16-1.44v-.7a14.35,14.35,0,0,0-1.53-.28,12.37,12.37,0,0,0-1.56-.1,3.84,3.84,0,0,0-2.47.67A2.34,2.34,0,0,0,5,11a2.35,2.35,0,0,0,.61,1.76A2.4,2.4,0,0,0,7.34,13.38Zm13.35,1.8a1,1,0,0,1-.64-.16,1.3,1.3,0,0,1-.35-.65L15.81,1.51a3,3,0,0,1-.15-.67.36.36,0,0,1,.41-.41H17.7a1,1,0,0,1,.65.16,1.4,1.4,0,0,1,.33.65l2.79,11,2.59-11A1.17,1.17,0,0,1,24.39.6a1.1,1.1,0,0,1,.67-.16H26.4a1.1,1.1,0,0,1,.67.16,1.17,1.17,0,0,1,.32.65L30,12.39,32.88,1.25A1.39,1.39,0,0,1,33.22.6a1,1,0,0,1,.65-.16h1.54a.36.36,0,0,1,.41.41,1.36,1.36,0,0,1,0,.26,3.64,3.64,0,0,1-.12.41l-4,12.86a1.3,1.3,0,0,1-.35.65,1,1,0,0,1-.64.16H29.25a1,1,0,0,1-.67-.17,1.26,1.26,0,0,1-.32-.67L25.67,3.64,23.11,14.34a1.26,1.26,0,0,1-.32.67,1,1,0,0,1-.67.17Zm21.36.44a11.28,11.28,0,0,1-2.56-.29,7.44,7.44,0,0,1-1.92-.67,1,1,0,0,1-.61-.93v-.84q0-.52.38-.52a.9.9,0,0,1,.31.06l.42.17a8.77,8.77,0,0,0,1.83.58,9.78,9.78,0,0,0,2,.2,4.48,4.48,0,0,0,2.43-.55,1.76,1.76,0,0,0,.86-1.57,1.61,1.61,0,0,0-.45-1.16A4.29,4.29,0,0,0,43,9.22l-2.41-.76A5.15,5.15,0,0,1,38,6.78a3.94,3.94,0,0,1-.83-2.41,3.7,3.7,0,0,1,.45-1.85,4.47,4.47,0,0,1,1.19-1.37A5.27,5.27,0,0,1,40.51.29,7.4,7.4,0,0,1,42.6,0a8.87,8.87,0,0,1,1.12.07q.57.07,1.08.19t.95.26a4.27,4.27,0,0,1,.7.29,1.59,1.59,0,0,1,.49.41.94.94,0,0,1,.15.55v.79q0,.52-.38.52a1.76,1.76,0,0,1-.64-.2,7.74,7.74,0,0,0-3.2-.64,4.37,4.37,0,0,0-2.21.47,1.6,1.6,0,0,0-.79,1.48,1.58,1.58,0,0,0,.49,1.18,4.94,4.94,0,0,0,1.83.92L44.55,7a5.08,5.08,0,0,1,2.57,1.6A3.76,3.76,0,0,1,47.9,11a4.21,4.21,0,0,1-.44,1.93,4.4,4.4,0,0,1-1.21,1.47,5.43,5.43,0,0,1-1.85.93A8.25,8.25,0,0,1,42.05,15.62Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M45.19,23.81C39.72,27.85,31.78,30,25,30A36.64,36.64,0,0,1,.22,20.57c-.51-.46-.06-1.09.56-.74A49.78,49.78,0,0,0,25.53,26.4,49.23,49.23,0,0,0,44.4,22.53C45.32,22.14,46.1,23.14,45.19,23.81Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M47.47,21.21c-.7-.9-4.63-.42-6.39-.21-.53.06-.62-.4-.14-.74,3.13-2.2,8.27-1.57,8.86-.83s-.16,5.89-3.09,8.35c-.45.38-.88.18-.68-.32C46.69,25.8,48.17,22.11,47.47,21.21Z"
+    ></path>
+  </svg>
+</a>
+
+        </div>
+        <search><form action="/FCJ-report-HUGO-SE192671/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Tìm kiếm (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Tìm kiếm</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Tìm kiếm...">
+            <button class="search-clear" type="button" data-search-clear="" title="Xóa tìm kiếm"><i class="fas fa-times" title="Xóa tìm kiếm"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/worklog/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/worklog/index.html">1. Nhật ký làm việc</a><ul id="R-subsections-07a34cea8d1864d4f57c95a03074a21e" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/proposal/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/proposal/index.html">2. Dự án (Proposal)</a></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/blogs/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/blogs/index.html">3. Dịch Blogs</a></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/events/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/events/index.html">4. Sự kiện tham gia</a><ul id="R-subsections-c468958590b5fb14d45faa0c9c2ebc68" class="collapsible-menu"></ul></li>
+            <li class="parent " data-nav-url="/FCJ-report-HUGO-SE192671/workshop/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/workshop/index.html">5. Bài tập (Workshop)</a><ul id="R-subsections-76a95478d6faadaa73cc014b99f0b473" class="collapsible-menu">
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/workshop/1-overview/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/workshop/1-overview/index.html">Giới thiệu</a></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/workshop/2-prerequisites/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/workshop/2-prerequisites/index.html">Các bước chuẩn bị</a></li>
+            <li class="parent alwaysopen " data-nav-url="/FCJ-report-HUGO-SE192671/workshop/3-s3-vpc/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/workshop/3-s3-vpc/index.html">Truy cập S3 từ VPC</a><ul id="R-subsections-127447fbf48231991ce3c6c7d35e2c81" class="collapsible-menu">
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/workshop/3-s3-vpc/3.1-create-gwe/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/workshop/3-s3-vpc/3.1-create-gwe/index.html">Tạo một Gateway Endpoint</a></li>
+            <li class="active " data-nav-url="/FCJ-report-HUGO-SE192671/workshop/3-s3-vpc/3.2-test-gwe/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/workshop/3-s3-vpc/3.2-test-gwe/index.html">Kiểm tra Gateway Endpoint</a></li></ul></li>
+            <li class="alwaysopen " data-nav-url="/FCJ-report-HUGO-SE192671/workshop/4-s3-onprem/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/workshop/4-s3-onprem/index.html">Truy cập S3 từ môi trường truyền thống</a><ul id="R-subsections-5d438fe35572ae88f39b58e0215b34d3" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/workshop/5-policy/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/workshop/5-policy/index.html">VPC Endpoint Policies</a></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/workshop/6-cleanup/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/workshop/6-cleanup/index.html">Dọn dẹp tài nguyên</a></li></ul></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/evaluation/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/evaluation/index.html">6. Nhận xét bản thân</a></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/feedback/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/feedback/index.html">7. Chia sẻ và góp ý</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+			<li class="R-languageswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-language"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-language">Ngôn ngữ</label>
+                  <select id="R-select-language">
+                    <option id="R-select-language-vi" value="vi" data-url="/FCJ-report-HUGO-SE192671/workshop/3-s3-vpc/3.2-test-gwe/index.html" lang="vi" selected data-selected>Vietnamese</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="/FCJ-report-HUGO-SE192671/js/clipboard/clipboard.min.js?1764962650" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/perfect-scrollbar/perfect-scrollbar.min.js?1764962650" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/theme.js?1764962650" defer></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Create an S3 Interface endpoint :: AWS Intership Report</title>
+    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/workshop/4-s3-onprem/4.2-create-interface-endpoint/index.html</link>
+    <description>In this section you will create and test an S3 interface endpoint using the simulated on-premises environment deployed as part of this workshop.&#xA;Return to the Amazon VPC menu. In the navigation pane, choose Endpoints, then click Create Endpoint.&#xA;In Create endpoint console:&#xA;Name the interface endpoint In Service category, choose aws services In the Search box, type S3 and press Enter. Select the endpoint named com.amazonaws.us-east-1.s3. Ensure that the Type column indicates Interface.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/en/workshop/4-s3-onprem/4.2-create-interface-endpoint/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
