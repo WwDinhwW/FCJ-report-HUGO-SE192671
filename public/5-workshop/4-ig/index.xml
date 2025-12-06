@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4. Tạo Internet Gateway :: AWS Báo Cáo Thực Tập</title>
+    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/4-ig/index.html</link>
+    <description>Internet Gateway (IGW) cho phép các tài nguyên trong Public Subnet gửi và nhận lưu lượng từ Internet. Nếu không có IGW, ngay cả khi subnet có Public IP thì vẫn sẽ bị cô lập khỏi Internet.&#xA;4.1 Tạo một Internet Gateway Trong AWS Console, mở dịch vụ VPC Ở bảng điều hướng bên trái, chọn Internet Gateways Nhấn Create internet gateway Nhập giá trị: Name tag: Workshop-IGW Nhấn Create internet gateway</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/4-ig/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

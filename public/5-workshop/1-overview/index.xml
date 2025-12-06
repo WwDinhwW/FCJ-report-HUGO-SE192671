@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1. Tổng quan :: AWS Báo Cáo Thực Tập</title>
+    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/1-overview/index.html</link>
+    <description>Xây dựng AWS VPC cơ bản với Public &amp; Private Subnets Trong workshop này, bạn sẽ xây dựng một nền tảng mạng đơn giản trên AWS bằng Amazon VPC (Virtual Private Cloud). Mục tiêu là giúp người mới bắt đầu hiểu cách hoạt động của mạng trong môi trường điện toán đám mây, cũng như cách các thành phần khác nhau kết nối với nhau để tạo thành một hệ thống an toàn và có kiểm soát.</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/1-overview/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

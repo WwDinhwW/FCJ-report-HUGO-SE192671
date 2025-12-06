@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3. Create VPC &amp; Subnets :: AWS Intership Report</title>
+    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/5-workshop/3-vpc-subnets/index.html</link>
+    <description>In this component, you will create your own Virtual Private Cloud (VPC) and define two subnets:&#xA;1 Public Subnet (Internet accessible) 1 Private Subnet (no direct Internet access) 3.1 Create the VPC Open AWS Management Console Navigate to Services → VPC Click Create VPC Select VPC Only Enter the details: Name tag: Workshop-VPC IPv4 CIDR: 10.0.0.0/16 Keep all other settings at default Click Create VPC</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/en/5-workshop/3-vpc-subnets/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

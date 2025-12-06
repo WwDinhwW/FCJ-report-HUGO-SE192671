@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5. Bài tập (Workshop) :: AWS Báo Cáo Thực Tập</title>
+    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/index.html</link>
+    <description>Đây là bài Workshop của nhóm chúng em. Xin mời thầy/cô/anh/chị xem các nội dung phía dưới. Nội dung Tổng quan Yêu cầu trước khi thực hiện Tạo VPC &amp; Subnet Tạo Internet Gateway Tạo NAT Gateway Cấu hình Route Table Khởi tạo EC2 Instances Kiểm tra kết nối Dọn dẹp tài nguyên</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Tổng quan</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/1-overview/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/1-overview/index.html</guid>
+      <description>Xây dựng AWS VPC cơ bản với Public &amp; Private Subnets Trong workshop này, bạn sẽ xây dựng một nền tảng mạng đơn giản trên AWS bằng Amazon VPC (Virtual Private Cloud). Mục tiêu là giúp người mới bắt đầu hiểu cách hoạt động của mạng trong môi trường điện toán đám mây, cũng như cách các thành phần khác nhau kết nối với nhau để tạo thành một hệ thống an toàn và có kiểm soát.</description>
+    </item>
+    <item>
+      <title>2. Yêu cầu trước khi thực hiện</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/2-prerequisites/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/2-prerequisites/index.html</guid>
+      <description>Trước khi bắt đầu workshop, hãy bảo đảm rằng bạn có đủ các điều kiện sau:&#xA;Tài khoản &amp; Quyền truy cập Một AWS Account IAM User với quyền truy cập vào: Amazon VPC Amazon EC2 Elastic IP NAT Gateway Internet Gateway Khuyến nghị sử dụng policy: AdministratorAccess (chỉ dành cho mục đích thực hành) Nếu bạn đang sử dụng IAM User, hãy đảm bảo rằng bạn có Access Key hoặc thông tin đăng nhập AWS Console.</description>
+    </item>
+    <item>
+      <title>3. Tạo VPC &amp; Subnet</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/3-vpc-subnets/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/3-vpc-subnets/index.html</guid>
+      <description>Trong phần này, bạn sẽ tạo Virtual Private Cloud (VPC) của riêng mình và thiết lập hai subnet:&#xA;1 Public Subnet (có thể truy cập Internet) 1 Private Subnet (không truy cập Internet trực tiếp) 3.1 Tạo VPC Mở AWS Management Console Điều hướng đến Services → VPC Chọn Create VPC Chọn tùy chọn VPC Only Nhập thông tin: Name tag: Workshop-VPC IPv4 CIDR: 10.0.0.0/16 Giữ các thiết lập khác ở mặc định Nhấn Create VPC</description>
+    </item>
+    <item>
+      <title>4. Tạo Internet Gateway</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/4-ig/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/4-ig/index.html</guid>
+      <description>Internet Gateway (IGW) cho phép các tài nguyên trong Public Subnet gửi và nhận lưu lượng từ Internet. Nếu không có IGW, ngay cả khi subnet có Public IP thì vẫn sẽ bị cô lập khỏi Internet.&#xA;4.1 Tạo một Internet Gateway Trong AWS Console, mở dịch vụ VPC Ở bảng điều hướng bên trái, chọn Internet Gateways Nhấn Create internet gateway Nhập giá trị: Name tag: Workshop-IGW Nhấn Create internet gateway</description>
+    </item>
+    <item>
+      <title>5. Tạo NAT Gateway</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/5-nat/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/5-nat/index.html</guid>
+      <description>NAT Gateway cho phép các instance trong Private Subnet truy cập Internet mà không bị lộ trực tiếp ra bên ngoài. Nhờ đó, EC2 trong private subnet có thể yum install, tải bản cập nhật, v.v.&#xA;5.1 Cấp phát Elastic IP Trong bảng điều hướng của VPC, chọn Elastic IPs Nhấn Allocate Elastic IP address Giữ nguyên cấu hình mặc định Nhấn Allocate</description>
+    </item>
+    <item>
+      <title>6. Cấu hình Route Table</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/6-routetb/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/6-routetb/index.html</guid>
+      <description>Route Tables quyết định hướng lưu lượng mạng bên trong VPC của bạn. Trong phần này, bạn sẽ:&#xA;Tạo route table riêng cho public subnet và private subnet Định tuyến lưu lượng Internet từ public subnet → Internet Gateway Định tuyến lưu lượng từ private subnet → NAT Gateway để truy cập Internet đầu ra 6.1 Tạo Route Table cho Public Subnet Trong VPC Console, mở Route Tables Nhấn Create route table Nhập: Name: Public-RT VPC: Workshop-VPC Nhấn Create route table</description>
+    </item>
+    <item>
+      <title>7. Khởi tạo EC2 Instances</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/7-ec2/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/7-ec2/index.html</guid>
+      <description>Bây giờ bạn sẽ triển khai hai EC2 instances:&#xA;Instance Subnet Truy cập EC2-Public Public-Subnet SSH trực tiếp từ Internet EC2-Private Private-Subnet Không có Public IP — chỉ truy cập thông qua EC2-Public Cả hai instance sẽ sử dụng cùng một AMI và cùng loại instance để đơn giản hóa cấu hình.&#xA;7.1 Tạo Key Pair Mở EC2 Console Ở mục điều hướng bên trái → chọn Key Pairs Nhấn Create key pair Cấu hình: Name: Workshop-Key Type: RSA Format: .pem (Linux/Mac) hoặc .ppk (Windows PuTTY) Tải xuống và lưu trữ an toàn</description>
+    </item>
+    <item>
+      <title>8. Kiểm tra kết nối</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/8-connectivity-tests/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/8-connectivity-tests/index.html</guid>
+      <description>Bây giờ cả hai EC2 instances đã chạy, đây là lúc kiểm tra hành vi mạng và xác nhận rằng VPC đang hoạt động đúng. Phần này kiểm tra ba yếu tố:&#xA;EC2-Public có thể SSH từ máy cá nhân EC2-Private chỉ có thể truy cập thông qua EC2-Public (không trực tiếp từ Internet) EC2-Private có thể truy cập Internet thông qua NAT Gateway 8.1 Kết nối vào Public EC2 Instance Mở EC2 Console → Instances Sao chép địa chỉ Public IPv4 của EC2-Public SSH vào instance Bước này phụ thuộc vào hệ điều hành và công cụ bạn sử dụng.&#xA;Trong workshop này, chúng tôi sử dụng PowerShell trên Windows 11.&#xA;Bạn có thể dùng công cụ khác nếu muốn.</description>
+    </item>
+    <item>
+      <title>9. Dọn dẹp tài nguyên</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/9-cleanup/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/9-cleanup/index.html</guid>
+      <description>Để tránh phát sinh chi phí không cần thiết — đặc biệt là từ NAT Gateway — bạn nên xóa toàn bộ tài nguyên sau khi hoàn thành workshop.&#xA;Thực hiện theo các bước sau theo đúng thứ tự:&#xA;9.1 Terminate EC2 Instances Mở EC2 Console Chọn cả EC2-Public và EC2-Private Nhấn Instance state → Terminate (quá trình có thể mất vài phút) Xác nhận hành động</description>
+    </item>
+  </channel>
+</rss>

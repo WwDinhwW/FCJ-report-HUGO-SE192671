@@ -20,10 +20,10 @@ type: "page"
 
 # Table of Contents
 
-- [Worklog](worklog/)
-- [Proposal](proposal/)
-- [Translated Blogs](blogs/)
-- [Events Participated](events/)
-- [Workshop](workshop/)
-- [Self-evaluation](evaluation/)
-- [Sharing and Feedback](feedback/)
+1. [Worklog](worklog/)
+2. [Proposal](proposal/)
+3. [Translated Blogs](blogs/)
+4. [Events Participated](events/)
+5. [Workshop](workshop/)
+6. [Self-evaluation](evaluation/)
+7. [Sharing and Feedback](feedback/)

@@ -20,10 +20,10 @@ type: "page"
 
 # Mục lục báo cáo
 
-- [Nhật ký làm việc theo tuần](worklog/)
-- [Đề xuất dự án](proposal/)
-- [Các bài blog đã dịch](blogs/)
-- [Các sự kiện đã tham gia](events/)
-- [Nội dung workshop](workshop/)
-- [Nhận xét bản thân](evaluation/)
-- [Chia sẻ và góp ý](feedback/)
+1. [Nhật ký làm việc theo tuần](worklog/)
+2. [Đề xuất dự án](proposal/)
+3. [Các bài blog đã dịch](blogs/)
+4. [Các sự kiện đã tham gia](events/)
+5. [Nội dung workshop](workshop/)
+6. [Nhận xét bản thân](evaluation/)
+7. [Chia sẻ và góp ý](feedback/)

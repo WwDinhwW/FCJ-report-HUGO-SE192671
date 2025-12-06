@@ -5,7 +5,7 @@ var relearn_searchindex = [
     "description": "Build a Basic AWS VPC with Public \u0026 Private Subnets In this workshop, you will build a simple network foundation in AWS using Amazon VPC (Virtual Private Cloud). The goal is to help beginners understand how networking works in the cloud, and how different components connect together to form a secure, controlled environment.\nYou will create a VPC with two subnets:\nA Public Subnet – allows resources (like EC2 instances) to access the Internet directly. A Private Subnet – isolated from the public Internet by default for better security. To enable the private subnet to download packages and access online services without being exposed publicly, you will configure:",
     "tags": [],
     "title": "1. Overview",
-    "uri": "/FCJ-report-HUGO-SE192671/en/workshop/1-overview/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/5-workshop/1-overview/index.html"
   },
   {
     "breadcrumb": "Home \u003e 1. Worklog",
@@ -13,7 +13,7 @@ var relearn_searchindex = [
     "description": "Objectives: Get familiar with the First Cloud Journey (FCJ) environment. Understand Networking concepts related to AWS services Understand basic AWS services — what they are and how they work. Tasks Completed: Day Task Start Date Completion Date Reference Material Mon - Get familiar with the FCJ working environment. - Read and note the rules and regulations at the internship unit. 08/09/2025 08/09/2025 https://policies.fcjuni.com/ Tue - Learn networking technologies and concepts: + NIC (Network Interface Card) + DNS (Domain Name System) + IP Addresses + CDN (Content Delivery Network) 09/09/2025 09/09/2025 Internet and materials provided by mentors Wed - Work at the office - Continue learning networking technologies and concepts: + IPv4/6 + NAT (Network Address Translator) + CIDR (Classless Inter-Domain Routing) + DHCP (Dynamic Host Configuration Protocol) + VPN (Virtual Private Network) + ENI (Elastic Network Interface) + Internet Gateway (AWS) 10/09/2025 10/09/2025 Internet and materials provided by mentors Thu - Learn AWS services: + IAM + EC2 (Elastic Compute Cloud) + VPC (Virtual Private Cloud) + VPC peering + Transit Gateway + NAT Gateway + Route table 11/09/2025 11/09/2025 Internet and materials provided by mentors Fri - Practice: + Create an AWS root account + Launch an EC2 instance + Learn about EC2 Access Keys, their purpose, and how to use them 12/09/2025 12/09/2025 Internet and materials provided by mentors Results: Understood what AWS is and how its basic services are used. Gained general knowledge about networking technologies and concepts to better understand how AWS services operate. Successfully created and configured an AWS Free Tier root account. Got familiar with the AWS Management Console and learned how to find, access, and use services from the web interface. Modules Learned: Module 01-01 - Điện Toán Đám Mây Là Gì ? Module 01-02 - Điều Gì Tạo Nên Sự Khác Biệt Của AWS ? Module 01-03 - Bắt Đầu Hành Trình Lên Mây Như Thế Nào Module 01-04 - Hạ Tầng Toàn Cầu Của AWS Module 01-05 - Công Cụ Quản Lý AWS Services Module 01-06 - Tối Ưu Hóa Chi Phí Trên AWS và Làm Việc Với AWS Support Module 01-07 - Thực Hành và Nghiên Cứu Bổ Sung Module 02-01 - AWS Virtual Private Cloud Module 02-02 - VPC Security and Multi-VPC features Module 02-03 - VPN - DirectConnect - LoadBalancer - ExtraResources",
     "tags": [],
     "title": "Week 1: Introduction to AWS and Basic AWS Services",
-    "uri": "/FCJ-report-HUGO-SE192671/en/worklog/week_1/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/1-worklog/week_1/index.html"
   },
   {
     "breadcrumb": "Home \u003e 5. Workshop",
@@ -21,7 +21,7 @@ var relearn_searchindex = [
     "description": "Before starting the workshop, ensure you have access to the following:\nAccounts \u0026 Access An AWS Account IAM User with permissions to: Amazon VPC Amazon EC2 Elastic IP NAT Gateway Internet Gateway Recommended policy: AdministratorAccess (for lab purposes only) If you are using an IAM user, make sure you have access keys or console login credentials.\nCost Notice This workshop includes creating a NAT Gateway, which is a billable resource. To minimize cost, you should delete all created resources during the cleanup step.",
     "tags": [],
     "title": "2. Prerequisites",
-    "uri": "/FCJ-report-HUGO-SE192671/en/workshop/2-prerequisites/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/5-workshop/2-prerequisites/index.html"
   },
   {
     "breadcrumb": "Home \u003e 1. Worklog",
@@ -29,7 +29,7 @@ var relearn_searchindex = [
     "description": "Objectives: Understand the key compute and storage services on AWS. Get familiar with development and deployment tools (HUGO, PowerShell). Learn the basics of containerization and its usage on AWS (ECS, EKS, Docker). Attend an AWS-hosted event to expand knowledge and community connection. Tasks Completed: Day Task Start Date End Date Reference Source Mon - Reviewed EC2 concepts from Week 1: Instance Types, AMI, Key Pair, Elastic Block Store. - Continued with extended topics on Auto Scaling, EFS/FSx, and Lightsail. 15/09/2025 15/09/2025 Internet \u0026 Mentor-provided materials Tue - Studied AWS storage services: + Amazon S3 (Simple Storage Service) + S3 Bucket structure, Access Point, Storage Class + Static Website Hosting and CORS configuration + Glacier and cold storage classes - Learned about SSL/TLS, data encryption, and secure data transmission. 16/09/2025 16/09/2025 Internet \u0026 Mentor-provided materials Wed - Installed and learned to use HUGO for building static websites. - Installed and practiced with PowerShell for Windows environment operations. 17/09/2025 17/09/2025 Internet \u0026 HUGO Documentation Thu - Attended the Vietnam Cloud Day 2025 event hosted by AWS. - Took notes on key topics, trends, and AWS’s strategy in Vietnam. 18/09/2025 18/09/2025 AWS Vietnam Cloud Day 2025 Event Fri - Learned about containerization concepts: + Docker, Kubernetes + AWS ECS (Elastic Container Service) and EKS (Elastic Kubernetes Service). - Understood how AWS deploys and manages containers in production environments. 19/09/2025 19/09/2025 Internet \u0026 Mentor-provided materials Results: Strengthened understanding of EC2, Auto Scaling, and extended compute services. Gained in-depth knowledge of Amazon S3 — storage management, access control, and data classes. Successfully installed and used HUGO and PowerShell for development workflows. Participated in AWS Vietnam Cloud Day 2025, gaining insights into AWS strategies and trends. Learned the fundamentals of containerization and how AWS applies it through ECS/EKS. Modules Learned: Module 03-01 - Compute VM on AWS Module 03-02 - EC2 Autoscaling - EFS/FSx - Lightsail - MGN Module 04-01 - Storage Services on AWS Module 04-02 - Amazon Simple Storage Service (S3) - Access Point - Storage Class Module 04-03 - S3 Static Website \u0026 CORS - Control Access - Object Key \u0026 Performance - Glacier",
     "tags": [],
     "title": "Week 2: Exploring AWS Compute and Storage Services. Getting familiar with HUGO and related development tools",
-    "uri": "/FCJ-report-HUGO-SE192671/en/worklog/week_2/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/1-worklog/week_2/index.html"
   },
   {
     "breadcrumb": "Home \u003e 5. Workshop",
@@ -37,7 +37,7 @@ var relearn_searchindex = [
     "description": "In this component, you will create your own Virtual Private Cloud (VPC) and define two subnets:\n1 Public Subnet (Internet accessible) 1 Private Subnet (no direct Internet access) 3.1 Create the VPC Open AWS Management Console Navigate to Services → VPC Click Create VPC Select VPC Only Enter the details: Name tag: Workshop-VPC IPv4 CIDR: 10.0.0.0/16 Keep all other settings at default Click Create VPC",
     "tags": [],
     "title": "3. Create VPC \u0026 Subnets",
-    "uri": "/FCJ-report-HUGO-SE192671/en/workshop/3-vpc-subnets/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/5-workshop/3-vpc-subnets/index.html"
   },
   {
     "breadcrumb": "Home \u003e 1. Worklog",
@@ -45,7 +45,7 @@ var relearn_searchindex = [
     "description": "Objectives: Set up and deploy the internship report site using Hugo and GitHub Pages. Reinforce understanding of previous modules (Compute, VPC, Storage). Learn about IAM Policies, JWT Authentication, and AWS Database Services (RDS, DynamoDB). Research Monitoring and Cost Optimization topics for upcoming weeks. Tasks Completed: Day Tasks Start Date Completion Date Reference Sources Mon - Set up and configure the report site using Hugo and GitHub Pages. - Learned about static site structure, Hugo directory hierarchy, and Markdown content management. - Studied GitHub Actions for automating the build and deploy process. 22/09/2025 22/09/2025 Internet and Hugo Docs Tue - Completed Module 04-04: Snow Family – Storage Gateway – Backup. - Studied Access Keys, AWS KMS, EBS Snapshots, and DynamoDB. - Practiced configuring Storage Gateway to understand on-premises and cloud synchronization. 23/09/2025 23/09/2025 Internet and mentor-provided resources Wed - Reviewed Modules 01–04 (Compute, VPC, Storage). - Researched AWS IAM Policies and secure access configuration. - Experimented with assigning IAM permissions for Hugo deployment via GitHub Pages. 24/09/2025 24/09/2025 Internet and AWS IAM Documentation Thu - Learned about JWT (JSON Web Token) and its role in user authentication. - Studied setup processes for RDS and DynamoDB. - Built a small demo API using JWT Authentication and DynamoDB for data storage. 25/09/2025 25/09/2025 Internet and mentor-provided resources Fri - Summarized weekly learning progress for mid-term reporting. - Reviewed Hugo site structure and updated weekly sections. - Studied AWS Monitoring and Cost Optimization best practices to prepare for the next week. 26/09/2025 26/09/2025 Internet and AWS official documentation Results: Successfully set up and deployed the internship report site using Hugo and GitHub Pages. Reinforced foundational understanding of Compute, VPC, Storage, and IAM concepts. Gained hands-on experience with JWT authentication and DynamoDB integration. Developed awareness of AWS monitoring and cost management practices. Modules Learned: Module 04-04 - Snow Family - Storage Gateway - Backup",
     "tags": [],
     "title": "Week 3: Setting up the report site with Hugo, exploring AWS security and database services",
-    "uri": "/FCJ-report-HUGO-SE192671/en/worklog/week_3/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/1-worklog/week_3/index.html"
   },
   {
     "breadcrumb": "Home \u003e 5. Workshop",
@@ -53,7 +53,7 @@ var relearn_searchindex = [
     "description": "The Internet Gateway (IGW) allows resources inside your Public Subnet to send and receive traffic from the Internet. Without it, even a subnet with public IP will still be isolated.\n4.1 Create an Internet Gateway In the AWS Console, open VPC service On the left panel, select Internet Gateways Click Create internet gateway Fill in: Name tag: Workshop-IGW Click Create internet gateway",
     "tags": [],
     "title": "4. Create Internet Gateway",
-    "uri": "/FCJ-report-HUGO-SE192671/en/workshop/4-ig/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/5-workshop/4-ig/index.html"
   },
   {
     "breadcrumb": "Home \u003e 1. Worklog",
@@ -61,7 +61,7 @@ var relearn_searchindex = [
     "description": "Objectives: Understand the Shared Responsibility Model and AWS identity management services. Learn the core security services: IAM, Cognito, KMS, Security Hub, and AWS Organization. Apply knowledge in practice by integrating CloudWatch and Cost Explorer into the reporting system. Get familiar with automation tools (GitHub Actions) and Python SDK (boto3) for interacting with AWS services. Tasks Completed: Day Tasks Start Date End Date Resources Used Mon - Added cloudwatch.py to the project. - Learned how to use boto3 to call AWS services via Python. - Reviewed Python, Shell, and NodeJS basics to support system development. 29/09/2025 29/09/2025 Internet and mentor-provided resources Tue - Studied modules: + 05-01 - Shared Responsibility Model + 05-02 - AWS Identity and Access Management (IAM) + 05-03 - Amazon Cognito - Deployed the report website using GitHub Actions. - Learned about Redis and caching mechanisms in applications. 30/09/2025 30/09/2025 Internet, AWS docs, mentor guidance Wed - Added costexplorer.py and s3.py to the project. - Explored advanced Python syntax and practices. - Studied how to query cost and storage data via AWS SDK. 01/10/2025 01/10/2025 Internet and mentor-provided resources Thu - Studied modules: + 05-04 - AWS Organization + 05-05 - AWS Identity Center + 05-06 - AWS Key Management Service (KMS) + 05-07 - AWS Security Hub + 05-08 - Hands-on \u0026 Additional Research. 02/10/2025 02/10/2025 Internet, AWS SkillBuilder, mentor input Fri - Translated and edited 3 official AWS admin blogs. - Summarized main insights related to identity and cloud security. 03/10/2025 03/10/2025 AWS Blog and internal documentation Results: Gained in-depth understanding of the Shared Responsibility Model and AWS security best practices. Mastered IAM, Cognito, and KMS for managing identities and data encryption. Successfully integrated CloudWatch and Cost Explorer into the reporting project for automatic cost and performance tracking. Practiced automated deployment with GitHub Actions, improving basic CI/CD skills. Enhanced Python proficiency and learned to use boto3 for AWS service interaction. Improved ability to read and analyze AWS security documentation and real-world blog content. Modules Learned: Module 05-01 - Shared Responsibility Model Module 05-02 - AWS Identity and Access Management (IAM) Module 05-03 - Amazon Cognito Module 05-04 - AWS Organization Module 05-05 - AWS Identity Center Module 05-06 - AWS Key Management Service (KMS) Module 05-07 - AWS Security Hub Module 05-08 - Hands-on \u0026 Additional Research",
     "tags": [],
     "title": "Week 4: Security and Identity Management on AWS. Integrating CloudWatch and Cost Explorer into the project",
-    "uri": "/FCJ-report-HUGO-SE192671/en/worklog/week_4/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/1-worklog/week_4/index.html"
   },
   {
     "breadcrumb": "Home \u003e 5. Workshop",
@@ -69,7 +69,7 @@ var relearn_searchindex = [
     "description": "The NAT Gateway allows instances in the Private Subnet to access the Internet without being publicly exposed. This is how the private EC2 will yum install, download updates, etc.\n5.1 Allocate Elastic IP In the left VPC menu, select Elastic IPs Click Allocate Elastic IP address Choose default settings Click Allocate 5.2 Create NAT Gateway In the left VPC panel, go to NAT gateways Click Create NAT gateway Configure: Field Value Name Workshop-NAT Availability mode Zonal Subnet Public-Subnet Connectivity type Public Elastic IP allocation Select the one you just created Click Create NAT gateway",
     "tags": [],
     "title": "5. Create NAT Gateway",
-    "uri": "/FCJ-report-HUGO-SE192671/en/workshop/5-nat/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/5-workshop/5-nat/index.html"
   },
   {
     "breadcrumb": "Home \u003e 1. Worklog",
@@ -77,7 +77,7 @@ var relearn_searchindex = [
     "description": "Objectives: Review fundamental database concepts and understand the operational model of RDS and Aurora. Explore advanced AWS database services such as Redshift and ElastiCache. Apply knowledge in practice through improvements to the internship report site (Report Site). Refine technical writing and presentation skills through blog adjustments and documentation editing. Tasks Completed: Day Tasks Start Date Completion Date Learning Resources Mon - Worked at the office to revise and adjust 3 translated technical blogs as requested by admins. - Reviewed core database concepts, including OLTP/OLAP models and primary-replica architectures. 06/10/2025 06/10/2025 Internal documentation and Internet Tue - Studied Module 06-01 - Database Concepts Review and Module 06-02 - Amazon RDS \u0026 Amazon Aurora. - Learned about backup, recovery, and auto-scaling mechanisms in RDS/Aurora. - Practiced deploying test databases through the AWS Console. 07/10/2025 07/10/2025 AWS Skill Builder, Internet Wed - Studied Module 06-03 - Amazon Redshift and Amazon ElastiCache. - Worked at the office to enhance the Report Site interface using Hugo’s Relearn theme. - Learned about caching mechanisms and analytics in AWS. 08/10/2025 08/10/2025 Internet and HUGO Documentation Thu - Researched DynamoDB and compared relational vs. non-relational database models. - Studied AWS Key Management Service (KMS) to understand encryption mechanisms in database systems. 09/10/2025 09/10/2025 Internet and mentor-provided materials Fri - Consolidated knowledge of AWS database services (RDS, Aurora, Redshift, DynamoDB, ElastiCache). - Documented findings and insights for practical implementation. - Prepared for the next week’s topics on DevOps and CI/CD pipeline fundamentals. 10/10/2025 10/10/2025 Internet and mentor-provided materials Results: Gained a clear understanding of relational vs. non-relational database models in AWS. Achieved proficiency in working with Amazon RDS, Aurora, Redshift, and ElastiCache. Improved and restyled the internship Report Site using the Hugo Relearn theme. Strengthened technical writing and documentation refinement skills. Extended learning: DynamoDB, KMS, Database Encryption Established a solid foundation for upcoming topics on DevOps and CI/CD automation. Modules Learned: Module 06-01 - Database Concepts Review Module 06-02 - Amazon RDS \u0026 Amazon Aurora Module 06-03 - Amazon Redshift - ElastiCache",
     "tags": [],
     "title": "Week 5: Strengthening AWS Database Knowledge and Enhancing the Internship Report Site",
-    "uri": "/FCJ-report-HUGO-SE192671/en/worklog/week_5/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/1-worklog/week_5/index.html"
   },
   {
     "breadcrumb": "Home \u003e 5. Workshop",
@@ -85,7 +85,7 @@ var relearn_searchindex = [
     "description": "Route Tables decide how traffic flows inside your VPC.\nIn this component, you will:\nCreate separate route tables for public and private subnets Route Internet traffic from the public subnet → Internet Gateway Route private subnet traffic → NAT Gateway for outbound access 6.1 Create Route Table for Public Subnet In VPC console, open Route Tables Click Create route table Enter: Name: Public-RT VPC: Workshop-VPC Click Create route table",
     "tags": [],
     "title": "6. Configure Route Tables",
-    "uri": "/FCJ-report-HUGO-SE192671/en/workshop/6-routetb/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/5-workshop/6-routetb/index.html"
   },
   {
     "breadcrumb": "Home \u003e 1. Worklog",
@@ -93,7 +93,7 @@ var relearn_searchindex = [
     "description": "Objectives: Extend and improve the Report Site with multilingual (i18n) support. Review and reinforce core AWS concepts from previous weeks (Database, IAM, KMS). Get familiar with basic DevOps workflows on AWS, including CI/CD automation and infrastructure management. Study monitoring, logging, and cost optimization services in AWS. Tasks Completed: Day Tasks Start Date Completion Date Reference Sources Mon - Worked at the office. - Implement multilingual support for the Report Site. 13/10/2025 13/10/2025 HUGO Docs and GitHub Pages Documentation Tue - Reviewed core DevOps concepts: CI/CD pipeline, GitHub Actions, staging and production environments. - Optimized workflow YAML configurations from previous deployments for improved automation. 14/10/2025 14/10/2025 Internet and official docs Wed - Updated and tested the Report Site UI after adding multilingual support. - Wrote an internal guideline for configuring the Relearn theme and translating site content. - Studied AWS CloudFormation and CodePipeline for DevOps infrastructure automation. 15/10/2025 15/10/2025 Internet and AWS Documentation Thu - Studied AWS Monitoring and Logging tools: CloudWatch, CloudTrail, and AWS Config. - Learned the basics of Infrastructure as Code (IaC) and how it can be applied in AWS deployments. 16/10/2025 16/10/2025 Internet and AWS Documentation Fri - Consolidated weekly progress and prepared for the upcoming DevOps practical phase. - Updated and refined bilingual content across previous report weeks. 17/10/2025 17/10/2025 Internet and official docs Results: Successfully implemented multilingual functionality for the report site. Gained hands-on understanding of the DevOps workflow using GitHub Actions and CI/CD pipelines. Strengthened foundational knowledge of AWS monitoring and automation tools (CloudWatch, CloudTrail, AWS Config). Improved technical documentation structure and content organization within Hugo. Reviewed content from IAM, Database, and Cloud Monitoring modules.",
     "tags": [],
     "title": "Week 6: Enhancing Multilingual Report Site and Exploring Basic DevOps Practices on AWS",
-    "uri": "/FCJ-report-HUGO-SE192671/en/worklog/week_6/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/1-worklog/week_6/index.html"
   },
   {
     "breadcrumb": "Home \u003e 5. Workshop",
@@ -101,7 +101,7 @@ var relearn_searchindex = [
     "description": "You will now deploy two EC2 instances:\nInstance Subnet Access EC2-Public Public-Subnet SSH directly from Internet EC2-Private Private-Subnet No public IP — accessible only through Public EC2 Both will use the same AMI and instance type for simplicity.\n7.1 Create a Key Pair Go to EC2 Console Left panel → Key Pairs Click Create key pair Set: Name: Workshop-Key Type: RSA Format: .pem (Linux/Mac) or .ppk (Windows PuTTY) Download and store securely",
     "tags": [],
     "title": "7. Launch EC2 Instances",
-    "uri": "/FCJ-report-HUGO-SE192671/en/workshop/7-ec2/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/5-workshop/7-ec2/index.html"
   },
   {
     "breadcrumb": "Home \u003e 1. Worklog",
@@ -109,7 +109,7 @@ var relearn_searchindex = [
     "description": "Objectives: Develop and extend key backend API routes (CloudWatch, Cost Explorer, S3, SecurityHub). Optimize asynchronous processing and enhance caching performance with Redis. Deepen understanding of Python’s runtime behavior, the GIL (Global Interpreter Lock), and parallel processing. Strengthen cost visibility and performance analysis through custom AWS monitoring APIs. Tasks Completed: Day Tasks Start Date Completion Date Reference Sources Mon - Worked at the office to add api/routes/cloudwatch.py for monitoring data collection. - Optimized log-handling functions and implemented caching for CloudWatch data using Redis. 20/10/2025 20/10/2025 AWS Docs, mentor guidance, Internet Tue - Added api/routes/costexplorer.py to aggregate and analyze AWS service costs. - Enhanced concurrent query execution and caching to reduce API response latency. 21/10/2025 21/10/2025 AWS Docs, Internet, mentor guidance Wed - Implemented api/routes/s3.py for S3 data access. - Studied IAM Policy control and cost optimization methods in S3 through data tiering (Storage Classes). 22/10/2025 22/10/2025 AWS Docs, Internet, mentor guidance Thu - Updated the Report Site content, adding a new “Cloud Optimization” section to document cost management practices. - Authored internal guide on configuring caching and async tasks in the project. 23/10/2025 23/10/2025 Internet, mentor-provided materials Fri - Added api/routes/securityhub.py for security alert aggregation. - Researched Python’s internal behavior: GIL, async, and parallel execution. - Improved Redis/FastAPI workflow integration and efficiency in backend operations. 24/10/2025 24/10/2025 Internet, internal documentation Results: Completed development of key backend API routes: CloudWatch, Cost Explorer, S3, and SecurityHub. Significantly improved backend performance through caching and asynchronous processing. Gained deeper insight into Python’s internal mechanisms and optimized FastAPI’s concurrency handling. Initiated Cloud Optimization implementation in the project — focusing on cost monitoring and performance tuning. Strengthened backend engineering, resource management, and system efficiency skills.",
     "tags": [],
     "title": "Week 7: Backend System Optimization and Expanding AWS Cost Monitoring Features",
-    "uri": "/FCJ-report-HUGO-SE192671/en/worklog/week_7/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/1-worklog/week_7/index.html"
   },
   {
     "breadcrumb": "Home \u003e 5. Workshop",
@@ -117,7 +117,7 @@ var relearn_searchindex = [
     "description": "Now that both EC2 instances are running, it’s time to validate network behavior and confirm the VPC is functioning correctly.\nThis component verifies three things:\nPublic EC2 is reachable from your local machine Private EC2 is only reachable from the Public EC2 (not directly from the internet) Private EC2 can access the internet through the NAT Gateway 8.1 Connect to the Public EC2 Instance Open the EC2 Console → Instances Copy the Public IPv4 of EC2-Public SSH into the instance This step is dependent on what type of machine you’re using and can vary among different tools. We are using Powershell on a Windows 11 OS PC for this Workshop. You can use other alternatives if you prefer.",
     "tags": [],
     "title": "8. Connectivity Tests",
-    "uri": "/FCJ-report-HUGO-SE192671/en/workshop/8-connectivity-tests/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/5-workshop/8-connectivity-tests/index.html"
   },
   {
     "breadcrumb": "Home \u003e 1. Worklog",
@@ -125,7 +125,7 @@ var relearn_searchindex = [
     "description": "Objectives: Reinforce foundational cloud concepts to prepare for deeper optimization work. Review cost management, security best practices, and performance tuning across major AWS services. Improve understanding of content delivery and edge optimization using AWS global infrastructure. Strengthen hands-on skills through structured practice and lab-style exercises. Tasks Completed: Day Tasks Start Date Completion Date Reference Sources Mon - Studied core prerequisites for cloud optimization: compute efficiency, storage tiering, and network design. - Reviewed concepts around global AWS infrastructure, edge locations, and how they impact latency and performance. 27/10/2025 27/10/2025 AWS Docs, Internet, mentor guidance Tue - Completed structured hands-on practice sessions focused on IAM, VPC networking, and S3 access control patterns. - Reinforced knowledge through scenario-based exercises involving cost-optimized architectures and workload placement. 28/10/2025 28/10/2025 AWS Labs, Internal docs Wed - Reviewed content delivery and caching concepts: CloudFront, caching layers, TTL optimization, and request routing. - Studied how distribution edge caching reduces origin load and enhances application performance. 29/10/2025 29/10/2025 AWS Edge Services Documentation Thu - Strengthened understanding of application security fundamentals: AWS WAF, mitigating common web threats, rate limiting, and bot protection strategies. - Applied these concepts in theoretical scenarios to improve overall architectural security posture. 30/10/2025 30/10/2025 AWS Security Docs, Internet Fri - Conducted a comprehensive review of learned topics: optimization strategies, caching, IAM hardening, network segmentation, and monitoring best practices. - Documented updated understanding into the Report Site for long-term reference. 31/10/2025 31/10/2025 Internet, mentor-provided materials Results: Built a stronger foundation in AWS optimization techniques across compute, storage, networking, and security. Gained deeper insight into edge delivery systems, caching layers, and how CloudFront improves performance and reduces cost. Improved understanding of AWS WAF and common methods for mitigating modern web threats. Reinforced core AWS service knowledge through practical review and structured lab-style exercises.",
     "tags": [],
     "title": "Week 8: Strengthening Foundational AWS Knowledge and Expanding Cloud Optimization Skills",
-    "uri": "/FCJ-report-HUGO-SE192671/en/worklog/week_8/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/1-worklog/week_8/index.html"
   },
   {
     "breadcrumb": "Home \u003e 5. Workshop",
@@ -133,7 +133,7 @@ var relearn_searchindex = [
     "description": "To avoid unnecessary charges — especially from the NAT Gateway — you should remove all created resources after finishing the workshop.\nFollow the steps below in order:\n9.1 Terminate EC2 Instances Open EC2 Console Select both EC2-Public and EC2-Private Click Instance state → Terminate (This process may take some time) Confirm termination 9.2 Delete NAT Gateway Go to VPC Console → NAT Gateways Select Workshop-NAT Click Actions → Delete NAT Gateway (This process may take some time) Confirm the action Wait until NAT Gateway shows as Deleted before moving on.",
     "tags": [],
     "title": "9. Clean Up",
-    "uri": "/FCJ-report-HUGO-SE192671/en/workshop/9-cleanup/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/5-workshop/9-cleanup/index.html"
   },
   {
     "breadcrumb": "Home \u003e 1. Worklog",
@@ -141,7 +141,7 @@ var relearn_searchindex = [
     "description": "Objectives: Strengthen cloud optimization knowledge across performance, cost management, and scaling. Explore web application security fundamentals and threat mitigation patterns. Practice hands-on AWS labs to reinforce concepts learned in previous weeks. Improve understanding of CDN behavior, caching strategy, and edge security controls. Tasks Completed: Day Tasks Start Date Completion Date Reference Sources Mon - Continued reviewing AWS architectural best practices with focus on performance optimization. - Added new technical explanations to the Report Site regarding compute and storage efficiency. 03/11/2025 03/11/2025 Internet, AWS Docs, mentor guidance Tue - Completed hands-on labs covering EC2 resizing, load balancing, and horizontal scaling strategies. - Practiced cost-awareness techniques such as rightsizing and choosing efficient instance families. 04/11/2025 04/11/2025 AWS Labs, internal documentation Wed - Studied CDN acceleration concepts: request routing, caching invalidation, and edge optimization. - Reviewed how CloudFront integrates with origin servers for performance and security. 05/11/2025 05/11/2025 AWS Edge Services Docs Thu - Learned core web application protection strategies: mitigating OWASP Top 10 risks, rate limiting, and bot defense patterns. - Studied how AWS WAF rulesets protect applications at scale. 06/11/2025 06/11/2025 AWS Security Docs, Internet Fri - Reinforced the week’s learning with lab-style exercises: configuring WAF rules, testing caching impacts, and analyzing request flow through CloudFront. - Documented findings for future optimization work. 07/11/2025 07/11/2025 Internet, mentor-provided materials Results: Strengthened understanding of AWS performance optimization techniques across compute, storage, and networking. Improved familiarity with CDN behavior, caching, edge optimization, and request flow. Gained practical security knowledge: threat mitigation, OWASP Top 10 patterns, and WAF-based protection. Reinforced learning through hands-on labs. Progressed steadily toward more advanced optimization and security architecture work.",
     "tags": [],
     "title": "Week 9: Deepening Cloud Optimization Skills and Exploring Web Application Performance \u0026 Security",
-    "uri": "/FCJ-report-HUGO-SE192671/en/worklog/week_9/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/1-worklog/week_9/index.html"
   },
   {
     "breadcrumb": "Home \u003e 1. Worklog",
@@ -149,7 +149,7 @@ var relearn_searchindex = [
     "description": "Objectives: Understand the core components of AWS’s AI/ML ecosystem and its end-to-end workflow. Learn how SageMaker supports data preparation, training, tuning, deployment, and MLOps integration. Study foundational models (FMs), prompt engineering techniques, and Retrieval-Augmented Generation (RAG). Strengthen architectural thinking for scalable, secure, and efficient ML solutions on AWS. Tasks Completed: Day Tasks Start Date Completion Date Reference Sources Mon - Reviewed the overall AI/ML landscape and how AWS services support each stage of the ML lifecycle. - Studied best practices for preparing and labeling datasets for ML workflows. 10/11/2025 10/11/2025 AWS Docs, Internet, internal materials Tue - Learned key concepts of Amazon SageMaker: training jobs, tuning, deployment endpoints, and built-in MLOps features. - Explored Studio interface and environment setup for ML experimentation. 11/11/2025 11/11/2025 AWS ML Docs, SageMaker Guides Wed - Studied Generative AI with Amazon Bedrock: Bedrock architecture, Foundation Models (Claude, Llama, Titan), model selection criteria, and cost considerations. - Practiced prompt engineering patterns such as chain-of-thought and few-shot prompting. 12/11/2025 12/11/2025 AWS GenAI Docs, Internet Thu - Explored Retrieval-Augmented Generation (RAG): vector stores, knowledge bases, embedding generation, and orchestration workflows. - Learned how Bedrock Agents execute multi-step workflows and integrate external tools. 13/11/2025 13/11/2025 AWS Docs, mentor guidance Fri - Studied safety systems in generative AI: guardrails, content filtering, and responsible AI patterns. - Documented architectural insights into the Report Site, including ML workflow breakdown and optimized inference design. 14/11/2025 14/11/2025 AWS Docs, Internet, internal resources Results: Gained a solid foundation in AWS’s AI/ML ecosystem, from data preparation to deployment. Understood modern generative AI workflows using Amazon Bedrock and relevant Foundation Models. Learned prompt engineering techniques and RAG architectures for building intelligent applications. Strengthened architectural awareness for scalable, cost-effective ML deployments.",
     "tags": [],
     "title": "Week 10: Exploring AWS AI/ML Foundations and Modern Generative AI Architectures",
-    "uri": "/FCJ-report-HUGO-SE192671/en/worklog/week_10/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/1-worklog/week_10/index.html"
   },
   {
     "breadcrumb": "Home \u003e 1. Worklog",
@@ -157,7 +157,7 @@ var relearn_searchindex = [
     "description": "Objectives: Strengthen understanding of AWS Edge Services and global content delivery architecture. Learn optimization techniques for low-latency delivery using CloudFront. Gain practical knowledge of web application security: threat mitigation, bot protection, and OWASP best practices. Integrate performance and security insights into the Report Site and backend project. Tasks Completed: Day Tasks Start Date Completion Date Reference Sources Mon - Studied AWS Content Delivery Networks (CDNs) and global edge infrastructure. - Learned how CloudFront reduces latency using caching, edge locations, and request routing. 17/11/2025 17/11/2025 AWS Docs, Internet Tue - Researched advanced CloudFront optimization techniques: cache policies, TTL tuning, origin failover, and edge security controls. - Documented best practices into the Report Site’s “Cloud Optimization” section. 18/11/2025 18/11/2025 AWS Docs, internal references Wed - Studied AWS WAF fundamentals: request filtering, blocking malicious traffic, mitigating threats like SQLi/XSS. - Analyzed the OWASP Top 10 and how WAF rulesets mitigate common vulnerabilities. 19/11/2025 19/11/2025 AWS Docs, Security Blogs Thu - Learned about bot mitigation, anomaly detection patterns, and rate-limiting strategies to protect web workloads at scale. - Explored security integration between CloudFront, WAF, and Shield for layered protection. 20/11/2025 20/11/2025 AWS Docs, Internet Fri - Practiced applying performance and security concepts to the backend project. - Updated internal documentation: CloudFront optimization, WAF rule design, and secure deployment patterns for web applications. 21/11/2025 21/11/2025 Internal docs, Internet Results: Built a strong understanding of AWS Edge Services and global content delivery workflows. Learned how to optimize CloudFront for high performance, low latency, and cost efficiency. Strengthened security fundamentals through WAF, threat mitigation, and OWASP best practices. Gained practical knowledge of protecting applications against bots, automated attacks, and common vulnerabilities.",
     "tags": [],
     "title": "Week 11: Edge Computing, Content Delivery Optimization, and Web Application Security on AWS",
-    "uri": "/FCJ-report-HUGO-SE192671/en/worklog/week_11/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/1-worklog/week_11/index.html"
   },
   {
     "breadcrumb": "Home \u003e 1. Worklog",
@@ -165,7 +165,7 @@ var relearn_searchindex = [
     "description": "Objectives: Deepen understanding of AWS Security Pillars and modern cloud security strategies. Learn identity governance, detection mechanisms, infrastructure protection, and data security on AWS. Strengthen practical skills in securing workloads using IAM, KMS, logging systems, and network segmentation. Consolidate all security-related knowledge into final documentation for the Report Site. Tasks Completed: Day Tasks Start Date Completion Date Reference Sources Mon - Studied AWS Security Pillar concepts: Least Privilege, Zero Trust, and Defense in Depth. - Reviewed the Shared Responsibility Model and how to apply it across cloud workloads. 24/11/2025 24/11/2025 AWS Docs, Internet Tue - Learned Identity \u0026 Access Management best practices: IAM roles, policies, credential rotation, MFA, and access validation. - Explored IAM Identity Center for centralized access management and permission boundaries for multi-account structures. 25/11/2025 25/11/2025 AWS Docs, security guides Wed - Researched Detection \u0026 Monitoring services: CloudTrail, GuardDuty, Security Hub. - Studied logging patterns across layers (VPC Flow Logs, ALB logs, S3 access logs) and how to route alerts through EventBridge. 26/11/2025 26/11/2025 AWS Security Docs Thu - Focused on Infrastructure Protection: VPC segmentation, private/public subnet design, security groups vs NACLs, WAF integration, and Shield protections. - Reviewed workload protection basics for EC2 and containerized environments. 27/11/2025 27/11/2025 Internet, AWS Docs Fri - Studied Data Protection: encryption at-rest/in-transit, KMS key policies, key rotation, Secrets Manager, and Parameter Store usage patterns. - Reviewed common Incident Response playbooks: compromised credentials, S3 public exposure, malware detection, isolation steps, and automated response via Lambda. 28/11/2025 28/11/2025 AWS IR Docs, security blogs Results: Gained a full understanding of AWS Security Pillar concepts and how to enforce Least Privilege and Zero Trust. Strengthened identity and access governance skills across multi-account structures. Achieved solid command of detection systems (CloudTrail, GuardDuty, Security Hub) and logging architectures. Understood end-to-end infrastructure protection patterns including segmentation, WAF, Shield, SG/NACL design. Mastered data security fundamentals with KMS, encryption, and secrets management.",
     "tags": [],
     "title": "Week 12: Strengthening AWS Security Architecture and Mastering Cloud Protection Best Practices",
-    "uri": "/FCJ-report-HUGO-SE192671/en/worklog/week_12/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/1-worklog/week_12/index.html"
   },
   {
     "breadcrumb": "Home",
@@ -173,7 +173,7 @@ var relearn_searchindex = [
     "description": "Week 1: Introduction to AWS and Basic AWS Services Week 2: Exploring AWS Compute and Storage Services. Getting familiar with HUGO and related development tools Week 3: Setting up the report site with Hugo, exploring AWS security and database services Week 4: Security and Identity Management on AWS. Integrating CloudWatch and Cost Explorer into the project Week 5: Strengthening AWS Database Knowledge and Enhancing the Internship Report Site Week 6: Enhancing Multilingual Report Site and Exploring Basic DevOps Practices on AWS Week 7: Backend System Optimization and Expanding AWS Cost Monitoring Features Week 8: Strengthening Foundational AWS Knowledge and Expanding Cloud Optimization Skills Week 9: Deepening Cloud Optimization Skills and Exploring Web Application Performance \u0026 Security Week 10: Exploring AWS AI/ML Foundations and Modern Generative AI Architectures Week 11: Edge Computing, Content Delivery Optimization, and Web Application Security on AWS Week 12: Strengthening AWS Security Architecture and Mastering Cloud Protection Best Practices",
     "tags": [],
     "title": "1. Worklog",
-    "uri": "/FCJ-report-HUGO-SE192671/en/worklog/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/1-worklog/index.html"
   },
   {
     "breadcrumb": "Home",
@@ -181,7 +181,7 @@ var relearn_searchindex = [
     "description": "Work In Progress",
     "tags": [],
     "title": "2. Proposal",
-    "uri": "/FCJ-report-HUGO-SE192671/en/proposal/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/2-proposal/index.html"
   },
   {
     "breadcrumb": "Home",
@@ -189,7 +189,7 @@ var relearn_searchindex = [
     "description": "This section will list and introduce the blogs that I have translated.\nBlog 1 - Implementing DevSecOps Ecosystem for Amazon Connect at NatWest. NatWest implemented Amazon Connect with a full DevSecOps ecosystem to power a large-scale, multi-team contact center. Instead of multiple instances, they ran a single shared Connect instance but separated environments across AWS accounts for dev, test, pre-prod, prod, and DR — improving control, security, and stability. Infrastructure was managed through modular Terraform, letting teams deploy independently while enforcing consistent naming, tagging, and security standards. For faster delivery, they built export-import CI/CD pipelines for Amazon Lex bots and QuickSight dashboards instead of writing everything as IaC. Security was multi-layered, combining preventive guardrails (modules, SCPs, static scanning) and detective controls (Config, Inspector, CloudWatch, Security Hub). They also developed utilities to export contact flows as Terraform, manage Contact Lens rules, and generate performance insights. The result: faster development, more reliable releases, stronger security, and a standardized way to operate Amazon Connect across the organization.",
     "tags": [],
     "title": "3. Translated Blogs",
-    "uri": "/FCJ-report-HUGO-SE192671/en/blogs/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/3-blogs/index.html"
   },
   {
     "breadcrumb": "Home",
@@ -197,7 +197,7 @@ var relearn_searchindex = [
     "description": "During my internship, I participated in six AWS events — each one a memorable experience filled with new knowledge, hands-on learning, valuable insights, along with fun moments and community interaction.\nEvent 1 Event Name: AWS Cloud Day Vietnam 2025 \u0026 GenAI Track\nTime: 09:00 AM, September 18, 2025\nLocation: Level 26, Bitexco Financial Tower, 02 Hai Trieu Street, Saigon, Ho Chi Minh City\nRole: Attendee\nEvent 2 Event Name: AWS Cloud Mastery Series #1 : AI/ML/GenAI on AWS\nTime: 8:30 AM – 12:00 PM, November 15, 2025\nLocation: Level 26, Bitexco Financial Tower, 02 Hai Trieu Street, Saigon, Ho Chi Minh City\nRole: Attendee",
     "tags": [],
     "title": "4. Events Attended",
-    "uri": "/FCJ-report-HUGO-SE192671/en/events/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/4-events/index.html"
   },
   {
     "breadcrumb": "Home",
@@ -205,7 +205,7 @@ var relearn_searchindex = [
     "description": "This is our group Workshop. Please review the below contents. Content Overview Prerequisites Create VPC \u0026 Subnets Create Internet Gateway Create NAT Gateway Configure Route Tables Launch EC2 Instances Connectivity Tests Cleanup",
     "tags": [],
     "title": "5. Workshop",
-    "uri": "/FCJ-report-HUGO-SE192671/en/workshop/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/5-workshop/index.html"
   },
   {
     "breadcrumb": "Home",
@@ -213,7 +213,7 @@ var relearn_searchindex = [
     "description": "Work In Progress",
     "tags": [],
     "title": "6. Self-Evaluation",
-    "uri": "/FCJ-report-HUGO-SE192671/en/evaluation/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/6-evaluation/index.html"
   },
   {
     "breadcrumb": "Home",
@@ -221,7 +221,7 @@ var relearn_searchindex = [
     "description": "Work In Progress",
     "tags": [],
     "title": "7. Sharing and Feedback",
-    "uri": "/FCJ-report-HUGO-SE192671/en/feedback/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/7-feedback/index.html"
   },
   {
     "breadcrumb": "Home",
@@ -237,7 +237,7 @@ var relearn_searchindex = [
     "description": "EVENT REPORT: AWS Cloud Day Vietnam 2025 \u0026 GenAI Track Date: Thursday, September 18, 2025\nTime: 9:00 AM – 5:00 PM\nLocation: AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City\nEvent Objectives Introduce the latest industry trends from AWS, with a strong focus on Generative AI. Present enterprise case studies from major organizations in Vietnam and the region. Discuss leadership strategy and organizational management in the AI era. Explore best practices for security, AI adoption, and real-world AI agent applications. Speakers Morning Sessions Hon. Government Speaker — Opening remarks. Eric Yeo — Country General Manager, Vietnam, Cambodia, Laos \u0026 Myanmar, AWS. Dr. Jens Lottner — CEO, Techcombank. Ms. Trang Phung — CEO \u0026 Co-Founder, U2U Network. Jaime Valles — Vice President, General Manager APJ, AWS. Jeff Johnson — Managing Director, ASEAN, AWS (Moderator). Panelists Vu Van — Co-founder \u0026 CEO, ELSA Corp. Nguyen Hoa Binh — Chairman, Nexttech Group. Dieter Botha — CEO, TymeX. Afternoon Sessions Kien Nguyen — Solutions Architect, AWS. Michael Armentano — Principal WW GTM Specialist, AWS. Jun Kai Loke — AI/ML Specialist SA, AWS. Tamelly Lim — Storage Specialist SA, AWS. Binh Tran — Senior Solutions Architect, AWS. Taiki Dang — Solutions Architect, AWS. Session Highlights Part 1 — Main Sessions (AWS Cloud Day Vietnam) Opening \u0026 Keynote (Eric Yeo, AWS):\nVision of AWS in Vietnam and the broader Southeast Asia region.",
     "tags": [],
     "title": "Event 1",
-    "uri": "/FCJ-report-HUGO-SE192671/en/events/event_1/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/4-events/event_1/index.html"
   },
   {
     "breadcrumb": "Home \u003e 4. Events Attended",
@@ -245,7 +245,7 @@ var relearn_searchindex = [
     "description": "EVENT REPORT: AWS Cloud Mastery Series #1 — AI/ML/GenAI on AWS Date: Saturday, November 15, 2025\nTime: 8:00 AM – 11:30 AM\nLocation: AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City\nObjective: Provide foundational to advanced understanding of AI/ML services and Generative AI (GenAI) on AWS.\n1. Opening \u0026 Context (8:00 – 8:30 AM) Registration and networking to kick off the event. Session introduced learning objectives and workshop structure. Overview of AI/ML landscape in Vietnam — trends, opportunities, and challenges. 2. AWS AI/ML Platform Overview (8:30 – 10:00 AM) The morning session focused on Amazon SageMaker, AWS’s fully managed end-to-end machine learning platform.",
     "tags": [],
     "title": "Event 2",
-    "uri": "/FCJ-report-HUGO-SE192671/en/events/event_2/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/4-events/event_2/index.html"
   },
   {
     "breadcrumb": "Home \u003e 4. Events Attended",
@@ -253,7 +253,7 @@ var relearn_searchindex = [
     "description": "EVENT REPORT: Agentic Workflows \u0026 AWS Bedrock Agent Deep Dive Event Objective:\nProvide practical and advanced understanding of building automated workflows (Agentic Workflows) with AWS Bedrock Agent, along with optimization solutions introduced by CloudThinker.\nAGENDA SUMMARY Time Topic Speaker Key Highlights 9:00 – 9:10 Opening Remarks Nguyen Gia Hung – Head of Solutions Architect Event objectives, context setting. 9:10 – 9:40 AWS Bedrock Agent Core Kien Nguyen – Solutions Architect Architecture breakdown, core features, execution model. 9:40 – 10:00 Use Case — Building Agentic Workflow on AWS Viet Pham – Founder \u0026 CEO Real-world implementation example of automated agent workflows. 10:00 – 10:10 Introduction to CloudThinker Thang Ton – Co-founder \u0026 COO Overview of the company and GenAI optimization approach. 10:10 – 10:40 CloudThinker Agentic Orchestration \u0026 Context Optimization (L300) Henry Bui – Head of Engineering Deep dive into orchestration and context efficiency strategies. 10:40 – 11:00 Break \u0026 Networking Relax and connect with speakers and participants. 11:00 – 12:00 CloudThinker Hack — Hands-on Workshop Kha Van Practical agent-building session using Bedrock. 12:00 Lunch \u0026 Networking KEY TECHNICAL INSIGHTS 1. Core Architecture of AWS Bedrock Agent The presentation by Kien Nguyen clarified how Bedrock Agent automates multi-step and complex tasks by connecting Foundation Models (FMs) with internal systems and APIs. Execution Mechanism:\nAgents use FM reasoning to understand user intent, break tasks into steps, and execute via Tools / Action Groups. Primary Benefits: Reduces custom code for multi-step workflows. Supports safety guardrails for secure internal system access. 2. Real Use Case — Agentic Workflow Construction Viet Pham’s demo demonstrated how sequential workflows can be transformed into fully automated agent-driven pipelines. Key takeaway: clearly defined capabilities and APIs are required for the agent to act accurately and reliably. 3. Workflow Optimization with CloudThinker CloudThinker focused on solving deep technical challenges (L300) surrounding Agent operation:",
     "tags": [],
     "title": "Event 3",
-    "uri": "/FCJ-report-HUGO-SE192671/en/events/event_3/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/4-events/event_3/index.html"
   },
   {
     "breadcrumb": "Home \u003e 4. Events Attended",
@@ -261,7 +261,7 @@ var relearn_searchindex = [
     "description": "EVENT REPORT: AWS Cloud Mastery Series #2 — DevOps on AWS Date: Monday, November 17, 2025\nTime: 8:30 AM – 5:00 PM\nLocation: AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City\nObjective: Provide comprehensive understanding of DevOps culture, performance principles, and AWS DevOps tooling to build CI/CD pipelines, Infrastructure as Code (IaC), and full-stack observability.\nMORNING SESSION (8:30 AM – 12:00 PM): CI/CD \u0026 INFRASTRUCTURE AS CODE 1. Welcome \u0026 DevOps Mindset (8:30 – 9:00 AM) Recap of previous AI/ML session, shifting focus toward productionizing ML and application workloads. Emphasis on DevOps culture and collaboration between Development and Operations. Introduction to key performance metrics including DORA metrics and MTTR (Mean Time To Recovery). 2. AWS DevOps Services — CI/CD Pipeline Building (9:00 – 10:30 AM) Deep dive into AWS Code-family services for Continuous Integration (CI) and Continuous Deployment (CD) automation:",
     "tags": [],
     "title": "Event 4",
-    "uri": "/FCJ-report-HUGO-SE192671/en/events/event_4/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/4-events/event_4/index.html"
   },
   {
     "breadcrumb": "Home \u003e 4. Events Attended",
@@ -269,7 +269,7 @@ var relearn_searchindex = [
     "description": "EVENT REPORT: AWS Edge Services Workshop Date: Wednesday, November 19, 2025\nTime: 8:30 AM – 5:00 PM\nLocation: AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City\nObjective: Strengthen knowledge of global content delivery via CloudFront, enhance web application security with AWS WAF, and apply real implementation through interactive hands-on sessions.\nAGENDA SUMMARY Time Topic Speaker(s) Key Focus 08:00 – 08:30 Registration \u0026 Networking — Check-in and networking with AWS architects. 08:30 – 09:30 From Edge to Origin: CloudFront as Your Foundation Nguyễn Gia Hưng — Head of Solutions Architect CDN architecture, Edge locations, global content distribution optimization. 09:30 – 10:45 Attack Surface Defense: AWS WAF \u0026 Application Protection Julian Ju — Senior Edge Services SA WAF rule sets, OWASP Top 10 mitigation, bot prevention. 10:45 – 12:00 Lunch \u0026 Networking — Expanded discussions \u0026 networking. 13:00 – 14:30 Hands-On: Optimize Internet Web Application Hưng, Julian, Kevin Lim CloudFront configuration, real-world performance tuning. 14:45 – 16:15 Hands-On: Secure Internet Web Application Hưng, Julian, Kevin Lim WAF rules, bot simulation \u0026 blocking, OWASP vulnerability defense. 16:15 – 17:00 Closing \u0026 Open Discussion — Lessons learned, Q\u0026A, advanced technical discussion. KEY KNOWLEDGE GAINED 1. CloudFront — Content Delivery \u0026 Edge Optimization Understanding CDN fundamentals \u0026 differences between Edge Location, Regional Edge Cache, and Origin. Advanced routing + caching strategy to reduce latency and boost global distribution speed. Implementing edge-level security layers (Origin Shield, cache policies, geo restrictions). → CloudFront is not only a CDN — it is also a performance + security perimeter for backend systems.",
     "tags": [],
     "title": "Event 5",
-    "uri": "/FCJ-report-HUGO-SE192671/en/events/event_5/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/4-events/event_5/index.html"
   },
   {
     "breadcrumb": "Home \u003e 4. Events Attended",
@@ -277,7 +277,7 @@ var relearn_searchindex = [
     "description": "EVENT REPORT: AWS Cloud Mastery Series #3 — Security on AWS Date: Saturday, November 29, 2025\nTime: 8:30 AM – 12:00 PM\nLocation: AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City\nObjective: Deliver deep knowledge across all five pillars of the AWS Well-Architected Security Pillar — including services, core principles, and defensive strategies.\nAGENDA SUMMARY Time Topic Key Focus 08:30 – 08:50 Opening \u0026 Security Foundations Shared Responsibility Model, threat landscape in Vietnam. 08:50 – 09:30 Pillar 1 — Identity \u0026 Access Management (IAM) Modern IAM design, Roles, Policies, IAM Identity Center, SCP, MFA, Access Analyzer demo. 09:30 – 09:55 Pillar 2 — Detection CloudTrail, GuardDuty, Security Hub, Detection-as-Code model. 10:10 – 10:40 Pillar 3 — Infrastructure Protection VPC segmentation, SG vs NACL, WAF, Network Firewall, workload security. 10:40 – 11:10 Pillar 4 — Data Protection Encryption at-rest/in-transit, KMS, Secrets Manager, data classification. 11:10 – 11:40 Pillar 5 — Incident Response IR lifecycle, playbooks, incident automation using Lambda/Step Functions. 11:40 – 12:00 Closing \u0026 Q\u0026A Pitfalls, study roadmap for AWS Security Specialty. SECURITY PILLAR — DEEP TECHNICAL LEARNINGS 1. Security Foundations \u0026 Core Principles Emphasis on Least Privilege, Zero Trust, and Defense-in-Depth. Shared Responsibility Model clearly defines roles: AWS secures the Cloud (infrastructure, hardware) Customers secure in the Cloud (data, IAM, configuration) 2. Pillar 1 — Identity \u0026 Access Management (IAM) Avoid long-term credentials — rely on Roles + Temporary Access. Multi-account governance using SCPs and Permission Boundaries. Mini-demo using Access Analyzer for policy validation \u0026 risk detection. 3. Pillar 2 — Detection CloudTrail for full API logging (organization-wide). GuardDuty ML-driven threat detection. Security Hub for consolidated security findings. Detection-as-Code for automated rule deployment \u0026 alerting. 4. Pillar 3 — Infrastructure Protection VPC segmentation for tier separation (Web / App / DB). Difference between Security Groups (stateful) vs Network ACLs (stateless). Edge protection using WAF + AWS Shield for DDoS and L7 attack defense. 5. Pillar 4 — Data Protection Encryption required end-to-end: at-rest \u0026 in-transit. AWS KMS for key management, rotation, and policy control. Secrets Manager for secure storage + automatic rotation of sensitive credentials. 6. Pillar 5 — Incident Response IR lifecycle: Prepare → Detect → Respond → Recover. Automated remediation with Lambda / Step Functions playbooks. Key response actions: snapshot, isolate, evidence capture. EVALUATION \u0026 NEXT STEPS Evaluation This event outlined a complete and structured blueprint for AWS security — not only service-by-service, but as a full architectural strategy following the Well-Architected Framework. Extremely valuable for developers and Ops teams deploying production workloads under Zero-Trust standards.",
     "tags": [],
     "title": "Event 6",
-    "uri": "/FCJ-report-HUGO-SE192671/en/events/event_6/index.html"
+    "uri": "/FCJ-report-HUGO-SE192671/en/4-events/event_6/index.html"
   },
   {
     "breadcrumb": "",

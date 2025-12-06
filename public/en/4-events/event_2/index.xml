@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event 2 :: AWS Intership Report</title>
+    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/4-events/event_2/index.html</link>
+    <description>EVENT REPORT: AWS Cloud Mastery Series #1 — AI/ML/GenAI on AWS Date: Saturday, November 15, 2025&#xA;Time: 8:00 AM – 11:30 AM&#xA;Location: AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City&#xA;Objective: Provide foundational to advanced understanding of AI/ML services and Generative AI (GenAI) on AWS.&#xA;1. Opening &amp; Context (8:00 – 8:30 AM) Registration and networking to kick off the event. Session introduced learning objectives and workshop structure. Overview of AI/ML landscape in Vietnam — trends, opportunities, and challenges. 2. AWS AI/ML Platform Overview (8:30 – 10:00 AM) The morning session focused on Amazon SageMaker, AWS’s fully managed end-to-end machine learning platform.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/en/4-events/event_2/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

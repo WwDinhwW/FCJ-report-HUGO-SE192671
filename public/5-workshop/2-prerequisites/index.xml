@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2. Yêu cầu trước khi thực hiện :: AWS Báo Cáo Thực Tập</title>
+    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/2-prerequisites/index.html</link>
+    <description>Trước khi bắt đầu workshop, hãy bảo đảm rằng bạn có đủ các điều kiện sau:&#xA;Tài khoản &amp; Quyền truy cập Một AWS Account IAM User với quyền truy cập vào: Amazon VPC Amazon EC2 Elastic IP NAT Gateway Internet Gateway Khuyến nghị sử dụng policy: AdministratorAccess (chỉ dành cho mục đích thực hành) Nếu bạn đang sử dụng IAM User, hãy đảm bảo rằng bạn có Access Key hoặc thông tin đăng nhập AWS Console.</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/2-prerequisites/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5. Tạo NAT Gateway :: AWS Báo Cáo Thực Tập</title>
+    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/5-nat/index.html</link>
+    <description>NAT Gateway cho phép các instance trong Private Subnet truy cập Internet mà không bị lộ trực tiếp ra bên ngoài. Nhờ đó, EC2 trong private subnet có thể yum install, tải bản cập nhật, v.v.&#xA;5.1 Cấp phát Elastic IP Trong bảng điều hướng của VPC, chọn Elastic IPs Nhấn Allocate Elastic IP address Giữ nguyên cấu hình mặc định Nhấn Allocate</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/5-nat/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

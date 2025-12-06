@@ -1,5 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Trang Chủ :: AWS Báo Cáo Thực Tập</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/index.html</link><description>Hình đại diện Thông tin sinh viên Họ tên: Lê Vương Định Số điện thoại: 0905215314 Email: ledinh539@gmail.com Trường đại học: Đại học FPT MSSV: SE192671 Chuyên ngành: Hệ Thống Thông Tin Công ty thực tập: AWS Việt Nam Vị trí và thời gian thực tập: Cloud Engineer Intern (09/2025 – 12/2025) Mục lục báo cáo Nhật ký làm việc theo tuần Đề xuất dự án Các bài blog đã dịch Các sự kiện đã tham gia Nội dung workshop Nhận xét bản thân Chia sẻ và góp ý</description><generator>Hugo</generator><language>vi</language><atom:link href="https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/index.xml" rel="self" type="application/rss+xml"/><item><title>1. Nhật ký làm việc</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/worklog/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/worklog/index.html</guid><description>Week 1: Làm quen với AWS. Tìm hiểu các khái niệm Networking liên quan và các dịch vụ AWS cơ bản Week 2: Tìm hiểu về dịch vụ lưu trữ và điện toán trên AWS. Làm quen với HUGO và các công cụ phát triển liên quan Week 3: Thiết lập trang báo cáo với Hugo, tìm hiểu bảo mật và cơ sở dữ liệu trên AWS Week 4: Bảo mật và quản lý danh tính trên AWS. Tích hợp CloudWatch và Cost Explorer vào dự án thực tế Week 5: Củng cố kiến thức cơ sở dữ liệu trên AWS và hoàn thiện trang báo cáo thực tập Week 6: Hoàn thiện trang báo cáo đa ngôn ngữ và tìm hiểu quy trình DevOps cơ bản trên AWS Week 7: Tối ưu hóa hệ thống backend và mở rộng các tính năng giám sát chi phí AWS Week 8: Củng cố kiến thức nền tảng AWS và mở rộng kỹ năng Tối Ưu Hóa Đám Mây Week 9: Mở rộng kỹ năng Tối Ưu Hóa Đám Mây và Tìm hiểu Hiệu Năng &amp; Bảo Mật Ứng Dụng Web Week 10: Khám phá nền tảng AI/ML của AWS và các kiến trúc Generative AI hiện đại Week 11: Tối ưu phân phối nội dung tại Edge và tăng cường bảo mật ứng dụng Web trên AWS Week 12: Củng cố kiến trúc bảo mật AWS và hoàn thiện kỹ năng bảo vệ hệ thống đám mây</description></item><item><title>2. Dự án (Proposal)</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/proposal/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/proposal/index.html</guid><description>Work In Progress</description></item><item><title>3. Dịch Blogs</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/blogs/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/blogs/index.html</guid><description>Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà em đã dịch.
-Blog 1 - Triển khai DevSecOps Ecosystem cho Amazon Connect tại NatWest Bài viết kể chuyện NatWest triển khai Amazon Connect kèm một hệ DevSecOps full-stack để vận hành contact centre quy mô lớn, đa nhóm, đa môi trường. Họ dùng mô hình một Connect instance duy nhất nhưng tách rõ môi trường bằng nhiều AWS account, IaC với Terraform theo kiểu modular để các team tự chủ nhưng vẫn tuân chuẩn naming/tagging và security. Triển khai Lex bots và QuickSight thì chọn hướng export-import pipelines thay vì code IaC thuần, giúp ship nhanh tính năng mới. Security được xây nhiều lớp — preventive + detective — kết hợp SCP, code scanning, Config, Inspector, CloudWatch, Security Hub. Cuối cùng, họ build thêm tools để export Contact Flows thành Terraform, quản lý Contact Lens, và tạo reporting tự động. Nhờ vậy tốc độ phát triển nhanh hơn, bảo mật mạnh hơn, phát hành chuẩn hóa hơn, vận hành ổn định hơn.</description></item><item><title>4. Sự kiện tham gia</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/events/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/events/index.html</guid><description>Trong quá trình thực tập, em đã tham gia 6 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, thú vị và bổ ích, cùng với đó là những món quà và những khoảnh khắc rất tuyệt vời.
-Event 1 Tên sự kiện: AWS Cloud Day Vietnam 2025 &amp; GenAI Track.
-Thời gian: 09:00 AM ngày 18/09/2025.
-Địa điểm: Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh.</description></item><item><title>5. Bài tập (Workshop)</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/workshop/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/workshop/index.html</guid><description>Đây là bài Workshop của nhóm chúng em. Xin mời thầy/cô/anh/chị xem các nội dung phía dưới. Nội dung Tổng quan Yêu cầu trước khi thực hiện Tạo VPC &amp; Subnet Tạo Internet Gateway Tạo NAT Gateway Cấu hình Route Table Khởi tạo EC2 Instances Kiểm tra kết nối Dọn dẹp tài nguyên</description></item><item><title>6. Nhận xét bản thân</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/evaluation/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/evaluation/index.html</guid><description>Work In Progress</description></item><item><title>7. Chia sẻ và góp ý</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/feedback/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/feedback/index.html</guid><description>Work In Progress</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trang Chủ :: AWS Báo Cáo Thực Tập</title>
+    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/index.html</link>
+    <description>Hình đại diện Thông tin sinh viên Họ tên: Lê Vương Định Số điện thoại: 0905215314 Email: ledinh539@gmail.com Trường đại học: Đại học FPT MSSV: SE192671 Chuyên ngành: Hệ Thống Thông Tin Công ty thực tập: AWS Việt Nam Vị trí và thời gian thực tập: Cloud Engineer Intern (09/2025 – 12/2025) Mục lục báo cáo Nhật ký làm việc theo tuần Đề xuất dự án Các bài blog đã dịch Các sự kiện đã tham gia Nội dung workshop Nhận xét bản thân Chia sẻ và góp ý</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Nhật ký làm việc</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/1-worklog/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/1-worklog/index.html</guid>
+      <description>Week 1: Làm quen với AWS. Tìm hiểu các khái niệm Networking liên quan và các dịch vụ AWS cơ bản Week 2: Tìm hiểu về dịch vụ lưu trữ và điện toán trên AWS. Làm quen với HUGO và các công cụ phát triển liên quan Week 3: Thiết lập trang báo cáo với Hugo, tìm hiểu bảo mật và cơ sở dữ liệu trên AWS Week 4: Bảo mật và quản lý danh tính trên AWS. Tích hợp CloudWatch và Cost Explorer vào dự án thực tế Week 5: Củng cố kiến thức cơ sở dữ liệu trên AWS và hoàn thiện trang báo cáo thực tập Week 6: Hoàn thiện trang báo cáo đa ngôn ngữ và tìm hiểu quy trình DevOps cơ bản trên AWS Week 7: Tối ưu hóa hệ thống backend và mở rộng các tính năng giám sát chi phí AWS Week 8: Củng cố kiến thức nền tảng AWS và mở rộng kỹ năng Tối Ưu Hóa Đám Mây Week 9: Mở rộng kỹ năng Tối Ưu Hóa Đám Mây và Tìm hiểu Hiệu Năng &amp; Bảo Mật Ứng Dụng Web Week 10: Khám phá nền tảng AI/ML của AWS và các kiến trúc Generative AI hiện đại Week 11: Tối ưu phân phối nội dung tại Edge và tăng cường bảo mật ứng dụng Web trên AWS Week 12: Củng cố kiến trúc bảo mật AWS và hoàn thiện kỹ năng bảo vệ hệ thống đám mây</description>
+    </item>
+    <item>
+      <title>2. Dự án (Proposal)</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/2-proposal/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/2-proposal/index.html</guid>
+      <description>Work In Progress</description>
+    </item>
+    <item>
+      <title>3. Dịch Blogs</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/3-blogs/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/3-blogs/index.html</guid>
+      <description>Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà em đã dịch.&#xA;Blog 1 - Triển khai DevSecOps Ecosystem cho Amazon Connect tại NatWest Bài viết kể chuyện NatWest triển khai Amazon Connect kèm một hệ DevSecOps full-stack để vận hành contact centre quy mô lớn, đa nhóm, đa môi trường. Họ dùng mô hình một Connect instance duy nhất nhưng tách rõ môi trường bằng nhiều AWS account, IaC với Terraform theo kiểu modular để các team tự chủ nhưng vẫn tuân chuẩn naming/tagging và security. Triển khai Lex bots và QuickSight thì chọn hướng export-import pipelines thay vì code IaC thuần, giúp ship nhanh tính năng mới. Security được xây nhiều lớp — preventive + detective — kết hợp SCP, code scanning, Config, Inspector, CloudWatch, Security Hub. Cuối cùng, họ build thêm tools để export Contact Flows thành Terraform, quản lý Contact Lens, và tạo reporting tự động. Nhờ vậy tốc độ phát triển nhanh hơn, bảo mật mạnh hơn, phát hành chuẩn hóa hơn, vận hành ổn định hơn.</description>
+    </item>
+    <item>
+      <title>4. Sự kiện tham gia</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/4-events/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/4-events/index.html</guid>
+      <description>Trong quá trình thực tập, em đã tham gia 6 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, thú vị và bổ ích, cùng với đó là những món quà và những khoảnh khắc rất tuyệt vời.&#xA;Event 1 Tên sự kiện: AWS Cloud Day Vietnam 2025 &amp; GenAI Track.&#xA;Thời gian: 09:00 AM ngày 18/09/2025.&#xA;Địa điểm: Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh.</description>
+    </item>
+    <item>
+      <title>5. Bài tập (Workshop)</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/index.html</guid>
+      <description>Đây là bài Workshop của nhóm chúng em. Xin mời thầy/cô/anh/chị xem các nội dung phía dưới. Nội dung Tổng quan Yêu cầu trước khi thực hiện Tạo VPC &amp; Subnet Tạo Internet Gateway Tạo NAT Gateway Cấu hình Route Table Khởi tạo EC2 Instances Kiểm tra kết nối Dọn dẹp tài nguyên</description>
+    </item>
+    <item>
+      <title>6. Nhận xét bản thân</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/6-evaluation/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/6-evaluation/index.html</guid>
+      <description>Work In Progress</description>
+    </item>
+    <item>
+      <title>7. Chia sẻ và góp ý</title>
+      <link>http://localhost:1313/FCJ-report-HUGO-SE192671/7-feedback/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/FCJ-report-HUGO-SE192671/7-feedback/index.html</guid>
+      <description>Work In Progress</description>
+    </item>
+  </channel>
+</rss>
