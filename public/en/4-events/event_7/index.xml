@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event 6 :: AWS Intership Report</title>
+    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/4-events/event_7/index.html</link>
+    <description>AWS Bedrock Agentic AI Workshop Event Report Executive Summary I attended a comprehensive half-day workshop on Agentic AI using Amazon Bedrock at the AWS Vietnam Office. The session covered the architecture and implementation of AI agents from foundational concepts through hands-on development. The workshop was particularly valuable for understanding how to build production-grade agentic systems that can autonomously orchestrate complex workflows, make decisions, and integrate with external tools. While my Cloud Health Dashboard currently uses traditional monitoring approaches, the concepts presented here open possibilities for AI-powered security analysis, automated remediation recommendations, and intelligent anomaly detection.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/en/4-events/event_7/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

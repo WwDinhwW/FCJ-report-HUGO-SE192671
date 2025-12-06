@@ -3,74 +3,111 @@ title: "Sự kiện 5"
 type: "page"
 ---
 
-# BÀI THU HOẠCH SỰ KIỆN: AWS Edge Services Workshop
-&emsp;**Ngày:** Thứ Tư, 19 tháng 11, 2025.
+# BÀI THU HOẠCH SỰ KIỆN: "AWS Cloud Mastery Series #3 : Security on AWS"
 
-&emsp;**Thời gian:** 8:30 AM – 5:00 PM
+**Ngày:** Thứ Bảy, 29 tháng 11, 2025.
 
-&emsp;**Địa điểm:** Văn phòng AWS Vietnam, Tòa nhà Bitexco Financial Tower, Quận 1, TP.HCM.
+**Thời gian:** 8:30 AM – 12:00 AM
 
-&emsp;**Mục tiêu sự kiện:** Nâng cao kiến thức về phân phối nội dung toàn cầu với CloudFront, bảo vệ ứng dụng web bằng AWS WAF, và thực hành triển khai tối ưu hóa & bảo mật ứng dụng qua các phiên Hands-on trực tiếp.
+**Địa điểm:** Văn phòng AWS Vietnam, Tòa nhà Bitexco Financial Tower, Quận 1, TP.HCM.
+
+**Mục tiêu sự kiện:** Cung cấp kiến thức chuyên sâu về 5 trụ cột của Security Pillar trong Well-Architected
+Framework, bao gồm các dịch vụ, nguyên tắc cốt lõi và chiến lược phòng thủ.
+
+---
 
 ## TÓM TẮT CHƯƠNG TRÌNH
 
-| Thời gian         | Chủ đề                                                   | Diễn giả                                       | Trọng tâm Chính                                                                       |
-|:------------------|:---------------------------------------------------------|:-----------------------------------------------|:--------------------------------------------------------------------------------------|
-| **08:00 – 08:30** | Registration & Networking                                | —                                              | Giao lưu, check-in, làm quen với các kiến trúc sư AWS.                                |
-| **08:30 – 09:30** | From Edge to Origin: CloudFront as Your Foundation       | Nguyễn Gia Hưng – Head of Solutions Architect  | CDN fundamentals, Edge Locations, tối ưu phân phối nội dung toàn cầu bằng CloudFront. |
-| **09:30 – 10:45** | Attack Surface Defense: AWS WAF & Application Protection | Julian Ju – Senior Edge Services Specialist SA | WAF, OWASP Top 10, bot mitigation, hạn chế traffic độc hại.                           |
-| **10:45 – 12:00** | Lunch & Networking                                       | —                                              | Giao lưu thêm với diễn giả và người tham dự.                                          |
-| **13:00 – 14:30** | Hands-On Workshop: Optimize Internet Web Application     | Hưng, Julian, Kevin Lim                        | Cấu hình CloudFront, tối ưu tốc độ ứng dụng Web thực tế.                              |
-| **14:45 – 16:15** | Hands-On Workshop: Secure Internet Web Application       | Hưng, Julian, Kevin Lim                        | Thực hành cấu hình WAF rules, block/detect bot, ngăn chặn lỗ hổng OWASP.              |
-| **16:15 – 17:00** | Closing & Open Discussion                                | —                                              | Chia sẻ kinh nghiệm, bài học, thảo luận kỹ thuật nâng cao.                            |
+| Thời gian         | Chủ đề                                           | Trọng tâm Chính                                                                                                                |
+|:------------------|:-------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
+| **8:30 – 8:50**   | **Khai mạc & Nền tảng Bảo mật**                  | Vai trò của Security Pillar, Mô hình Trách nhiệm Chung (Shared Responsibility Model), và các mối đe dọa hàng đầu tại Việt Nam. |
+| **8:50 – 9:30**   | **Pillar 1: Identity & Access Management (IAM)** | Kiến trúc IAM hiện đại (Users, Roles, Policies), IAM Identity Center, SCP, MFA và Demo Access Analyzer.                        |
+| **9:30 – 9:55**   | **Pillar 2: Detection**                          | Giám sát liên tục với CloudTrail, GuardDuty, Security Hub, và mô hình Detection-as-Code.                                       |
+| **10:10 – 10:40** | **Pillar 3: Infrastructure Protection**          | Bảo vệ mạng (VPC segmentation, SG vs NACL), WAF, Network Firewall, và bảo mật Workload.                                        |
+| **10:40 – 11:10** | **Pillar 4: Data Protection**                    | Mã hóa (at-rest & in-transit), Quản lý khóa (KMS), Quản lý Bí mật (Secrets Manager) và Phân loại dữ liệu.                      |
+| **11:10 – 11:40** | **Pillar 5: Incident Response**                  | Chu kỳ IR theo AWS, các Playbook (Key Compromise, S3 Public Exposure) và tự động hóa ứng phó (Auto-response).                  |
+| **11:40 – 12:00** | **Tổng kết & Q&A**                               | Common pitfalls và lộ trình học tập Security Specialty.                                                                        |
 
-## KIẾN THỨC ĐÃ HỌC ĐƯỢC
+---
 
-### 1. CloudFront – Content Delivery & Edge Optimization
+## KIẾN THỨC CHUYÊN SÂU THEO 5 TRỤ CỘT
 
-* Hiểu bản chất CDN và sự khác biệt giữa Edge Location, Regional Edge Cache và Origin.
-* Tối ưu hóa routing và caching để giảm latency, tăng tốc phân phối nội dung trên quy mô toàn cầu.
-* Triển khai security layer ngay tại Edge (Origin Shield, Cache policies, Geo restriction).
+### 1. Nền tảng Bảo mật & Nguyên tắc Cốt lõi
 
-→ Nhận thức rõ CloudFront không chỉ là CDN, mà còn là lớp bảo vệ và tối ưu nằm trước hệ thống backend.
+* **Nguyên tắc Cốt lõi:** Nhấn mạnh sự cần thiết của **Least Privilege** (quyền tối thiểu), **Zero Trust** (không tin
+  tưởng bất kỳ ai/thứ gì theo mặc định), và **Defense in Depth** (phòng thủ đa tầng).
 
-### 2. AWS WAF – Ứng dụng bảo mật theo lớp
+* **Mô hình Trách nhiệm Chung (Shared Responsibility Model):** Làm rõ ranh giới trách nhiệm: AWS chịu trách nhiệm bảo
+  mật **Cloud** (hạ tầng, vật lý), Khách hàng chịu trách nhiệm bảo mật **trong Cloud** (dữ liệu, IAM, cấu hình).
 
-* Nắm được cách dùng WAF để chặn bot, SQL Injection, XSS và các lỗ hổng trong **OWASP Top 10**.
-* Thực hành viết rule, điều kiện matching, rate limit, IP allow/deny list.
-* Triển khai defense layer giúp giảm tải cho backend, giảm thiểu traffic độc hại.
+### 2. Pillar 1: Identity & Access Management (IAM)
 
-→ Điểm ấn tượng: dễ dàng tùy chỉnh rule logic phù hợp từng ứng dụng khác nhau.
+* **Kiến trúc Hiện đại:** Tránh sử dụng **long-term credentials** (key Access Key lâu dài) cho người dùng. Ưu tiên sử
+  dụng **Roles** cho các dịch vụ và **IAM Identity Center** (SSO) cho người dùng.
 
-### 3. Hands-On Labs – Kiến thức thành kỹ năng
+* **Kiểm soát Đa tài khoản:** Áp dụng **Service Control Policies (SCPs)** ở cấp độ AWS Organizations và **Permission
+  Boundaries** để đặt giới hạn tối đa cho quyền được ủy thác.
 
-* Workshop 1: **Optimize Web Application**
-    - Cấu hình CloudFront, Lambda@Edge/Function URL, xác minh hiệu suất trước–sau deploy.
-    - Cải thiện cache hit ratio, giảm latency và tăng tốc độ load UI.
+* **Mini Demo:** Trình diễn cách sử dụng **Access Analyzer** và công cụ giả lập chính sách để kiểm tra và xác thực quyền
+  truy cập trước khi triển khai.
 
-* Workshop 2: **Secure Web Application**
-    - Thiết kế rule WAF, simulate bot attacks, chặn/giới hạn request.
-    - Hiểu rõ cách WAF phân tích request để quyết định block/allow.
+### 3. Pillar 2: Detection (Phát hiện)
 
-→ Học bằng tay là thứ giá trị nhất: thay vì chỉ lý thuyết, được tự cấu hình và thấy kết quả trực tiếp.
+* **Giám sát Liên tục:** Sử dụng **CloudTrail** (ở cấp độ Tổ chức) để ghi lại tất cả hành động API, **GuardDuty** để
+  phát hiện các mối đe dọa bất thường bằng Machine Learning, và **Security Hub** để tổng hợp kết quả.
 
-## ĐÁNH GIÁ VÀ ỨNG DỤNG TƯƠNG LAI
+* **Detection-as-Code:** Định nghĩa các quy tắc phát hiện dưới dạng code (ví dụ: Lambda, CloudFormation) để tự động hóa
+  việc triển khai và quản lý.
 
-| Giá trị nhận được             | Ứng dụng thực tế                                               |
-|-------------------------------|----------------------------------------------------------------|
-| Kiến thức CloudFront nâng cao | Triển khai CDN cho các hệ thống cần tốc độ truy cập toàn cầu.  |
-| Nắm AWS WAF chi tiết          | Tăng cường bảo mật app nội bộ, giảm thiểu attack surface.      |
-| Kinh nghiệm thực hành         | Rút ngắn thời gian triển khai thực tế, tránh sai sót cấu hình. |
-| Networking với SA AWS         | Mở cơ hội học hỏi, trao đổi giải pháp và công nghệ mới.        |
+### 4. Pillar 3: Infrastructure Protection (Bảo vệ Hạ tầng)
 
-**Next Steps cá nhân:**
+* **Network Segmentation:** Tách biệt các tầng ứng dụng (Web, App, DB) bằng **VPC segmentation**. Phân biệt rõ vai trò
+  của **Security Groups** (stateful) và **NACLs** (stateless).
 
-1. Xây dựng demo nội bộ xem CloudFront + WAF vận hành chung ra sao.
-2. Tự thực hành thêm rule WAF — đặc biệt các use-case bot mitigation & OWASP.
-3. Nghiên cứu sâu hơn về Lambda@Edge để xử lý request ở edge layer, giảm tải backend.
+* **Bảo vệ Vùng biên:** Triển khai **WAF** (Web Application Firewall) và **Shield** để bảo vệ ứng dụng khỏi các cuộc tấn
+  công DDoS và lớp 7.
+
+### 5. Pillar 4: Data Protection (Bảo vệ Dữ liệu)
+
+* **Mã hóa:** Đảm bảo dữ liệu được mã hóa cả khi **at-rest** (lưu trữ trên S3, EBS, RDS) và **in-transit** (truyền qua
+  TLS/SSL).
+
+* **Quản lý Khóa và Bí mật:** Sử dụng **KMS (Key Management Service)** để quản lý các khóa mã hóa chính, kiểm soát chính
+  sách khóa và luân chuyển khóa. Sử dụng **Secrets Manager** để lưu trữ và tự động **rotation** các bí mật (mật khẩu
+  database, API key).
+
+### 6. Pillar 5: Incident Response (Ứng phó Sự cố)
+
+* **Chu kỳ IR:** Hướng dẫn tuân thủ chu kỳ chuẩn của AWS (Prepare, Detect, Respond, Recover).
+
+* **Tự động hóa Ứng phó:** Phát triển các **Playbook** (kịch bản ứng phó) tự động bằng **Lambda hoặc Step Functions**
+  cho các sự cố phổ biến như khóa IAM bị lộ hoặc phát hiện malware trên EC2. Các bước quan trọng bao gồm **Snapshot,
+  isolation (cách ly), và evidence collection (thu thập bằng chứng)**.
+
+## ĐÁNH GIÁ VÀ HÀNH ĐỘNG TIẾP THEO
+
+**Đánh giá:**
+
+Sự kiện đã cung cấp một bản đồ chi tiết và đầy đủ về bảo mật trên AWS, không chỉ dừng lại ở các dịch vụ riêng lẻ mà còn
+kết nối chúng trong một khung kiến trúc toàn diện (Well-Architected). Kiến thức đặc biệt có giá trị đối với các nhà phát
+triển/Ops để đảm bảo các hệ thống mới triển khai tuân thủ các tiêu chuẩn bảo mật cao nhất (Zero Trust).
+
+**Hành động Đề xuất (Next Steps):**
+
+1. **Kiểm tra Dự án Hiện tại:** Áp dụng checklist của **Security Pillar** để đánh giá dự án đang code/triển khai. Đặc
+   biệt tập trung vào IAM (Least Privilege) và Data Protection (Encryption).
+
+2**Triển khai Detection-as-Code:** Tích hợp **CloudTrail** và **GuardDuty** vào môi trường phát triển/thử nghiệm. Bắt
+đầu định nghĩa các quy tắc cảnh báo bằng Code cho các hành vi bất thường.
+
+3**Học tập Chuyên sâu:** Nghiên cứu thêm về **AWS Security Specialty Certification** để củng cố kiến thức về 5 trụ cột
+bảo mật.
 
 ## Một số hình ảnh khi tham gia sự kiện.
-![](/images/4-Events/Event5.1.jpg)  
-![](/images/4-Events/Event5.2.jpg)
-![](/images/4-Events/Event5.3.jpg)
-![](/images/4-Events/Event5.4.jpg)
+
+![](/images/4-Events/Event6.1.jpg)  
+![](/images/4-Events/Event6.2.jpg)
+![](/images/4-Events/Event6.3.jpg)
+![](/images/4-Events/Event6.4.jpg)
+![](/images/4-Events/Event6.5.jpg)
+![](/images/4-Events/Event6.6.jpg)

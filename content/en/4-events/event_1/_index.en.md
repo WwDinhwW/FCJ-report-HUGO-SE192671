@@ -5,9 +5,11 @@ type: "page"
 
 # EVENT REPORT: **AWS Cloud Day Vietnam 2025 & GenAI Track**
 
-&emsp;**Date:** Thursday, September 18, 2025  
-&emsp;**Time:** 9:00 AM – 5:00 PM  
-&emsp;**Location:** AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City
+**Date:** Thursday, September 18, 2025  
+
+**Time:** 9:00 AM – 5:00 PM  
+
+**Location:** AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City
 
 ---
 
@@ -65,34 +67,34 @@ type: "page"
   Regional technology trends and AWS strategy for enterprise innovation.
 
 - **Panel Discussion — Jeff Johnson + CEOs**
-  - Leadership must drive innovation culture.
-  - GenAI is a strategic asset, not just a technology.
-  - Organizational change management is critical in AI adoption.
+    - Leadership must drive innovation culture.
+    - GenAI is a strategic asset, not just a technology.
+    - Organizational change management is critical in AI adoption.
 
 ---
 
 ### Part 2 — GenAI Track
 
 - **Building a Unified Data Foundation for AI & Analytics (Kien Nguyen):**
-  - Scalable unified data platform architecture.
-  - Efficient ingestion, storage, processing and governance on AWS.
+    - Scalable unified data platform architecture.
+    - Efficient ingestion, storage, processing and governance on AWS.
 
 - **GenAI Adoption & Roadmap for the Future (Jun Kai Loke & Tamelly Lim):**
-  - Vision, trends and growth path of GenAI on AWS.
-  - Tools and accelerators for enterprise GenAI transformation.
+    - Vision, trends and growth path of GenAI on AWS.
+    - Tools and accelerators for enterprise GenAI transformation.
 
 - **AI-Driven Development Lifecycle (AI-DLC) — Binh Tran:**
-  - Integrating AI into the full software development lifecycle.
-  - AI-assisted execution + human oversight for quality and velocity.
+    - Integrating AI into the full software development lifecycle.
+    - AI-assisted execution + human oversight for quality and velocity.
 
 - **Securing Generative AI Applications (Taiki Dang):**
-  - Risks across infrastructure, models, and application layers.
-  - Security measures: encryption, zero-trust, continuous monitoring.
+    - Risks across infrastructure, models, and application layers.
+    - Security measures: encryption, zero-trust, continuous monitoring.
 
 - **Beyond Automation: AI Agents (Michael Armentano):**
-  - AI Agents as intelligent collaborators, not simple automation.
-  - Capable of learning, adapting, executing complex workloads.
-  - Multiplies productivity instead of merely optimizing tasks.
+    - AI Agents as intelligent collaborators, not simple automation.
+    - Capable of learning, adapting, executing complex workloads.
+    - Multiplies productivity instead of merely optimizing tasks.
 
 ---
 

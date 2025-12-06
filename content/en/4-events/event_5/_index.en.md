@@ -3,88 +3,106 @@ title: "Event 5"
 type: "page"
 ---
 
-# EVENT REPORT: **AWS Edge Services Workshop**
+# EVENT REPORT: **AWS Cloud Mastery Series #3 — Security on AWS**
 
-&emsp;**Date:** Wednesday, November 19, 2025  
-&emsp;**Time:** 8:30 AM – 5:00 PM  
-&emsp;**Location:** AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City
+**Date:** Saturday, November 29, 2025  
 
-&emsp;**Objective:** Strengthen knowledge of global content delivery via CloudFront, enhance web application security with AWS WAF, and apply real implementation through interactive hands-on sessions.
+**Time:** 8:30 AM – 12:00 AM  
+
+**Location:** AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City
+
+**Objective:** Deliver deep knowledge across all five pillars of the AWS Well-Architected *Security Pillar* —
+including services, core principles, and defensive strategies.
 
 ---
 
 ## AGENDA SUMMARY
 
-| Time              | Topic                                                    | Speaker(s)                                    | Key Focus                                                                   |
-|:------------------|:---------------------------------------------------------|:----------------------------------------------|:----------------------------------------------------------------------------|
-| **08:00 – 08:30** | Registration & Networking                                | —                                             | Check-in and networking with AWS architects.                                |
-| **08:30 – 09:30** | From Edge to Origin: CloudFront as Your Foundation       | Nguyễn Gia Hưng — Head of Solutions Architect | CDN architecture, Edge locations, global content distribution optimization. |
-| **09:30 – 10:45** | Attack Surface Defense: AWS WAF & Application Protection | Julian Ju — Senior Edge Services SA           | WAF rule sets, OWASP Top 10 mitigation, bot prevention.                     |
-| **10:45 – 12:00** | Lunch & Networking                                       | —                                             | Expanded discussions & networking.                                          |
-| **13:00 – 14:30** | Hands-On: Optimize Internet Web Application              | Hưng, Julian, Kevin Lim                       | CloudFront configuration, real-world performance tuning.                    |
-| **14:45 – 16:15** | Hands-On: Secure Internet Web Application                | Hưng, Julian, Kevin Lim                       | WAF rules, bot simulation & blocking, OWASP vulnerability defense.          |
-| **16:15 – 17:00** | Closing & Open Discussion                                | —                                             | Lessons learned, Q&A, advanced technical discussion.                        |
+| Time              | Topic                                             | Key Focus                                                                                |
+|:------------------|:--------------------------------------------------|:-----------------------------------------------------------------------------------------|
+| **08:30 – 08:50** | Opening & Security Foundations                    | Shared Responsibility Model, threat landscape in Vietnam.                                |
+| **08:50 – 09:30** | **Pillar 1 — Identity & Access Management (IAM)** | Modern IAM design, Roles, Policies, IAM Identity Center, SCP, MFA, Access Analyzer demo. |
+| **09:30 – 09:55** | **Pillar 2 — Detection**                          | CloudTrail, GuardDuty, Security Hub, Detection-as-Code model.                            |
+| **10:10 – 10:40** | **Pillar 3 — Infrastructure Protection**          | VPC segmentation, SG vs NACL, WAF, Network Firewall, workload security.                  |
+| **10:40 – 11:10** | **Pillar 4 — Data Protection**                    | Encryption at-rest/in-transit, KMS, Secrets Manager, data classification.                |
+| **11:10 – 11:40** | **Pillar 5 — Incident Response**                  | IR lifecycle, playbooks, incident automation using Lambda/Step Functions.                |
+| **11:40 – 12:00** | Closing & Q&A                                     | Pitfalls, study roadmap for AWS Security Specialty.                                      |
 
 ---
 
-## KEY KNOWLEDGE GAINED
+## SECURITY PILLAR — DEEP TECHNICAL LEARNINGS
 
-### 1. CloudFront — Content Delivery & Edge Optimization
+### 1. Security Foundations & Core Principles
 
-- Understanding CDN fundamentals & differences between Edge Location, Regional Edge Cache, and Origin.
-- Advanced routing + caching strategy to reduce latency and boost global distribution speed.
-- Implementing edge-level security layers (Origin Shield, cache policies, geo restrictions).
-
-→ CloudFront is not only a CDN — it is also a performance + security perimeter for backend systems.
-
----
-
-### 2. AWS WAF — Layered Web Protection
-
-- Configuring WAF against bots, SQL injection, XSS & **OWASP Top 10** threats.
-- Writing rules, conditions, match patterns, rate limiting, IP allow/deny lists.
-- Reduced malicious traffic load, protecting backend compute & business logic.
-
-→ Standout point: rules can be tailored precisely for each application’s behavior.
+- Emphasis on **Least Privilege**, **Zero Trust**, and **Defense-in-Depth**.
+- Shared Responsibility Model clearly defines roles:
+    - AWS secures **the Cloud** (infrastructure, hardware)
+    - Customers secure **in the Cloud** (data, IAM, configuration)
 
 ---
 
-### 3. Hands-On Labs — Knowledge into Execution
+### 2. Pillar 1 — Identity & Access Management (IAM)
 
-**Workshop 1: Performance Optimization**
-- Configured CloudFront with Lambda@Edge/Function URL.
-- Compared latency before vs after configuration.
-- Improved cache-hit ratio and UI response speed.
-
-**Workshop 2: Security Hardening**
-- Designed WAF protection policies.
-- Simulated bot traffic & executed block/detect mechanisms.
-- Understood how WAF evaluates request intent before allowing or rejecting traffic.
-
-→ Practical execution was the most valuable part — theory became tangible.
+- Avoid **long-term credentials** — rely on **Roles + Temporary Access**.
+- Multi-account governance using **SCPs** and **Permission Boundaries**.
+- Mini-demo using **Access Analyzer** for policy validation & risk detection.
 
 ---
 
-## EVALUATION & FUTURE APPLICATION
+### 3. Pillar 2 — Detection
 
-| Value Gained                    | Real-World Application                              |
-|---------------------------------|-----------------------------------------------------|
-| Advanced CloudFront knowledge   | Deploy CDN for large-scale global traffic handling. |
-| Deep AWS WAF understanding      | Harden enterprise apps & reduce attack surface.     |
-| Practical deployment experience | Faster production rollout — fewer config mistakes.  |
-| Networking with AWS specialists | More learning & collaboration opportunities.        |
+- **CloudTrail** for full API logging (organization-wide).
+- **GuardDuty** ML-driven threat detection.
+- **Security Hub** for consolidated security findings.
+- Detection-as-Code for automated rule deployment & alerting.
 
-### Personal Next Steps
+---
 
-1. Build an internal CloudFront + WAF demo environment.
-2. Practice more WAF rules — especially bot control & OWASP attack defense use cases.
-3. Study Lambda@Edge for edge-level logic processing to reduce backend workload.
+### 4. Pillar 3 — Infrastructure Protection
+
+- VPC segmentation for tier separation (Web / App / DB).
+- Difference between **Security Groups (stateful)** vs **Network ACLs (stateless)**.
+- Edge protection using **WAF + AWS Shield** for DDoS and L7 attack defense.
+
+---
+
+### 5. Pillar 4 — Data Protection
+
+- Encryption required end-to-end: **at-rest & in-transit**.
+- **AWS KMS** for key management, rotation, and policy control.
+- **Secrets Manager** for secure storage + automatic rotation of sensitive credentials.
+
+---
+
+### 6. Pillar 5 — Incident Response
+
+- IR lifecycle: **Prepare → Detect → Respond → Recover**.
+- Automated remediation with **Lambda / Step Functions playbooks**.
+- Key response actions: **snapshot, isolate, evidence capture**.
+
+---
+
+## EVALUATION & NEXT STEPS
+
+### Evaluation
+
+This event outlined a complete and structured blueprint for AWS security — not only service-by-service, but as a full
+architectural strategy following the Well-Architected Framework. Extremely valuable for developers and Ops teams
+deploying production workloads under Zero-Trust standards.
+
+### Recommended Next Steps
+
+1. Use Security Pillar checklist to evaluate ongoing projects — with focus on IAM + Data Encryption.
+2. Enable **CloudTrail + GuardDuty** in development environments and begin writing Detection-as-Code rules.
+3. Study deeper toward **AWS Security Specialty** certification to reinforce long-term skill trajectory.
 
 ---
 
 ## Event Photos
 
-![](/images/4-Events/Event5.1.jpg)  
-![](/images/4-Events/Event5.2.jpg)  
-![](/images/4-Events/Event5.3.jpg)  
-![](/images/4-Events/Event5.4.jpg)
+![](/images/4-Events/Event6.1.jpg)  
+![](/images/4-Events/Event6.2.jpg)  
+![](/images/4-Events/Event6.3.jpg)  
+![](/images/4-Events/Event6.4.jpg)  
+![](/images/4-Events/Event6.5.jpg)  
+![](/images/4-Events/Event6.6.jpg)

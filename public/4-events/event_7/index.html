@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/FCJ-report-HUGO-SE192671/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=FCJ-report-HUGO-SE192671/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.150.0">
+    <meta name="generator" content="Relearn 8.1.1+9d74be278d6e8456f2f18305c9b27e38bc2de91c">
+    <meta name="description" content="Báo cáo Sự kiện Workshop AWS Bedrock Agentic AI Tóm tắt Tổng quan Tôi đã tham dự một workshop nửa ngày toàn diện về Agentic AI sử dụng Amazon Bedrock tại Văn phòng AWS Việt Nam. Buổi workshop bao gồm kiến trúc và triển khai các AI agent từ các khái niệm cơ bản đến phát triển thực hành. Workshop đặc biệt có giá trị trong việc hiểu cách xây dựng các hệ thống agentic cấp production có khả năng tự động điều phối các workflow phức tạp, đưa ra quyết định và tích hợp với các công cụ bên ngoài. Mặc dù Cloud Health Dashboard của tôi hiện đang sử dụng các phương pháp giám sát truyền thống, các khái niệm được trình bày ở đây mở ra khả năng phân tích bảo mật được hỗ trợ bởi AI, đề xuất khắc phục tự động và phát hiện anomaly thông minh.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Sự kiện 6 :: AWS Báo Cáo Thực Tập">
+    <meta name="twitter:description" content="Báo cáo Sự kiện Workshop AWS Bedrock Agentic AI Tóm tắt Tổng quan Tôi đã tham dự một workshop nửa ngày toàn diện về Agentic AI sử dụng Amazon Bedrock tại Văn phòng AWS Việt Nam. Buổi workshop bao gồm kiến trúc và triển khai các AI agent từ các khái niệm cơ bản đến phát triển thực hành. Workshop đặc biệt có giá trị trong việc hiểu cách xây dựng các hệ thống agentic cấp production có khả năng tự động điều phối các workflow phức tạp, đưa ra quyết định và tích hợp với các công cụ bên ngoài. Mặc dù Cloud Health Dashboard của tôi hiện đang sử dụng các phương pháp giám sát truyền thống, các khái niệm được trình bày ở đây mở ra khả năng phân tích bảo mật được hỗ trợ bởi AI, đề xuất khắc phục tự động và phát hiện anomaly thông minh.">
+    <meta property="og:url" content="http://localhost:1313/FCJ-report-HUGO-SE192671/4-events/event_7/index.html">
+    <meta property="og:site_name" content="AWS Báo Cáo Thực Tập">
+    <meta property="og:title" content="Sự kiện 6 :: AWS Báo Cáo Thực Tập">
+    <meta property="og:description" content="Báo cáo Sự kiện Workshop AWS Bedrock Agentic AI Tóm tắt Tổng quan Tôi đã tham dự một workshop nửa ngày toàn diện về Agentic AI sử dụng Amazon Bedrock tại Văn phòng AWS Việt Nam. Buổi workshop bao gồm kiến trúc và triển khai các AI agent từ các khái niệm cơ bản đến phát triển thực hành. Workshop đặc biệt có giá trị trong việc hiểu cách xây dựng các hệ thống agentic cấp production có khả năng tự động điều phối các workflow phức tạp, đưa ra quyết định và tích hợp với các công cụ bên ngoài. Mặc dù Cloud Health Dashboard của tôi hiện đang sử dụng các phương pháp giám sát truyền thống, các khái niệm được trình bày ở đây mở ra khả năng phân tích bảo mật được hỗ trợ bởi AI, đề xuất khắc phục tự động và phát hiện anomaly thông minh.">
+    <meta property="og:locale" content="vi">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Sự kiện 6 :: AWS Báo Cáo Thực Tập">
+    <meta itemprop="description" content="Báo cáo Sự kiện Workshop AWS Bedrock Agentic AI Tóm tắt Tổng quan Tôi đã tham dự một workshop nửa ngày toàn diện về Agentic AI sử dụng Amazon Bedrock tại Văn phòng AWS Việt Nam. Buổi workshop bao gồm kiến trúc và triển khai các AI agent từ các khái niệm cơ bản đến phát triển thực hành. Workshop đặc biệt có giá trị trong việc hiểu cách xây dựng các hệ thống agentic cấp production có khả năng tự động điều phối các workflow phức tạp, đưa ra quyết định và tích hợp với các công cụ bên ngoài. Mặc dù Cloud Health Dashboard của tôi hiện đang sử dụng các phương pháp giám sát truyền thống, các khái niệm được trình bày ở đây mở ra khả năng phân tích bảo mật được hỗ trợ bởi AI, đề xuất khắc phục tự động và phát hiện anomaly thông minh.">
+    <meta itemprop="wordCount" content="3820">
+    <title>Sự kiện 6 :: AWS Báo Cáo Thực Tập</title>
+    <link href="http://localhost:1313/FCJ-report-HUGO-SE192671/4-events/event_7/index.html" rel="alternate" hreflang="x-default">
+    <link href="http://localhost:1313/FCJ-report-HUGO-SE192671/4-events/event_7/index.html" rel="alternate" hreflang="vi">
+    <link href="http://localhost:1313/FCJ-report-HUGO-SE192671/en/4-events/event_7/index.html" rel="alternate" hreflang="en">
+    <link href="/FCJ-report-HUGO-SE192671/4-events/event_7/index.xml" rel="alternate" type="application/rss+xml" title="Sự kiện 6 :: AWS Báo Cáo Thực Tập">
+    <link href="/FCJ-report-HUGO-SE192671/images/favicon.png?1765025903" rel="icon" type="image/png">
+    <link href="/FCJ-report-HUGO-SE192671/css/auto-complete/auto-complete.min.css?1765025903" rel="stylesheet">
+    <script src="/FCJ-report-HUGO-SE192671/js/auto-complete/auto-complete.min.js?1765025903" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/search-lunr.js?1765025903" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/search.js?1765025903" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/FCJ-report-HUGO-SE192671/searchindex.vi.js?1765025903";
+    </script>
+    <script src="/FCJ-report-HUGO-SE192671/js/lunr/lunr.min.js?1765025903" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/lunr/lunr.stemmer.support.min.js?1765025903" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/lunr/lunr.multi.min.js?1765025903" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/lunr/lunr.vi.min.js?1765025903" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['vi'];
+    </script>
+    <link href="/FCJ-report-HUGO-SE192671/fonts/fontawesome/css/fontawesome-all.min.css?1765025903" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/FCJ-report-HUGO-SE192671/fonts/fontawesome/css/fontawesome-all.min.css?1765025903" rel="stylesheet"></noscript>
+    <link href="/FCJ-report-HUGO-SE192671/css/perfect-scrollbar/perfect-scrollbar.min.css?1765025903" rel="stylesheet">
+    <link href="/FCJ-report-HUGO-SE192671/css/theme.css?1765025903" rel="stylesheet">
+    <link href="/FCJ-report-HUGO-SE192671/css/format-html.css?1765025903" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/4-events\/event_7\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313\/FCJ-report-HUGO-SE192671';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Sao chép vào bảng tạm`;
+      window.T_Copied_to_clipboard = `Sao chép vào bảng tạm!`;
+      window.T_Copy_link_to_clipboard = `Sao chép nối kết vào bảng tạm`;
+      window.T_Link_copied_to_clipboard = `Liên kết được sao chép vào bảng tạm!`;
+      window.T_Reset_view = `Đặt lại dạng xem`;
+      window.T_View_reset = `Xem đặt lại!`;
+      window.T_No_results_found = `Không tìm thấy kết quả nào cho "{0}"`;
+      window.T_N_results_found = `{1} kết quả được tìm thấy cho "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'workshop' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/FCJ-report-HUGO-SE192671/4-events/event_7/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Mục lục (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#tóm-tắt-tổng-quan">Tóm tắt Tổng quan</a></li>
+    <li><a href="#phiên-khai-mạc-bức-tranh-agentic-ai-900---910-am">Phiên Khai mạc: Bức tranh Agentic AI (9:00 - 9:10 AM)</a></li>
+    <li><a href="#kiến-trúc-core-của-aws-bedrock-agent-910---940-am">Kiến trúc Core của AWS Bedrock Agent (9:10 - 9:40 AM)</a></li>
+    <li><a href="#use-case-xây-dựng-agentic-workflow-trên-aws-940---1000-am">Use Case: Xây dựng Agentic Workflow trên AWS (9:40 - 10:00 AM)</a></li>
+    <li><a href="#giới-thiệu-cloudthinker-1000---1010-am">Giới thiệu CloudThinker (10:00 - 10:10 AM)</a></li>
+    <li><a href="#cloudthinker-agentic-orchestration-deep-dive-1010---1040-am">CloudThinker Agentic Orchestration Deep Dive (10:10 - 10:40 AM)</a></li>
+    <li><a href="#hands-on-workshop-xây-dựng-bedrock-agent-1100---1200-pm">Hands-On Workshop: Xây dựng Bedrock Agent (11:00 - 12:00 PM)</a></li>
+    <li><a href="#kết-luận--suy-ngẫm">Kết luận &amp; Suy ngẫm</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/FCJ-report-HUGO-SE192671/index.html"><span itemprop="name">Trang Chủ</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/FCJ-report-HUGO-SE192671/4-events/index.html"><span itemprop="name">4. Sự kiện tham gia</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Sự kiện 6</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/FCJ-report-HUGO-SE192671/4-events/event_2/index.html" title="Sự kiện 2 (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/FCJ-report-HUGO-SE192671/5-workshop/index.html" title="5. Bài tập (Workshop) (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Nội dung khác"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable page" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="sự-kiện-6">Sự kiện 6</h1>
+
+<h1 id="báo-cáo-sự-kiện-workshop-aws-bedrock-agentic-ai">Báo cáo Sự kiện Workshop AWS Bedrock Agentic AI</h1>
+<hr>
+<h2 id="tóm-tắt-tổng-quan">Tóm tắt Tổng quan</h2>
+<p>Tôi đã tham dự một workshop nửa ngày toàn diện về Agentic AI sử dụng Amazon Bedrock tại Văn phòng AWS Việt Nam. Buổi
+workshop bao gồm kiến trúc và triển khai các AI agent từ các khái niệm cơ bản đến phát triển thực hành. Workshop đặc
+biệt có giá trị trong việc hiểu cách xây dựng các hệ thống agentic cấp production có khả năng tự động điều phối các
+workflow phức tạp, đưa ra quyết định và tích hợp với các công cụ bên ngoài. Mặc dù Cloud Health Dashboard của tôi hiện
+đang sử dụng các phương pháp giám sát truyền thống, các khái niệm được trình bày ở đây mở ra khả năng phân tích bảo mật
+được hỗ trợ bởi AI, đề xuất khắc phục tự động và phát hiện anomaly thông minh.</p>
+<hr>
+<h2 id="phiên-khai-mạc-bức-tranh-agentic-ai-900---910-am">Phiên Khai mạc: Bức tranh Agentic AI (9:00 - 9:10 AM)</h2>
+<p>Nguyễn Gia Hưng, Trưởng phòng Solutions Architect, định hình workshop bằng cách phân biệt giữa các ứng dụng AI truyền
+thống và các hệ thống agentic. Sự khác biệt chính: <strong>agency (khả năng tự chủ)</strong> - khả năng của các hệ thống AI trong
+việc cảm nhận môi trường, đưa ra quyết định, thực hiện hành động và học hỏi từ kết quả mà không cần sự can thiệp liên
+tục của con người.</p>
+<hr>
+<h2 id="kiến-trúc-core-của-aws-bedrock-agent-910---940-am">Kiến trúc Core của AWS Bedrock Agent (9:10 - 9:40 AM)</h2>
+<p>Phần trình bày chuyên sâu kỹ thuật của Kiên Nguyễn về Bedrock Agents đã tiết lộ kiến trúc cơ bản giúp các hệ thống AI tự
+động trở nên khả thi.</p>
+<p><strong>Amazon Bedrock là gì?</strong>
+Bedrock là dịch vụ được quản lý hoàn toàn của AWS cho các foundation models (FMs) từ các nhà cung cấp như Anthropic (
+Claude), Meta (Llama), Cohere, AI21 và Titan của Amazon. Các điểm khác biệt chính:</p>
+<ul>
+<li><strong>Không cần quản lý hạ tầng:</strong> Không cần EC2 instances, không cần hosting model, không lo lắng về scaling</li>
+<li><strong>Tính linh hoạt trong lựa chọn model:</strong> Chuyển đổi giữa các model qua API mà không cần thay đổi code</li>
+<li><strong>Bảo mật &amp; tuân thủ:</strong> Các model chạy trong hạ tầng AWS, dữ liệu không rời khỏi VPC của bạn</li>
+<li><strong>Fine-tuning &amp; tùy chỉnh:</strong> Huấn luyện model trên dữ liệu độc quyền trong khi vẫn duy trì quyền riêng tư dữ liệu</li>
+</ul>
+<p><strong>Bedrock Agents - Khái niệm Core:</strong></p>
+<p>Agents là các hệ thống tự động có thể:</p>
+<ol>
+<li><strong>Hiểu ý định người dùng</strong> thông qua ngôn ngữ tự nhiên</li>
+<li><strong>Chia nhỏ các yêu cầu phức tạp</strong> thành các bước có thể thực thi (reasoning)</li>
+<li><strong>Lựa chọn và gọi các công cụ phù hợp</strong> (APIs, Lambda functions, knowledge bases)</li>
+<li><strong>Điều phối các workflow nhiều bước</strong> một cách linh hoạt</li>
+<li><strong>Trả về các phản hồi có cấu trúc</strong> với citations và reasoning traces</li>
+</ol>
+<p>Sơ đồ kiến trúc hiển thị:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>User Request
+    ↓
+Bedrock Agent (Orchestrator)
+    ↓
+┌─────────────┬──────────────┬─────────────┐
+│ Foundation  │  Action      │  Knowledge  │
+│ Model       │  Groups      │  Bases      │
+│ (Claude)    │  (Tools)     │  (RAG)      │
+└─────────────┴──────────────┴─────────────┘
+    ↓
+Response với reasoning trace</code></pre></div>
+<p><strong>Action Groups - Mở rộng Khả năng của Agent:</strong></p>
+<p>Action groups xác định những gì agent có thể <em>làm</em>. Mỗi action group chứa:</p>
+<ul>
+<li><strong>OpenAPI schema:</strong> Định nghĩa các functions có sẵn, parameters, return types</li>
+<li><strong>Lambda function:</strong> Logic backend thực thi action</li>
+<li><strong>Description:</strong> Giúp model hiểu khi nào nên sử dụng action này</li>
+</ul>
+<p>Khi người dùng hỏi &ldquo;Tôi nên làm gì với finding GuardDuty mức độ nghiêm trọng cao này?&rdquo;, agent sẽ:</p>
+<ol>
+<li>Nhận ra nó cần khả năng phân tích bảo mật</li>
+<li>Chọn function <code>analyzeGuardDutyFinding</code></li>
+<li>Gọi Lambda với chi tiết finding</li>
+<li>Nhận phản hồi có cấu trúc</li>
+<li>Xây dựng đề xuất dễ hiểu cho con người</li>
+</ol>
+<p><strong>Knowledge Bases - Tích hợp RAG:</strong></p>
+<p>Knowledge bases cho phép agents truy vấn các tài liệu độc quyền sử dụng semantic search. Workflow:</p>
+<ol>
+<li><strong>Ingestion:</strong> Documents (PDFs, web pages, text files) được lưu trữ trong S3</li>
+<li><strong>Chunking:</strong> Documents được chia thành các phân đoạn nhỏ hơn (mặc định 1000 tokens)</li>
+<li><strong>Embedding:</strong> Mỗi chunk được chuyển đổi thành vector embeddings sử dụng Titan Embeddings</li>
+<li><strong>Storage:</strong> Vectors được lưu trữ trong OpenSearch Serverless (hoặc các vector DBs khác)</li>
+<li><strong>Retrieval:</strong> Agent truy vấn knowledge base, nhận các chunks liên quan nhất</li>
+<li><strong>Generation:</strong> Model tạo phản hồi sử dụng context được truy xuất</li>
+</ol>
+<p>Đối với dashboard của tôi, tôi có thể tạo knowledge bases chứa:</p>
+<ul>
+<li>Tài liệu best practices bảo mật AWS</li>
+<li>Yêu cầu CIS Benchmark</li>
+<li>Security runbooks nội bộ</li>
+<li>Báo cáo incident trong quá khứ</li>
+</ul>
+<p>Khi người dùng hỏi &ldquo;Tôi nên cấu hình VPC Flow Logs như thế nào?&rdquo;, agent sẽ truy xuất các chunks tài liệu liên quan và
+cung cấp câu trả lời được ngữ cảnh hóa cụ thể cho môi trường của họ.</p>
+<p><strong>Guardrails - Responsible AI:</strong></p>
+<p>Bedrock Guardrails đảm bảo agents hoạt động an toàn:</p>
+<ul>
+<li><strong>Content filters:</strong> Chặn các outputs có hại, thiên vị hoặc không phù hợp</li>
+<li><strong>Denied topics:</strong> Ngăn chặn thảo luận về các chủ đề được chỉ định</li>
+<li><strong>Word filters:</strong> Chặn từ ngữ tục tĩu hoặc nhạy cảm</li>
+<li><strong>PII redaction:</strong> Tự động che giấu thông tin nhạy cảm</li>
+<li><strong>Hallucination detection:</strong> Giảm các phản hồi không chính xác về mặt thực tế</li>
+</ul>
+<p>Đối với triển khai production, guardrails là thiết yếu để ngăn chặn agents đề xuất các hành động khắc phục nguy hiểm (
+như xóa production databases).</p>
+<p><strong>Prompt Engineering cho Agents:</strong></p>
+<p>Phiên họp tiết lộ rằng agent prompts khác với standard LLM prompts. Agent prompts phải:</p>
+<ul>
+<li>Định nghĩa vai trò và trách nhiệm của agent một cách rõ ràng</li>
+<li>Chỉ định cách sử dụng tools (khi nào gọi, parameters nào để truyền)</li>
+<li>Cung cấp hướng dẫn định dạng phản hồi</li>
+<li>Bao gồm ví dụ về việc sử dụng tool đúng cách</li>
+<li>Đặt ranh giới (những gì KHÔNG nên làm)</li>
+</ul>
+<p>Ví dụ hướng dẫn agent cho phân tích bảo mật:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>Bạn là một nhà phân tích bảo mật cloud chuyên về môi trường AWS. Vai trò của bạn là:
+1. Phân tích các findings bảo mật từ GuardDuty, Security Hub và IAM Access Analyzer
+2. Ưu tiên các findings theo mức độ nghiêm trọng và tác động kinh doanh
+3. Đề xuất các bước khắc phục cụ thể, có thể thực hiện
+4. Giải thích bối cảnh rủi ro bằng thuật ngữ kinh doanh
+
+Khi phân tích findings:
+- Luôn kiểm tra mức độ nghiêm trọng trước
+- Sử dụng tool analyzeGuardDutyFinding cho phân tích chi tiết
+- Tham chiếu chéo với knowledge base về AWS security best practices
+- Cung cấp cả các bước ngăn chặn ngay lập tức và biện pháp phòng ngừa dài hạn
+
+KHÔNG:
+- Thực hiện thay đổi đối với production resources mà không có xác nhận rõ ràng từ người dùng
+- Đề xuất xóa resources mà không hiểu mục đích của chúng
+- Cung cấp đề xuất chung chung mà không có context cụ thể cho môi trường</code></pre></div>
+<hr>
+<h2 id="use-case-xây-dựng-agentic-workflow-trên-aws-940---1000-am">Use Case: Xây dựng Agentic Workflow trên AWS (9:40 - 10:00 AM)</h2>
+<p>Việt Phạm, Founder &amp; CEO của một startup AI, đã chia sẻ một triển khai thực tế của agentic workflows trong production.
+Use case liên quan đến việc xây dựng hệ thống tự động hóa hỗ trợ khách hàng cho một nền tảng thương mại điện tử.</p>
+<p><strong>Vấn đề:</strong>
+Các chatbot truyền thống theo decision trees - cứng nhắc, hạn chế và bị lỗi khi người dùng đặt câu hỏi bất ngờ. Công ty
+cần một hệ thống có thể:</p>
+<ul>
+<li>Hiểu các truy vấn phức tạp, đa ý định của khách hàng</li>
+<li>Truy cập order databases, inventory systems, shipping APIs</li>
+<li>Đưa ra quyết định thông minh (refund vs. exchange vs. escalate)</li>
+<li>Xử lý các cuộc hội thoại qua nhiều lượt</li>
+<li>Duy trì context trong suốt tương tác</li>
+</ul>
+<p><strong>Giải pháp - Kiến trúc Agentic Workflow:</strong></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>Customer Query → Bedrock Agent → Orchestration Logic
+                                        ↓
+                 ┌──────────────────────┼──────────────────────┐
+                 ↓                      ↓                       ↓
+            Order Lookup          Inventory Check        Shipping API
+            (Lambda + RDS)        (Lambda + DynamoDB)    (Lambda + 3rd-party)
+                 ↓                      ↓                       ↓
+                 └──────────────────────┴───────────────────────┘
+                                        ↓
+                                 Agent Decision Making
+                                        ↓
+                              Response + Action Taken</code></pre></div>
+<p><strong>Ví dụ Agent Workflow:</strong></p>
+<p>User: &ldquo;Tôi đã đặt hàng một laptop 3 ngày trước nhưng chưa nhận được xác nhận vận chuyển. Tôi có thể thay đổi địa chỉ
+giao hàng không?&rdquo;</p>
+<p>Agent reasoning trace (được hiển thị trong demo):</p>
+<ol>
+<li><strong>Intent Recognition:</strong> Truy vấn trạng thái đơn hàng + sửa đổi địa chỉ giao hàng</li>
+<li><strong>Tool Selection:</strong> Gọi <code>getOrderStatus</code> với order ID (trích xuất từ customer session)</li>
+<li><strong>Tool Execution:</strong> Lambda truy vấn RDS, trả về chi tiết đơn hàng</li>
+<li><strong>Analysis:</strong> Đơn hàng ở trạng thái &ldquo;processing&rdquo;, chưa được vận chuyển</li>
+<li><strong>Decision:</strong> Có thể sửa đổi địa chỉ</li>
+<li><strong>Tool Selection:</strong> Gọi <code>updateShippingAddress</code></li>
+<li><strong>Confirmation:</strong> Hỏi người dùng địa chỉ mới trước khi thực thi</li>
+<li><strong>Tool Execution:</strong> Cập nhật địa chỉ trong database</li>
+<li><strong>Response Generation:</strong> Xác nhận thay đổi + cung cấp ngày giao hàng dự kiến</li>
+</ol>
+<p>Vẻ đẹp của phương pháp này: <strong>không có decision trees được hardcode</strong>. Agent xác định workflow một cách linh hoạt dựa
+trên dữ liệu thời gian thực và ý định người dùng.</p>
+<p><strong>Multi-Step Reasoning Pattern:</strong></p>
+<p>Demo đã cho thấy cách agents xử lý các truy vấn phức tạp yêu cầu nhiều API calls:</p>
+<p>User: &ldquo;Laptop rẻ nhất dưới $1000 có thể được giao trước thứ Sáu là gì?&rdquo;</p>
+<p>Agent workflow:</p>
+<ol>
+<li><strong>Query 1:</strong> <code>searchProducts(category=&quot;laptop&quot;, max_price=1000)</code> → Trả về 15 sản phẩm</li>
+<li><strong>Query 2:</strong> <code>checkInventory(productIds=[...])</code> → Trả về các mặt hàng còn trong kho</li>
+<li><strong>Query 3:</strong> <code>getShippingEstimate(productIds=[...], targetDate=&quot;Friday&quot;)</code> → Trả về ngày giao hàng</li>
+<li><strong>Synthesis:</strong> Agent so sánh giá cả và ngày giao hàng, xếp hạng các tùy chọn</li>
+<li><strong>Response:</strong> &ldquo;HP Pavilion 15 với giá $899 có thể đến vào thứ Năm. Bạn có muốn tiếp tục không?&rdquo;</li>
+</ol>
+<p>Multi-step reasoning này là điều làm cho agents &ldquo;thông minh&rdquo; - chúng không chỉ thực thi các workflow được xác định
+trước, mà chúng xây dựng workflows một cách linh hoạt.</p>
+<p><strong>Error Handling &amp; Fallbacks:</strong></p>
+<p>Một phần quan trọng của bài trình bày đề cập đến điều gì xảy ra khi tools thất bại:</p>
+<ul>
+<li><strong>API timeout:</strong> Agent thử lại với exponential backoff, hoặc đề xuất hành động thay thế</li>
+<li><strong>Invalid parameters:</strong> Agent xây dựng lại yêu cầu với các parameters được sửa</li>
+<li><strong>Ambiguous intent:</strong> Agent đặt câu hỏi làm rõ thay vì đoán</li>
+<li><strong>Out-of-scope request:</strong> Agent chuyển tiếp đến human agent một cách duyên dáng</li>
+</ul>
+<p>Error handling không được hardcode - khả năng reasoning của foundation model của agent cho phép nó thích ứng với các lỗi
+một cách theo ngữ cảnh.</p>
+<p><strong>Production Metrics được Chia sẻ:</strong></p>
+<ul>
+<li><strong>Query resolution rate:</strong> 78% hoàn toàn tự động (so với 35% với chatbot truyền thống)</li>
+<li><strong>Average response time:</strong> 4.2 giây cho các truy vấn nhiều bước</li>
+<li><strong>Customer satisfaction:</strong> 4.1/5 (so với 3.2/5 cho hệ thống trước đó)</li>
+<li><strong>Cost:</strong> ~$0.03 mỗi cuộc hội thoại (Bedrock API + Lambda execution)</li>
+</ul>
+<p><strong>Key Takeaway cho Dự án của Tôi:</strong>
+Multi-step reasoning pattern áp dụng trực tiếp cho điều tra incident bảo mật. Khi một finding GuardDuty xuất hiện, một
+agent có thể: (1) Lấy chi tiết finding, (2) Truy vấn CloudTrail cho các API calls liên quan, (3) Kiểm tra IAM policies
+cho các resources bị ảnh hưởng, (4) Truy xuất các incidents tương tự trong quá khứ từ knowledge base, (5) Tạo kế hoạch
+khắc phục theo ngữ cảnh. Điều này biến đổi dashboard của tôi từ reactive (hiển thị finding) sang proactive (điều tra và
+đề xuất).</p>
+<hr>
+<h2 id="giới-thiệu-cloudthinker-1000---1010-am">Giới thiệu CloudThinker (10:00 - 10:10 AM)</h2>
+<p>Thắng Tôn, Co-founder &amp; COO của CloudThinker, đã giới thiệu nền tảng của họ - một lớp điều phối agentic được xây dựng
+trên Amazon Bedrock. CloudThinker giải quyết các điểm khó khăn trong việc xây dựng các hệ thống agentic production:</p>
+<p><strong>Vấn đề với Raw Bedrock Agents:</strong></p>
+<ol>
+<li><strong>Limited observability:</strong> Khó debug tại sao agent đưa ra các quyết định cụ thể</li>
+<li><strong>Context window management:</strong> Agents mất context trong các cuộc hội thoại dài</li>
+<li><strong>Multi-agent coordination:</strong> Không có hỗ trợ native cho giao tiếp agent-to-agent</li>
+<li><strong>Prompt versioning:</strong> Không có hệ thống built-in cho A/B testing prompts</li>
+<li><strong>Cost optimization:</strong> Khó minimize token usage mà không hy sinh chất lượng</li>
+</ol>
+<p><strong>Value Proposition của CloudThinker:</strong></p>
+<p><strong>1. Agentic Orchestration Layer:</strong></p>
+<ul>
+<li><strong>Multi-agent workflows:</strong> Phối hợp các specialist agents (data analyst agent + report writer agent)</li>
+<li><strong>Agent handoff:</strong> Chuyển giao context một cách liền mạch giữa các agents</li>
+<li><strong>Parallel execution:</strong> Chạy nhiều agents đồng thời, tổng hợp kết quả</li>
+<li><strong>Conditional routing:</strong> Định tuyến đến agent phù hợp dựa trên loại query</li>
+</ul>
+<p><strong>2. Context Optimization:</strong></p>
+<ul>
+<li><strong>Intelligent caching:</strong> Tái sử dụng embeddings cho các queries lặp lại</li>
+<li><strong>Dynamic context pruning:</strong> Chỉ giữ lịch sử cuộc hội thoại liên quan</li>
+<li><strong>Hierarchical memory:</strong> Short-term (phiên hiện tại) + long-term (qua các phiên)</li>
+<li><strong>Semantic compression:</strong> Tóm tắt context cũ để tiết kiệm tokens</li>
+</ul>
+<p><strong>3. Observability &amp; Debugging:</strong></p>
+<ul>
+<li><strong>Agent reasoning traces:</strong> Xem mọi quyết định, tool call và model invocation</li>
+<li><strong>Cost tracking:</strong> Metrics usage theo conversation, theo agent, theo tool</li>
+<li><strong>Latency breakdown:</strong> Xác định bottlenecks (embedding, retrieval, generation)</li>
+<li><strong>A/B testing framework:</strong> So sánh các biến thể prompt một cách có hệ thống</li>
+</ul>
+<p>Platform demo đã hiển thị một dashboard (meta: một dashboard để xây dựng AI agent cho dashboard của tôi) với:</p>
+<ul>
+<li>Visualization thực thi agent thời gian thực</li>
+<li>Graphs sử dụng token</li>
+<li>Tần suất gọi tool</li>
+<li>Tỷ lệ thành công/thất bại theo agent</li>
+</ul>
+<p><strong>Pricing Model:</strong>
+CloudThinker tính phí dựa trên độ phức tạp của orchestration, không phải token usage:</p>
+<ul>
+<li>Free tier: 1,000 agent executions/tháng</li>
+<li>Pro: $99/tháng cho 50,000 executions</li>
+<li>Enterprise: Giá tùy chỉnh với hỗ trợ chuyên dụng</li>
+</ul>
+<p>Vì chi phí Bedrock là riêng biệt, điều này có thể hiệu quả về chi phí cho các agent workloads khối lượng lớn nơi tối ưu
+hóa orchestration làm giảm tổng thể Bedrock token usage.</p>
+<p><strong>Key Takeaway cho Dự án của Tôi:</strong>
+Nếu tôi xây dựng một AI agent cho dashboard của mình, CloudThinker có thể giúp với observability và phối hợp
+multi-agent (ví dụ: một agent cho phân tích GuardDuty, một agent khác cho review IAM policy, được phối hợp bởi
+orchestrator). Tuy nhiên, đối với một dự án sinh viên, bắt đầu với raw Bedrock Agents có ý nghĩa hơn để hiểu các nguyên
+tắc cơ bản trước khi thêm các lớp trừu tượng.</p>
+<hr>
+<h2 id="cloudthinker-agentic-orchestration-deep-dive-1010---1040-am">CloudThinker Agentic Orchestration Deep Dive (10:10 - 10:40 AM)</h2>
+<p>Henry Bùi, Head of Engineering, đã cung cấp một deep dive kỹ thuật vào orchestration engine của CloudThinker. Phiên này
+có tính kỹ thuật cao (mức L300) và tiết lộ các patterns phức tạp cho các hệ thống agentic production.</p>
+<p><strong>Context Window Management - Thách thức Core:</strong></p>
+<p>Foundation models có context windows hữu hạn:</p>
+<ul>
+<li>Claude 3.5 Sonnet: 200K tokens (~150K từ)</li>
+<li>GPT-4 Turbo: 128K tokens</li>
+<li>Llama 3.1: 128K tokens</li>
+</ul>
+<p>Trong các cuộc hội thoại dài hoặc workflows phức tạp, context có thể vượt quá các giới hạn này. Các phương pháp truyền
+thống:</p>
+<ul>
+<li><strong>Truncation:</strong> Loại bỏ các tin nhắn cũ (mất context)</li>
+<li><strong>Summarization:</strong> Nén context cũ (mất chi tiết)</li>
+<li><strong>Sliding window:</strong> Giữ N tin nhắn gần đây (mất context xa nhưng liên quan)</li>
+</ul>
+<p><strong>Hệ thống Hierarchical Memory của CloudThinker:</strong></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>┌─────────────────────────────────────────┐
+│   Working Memory (Phiên Hiện tại)       │
+│   - 10 lượt hội thoại cuối              │
+│   - Kết quả tool đang hoạt động         │
+│   - Biến tạm thời                       │
+│   Token Budget: 20K tokens              │
+└─────────────────────────────────────────┘
+              ↕ (truy xuất dựa trên relevance)
+┌─────────────────────────────────────────┐
+│   Episodic Memory (Các Phiên Trước)     │
+│   - Lịch sử cuộc hội thoại được tóm tắt │
+│   - Các quyết định &amp; kết quả chính      │
+│   - Preferences người dùng đã học       │
+│   Lưu trữ trong: DynamoDB + Vector DB   │
+└─────────────────────────────────────────┘
+              ↕ (semantic similarity search)
+┌─────────────────────────────────────────┐
+│   Semantic Memory (Kiến thức Dài hạn)   │
+│   - Domain facts                        │
+│   - Procedures &amp; best practices         │
+│   - Tool usage patterns                 │
+│   Lưu trữ trong: Knowledge Base (OpenSearch)│
+└─────────────────────────────────────────┘</code></pre></div>
+<p><strong>Cách hoạt động:</strong></p>
+<ol>
+<li><strong>New user query đến</strong> → Vào Working Memory</li>
+<li><strong>Relevance scoring:</strong> Semantic search qua Episodic Memory cho context quá khứ liên quan</li>
+<li><strong>Dynamic loading:</strong> Chỉ context quá khứ liên quan được load vào Working Memory</li>
+<li><strong>Token budget enforcement:</strong> Nếu vượt quá giới hạn, context ít liên quan nhất bị cắt tỉa</li>
+<li><strong>Sau response:</strong> Lượt hội thoại được nén và lưu trữ trong Episodic Memory</li>
+</ol>
+<p>Ví dụ cho security dashboard của tôi:</p>
+<p>User hôm nay: &ldquo;Hiển thị các findings GuardDuty gần đây&rdquo;
+→ Agent truy xuất findings, lưu trữ trong Working Memory</p>
+<p>User sau đó: &ldquo;Có findings nào liên quan đến incident credential exposure từ tháng trước không?&rdquo;
+→ Agent tìm kiếm Episodic Memory cho context &ldquo;credential exposure&rdquo;
+→ Load các findings liên quan từ incident đó
+→ So sánh với các findings hiện tại
+→ Phản hồi với phân tích tương quan</p>
+<p>Điều này cho phép long-term memory mà không làm nổ context windows.</p>
+<p><strong>Multi-Agent Orchestration Patterns:</strong></p>
+<p>CloudThinker hỗ trợ ba agent collaboration patterns:</p>
+<p><strong>1. Sequential (Pipeline):</strong></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>User Query → Agent A (classifier) → Agent B (executor) → Agent C (formatter) → Response</code></pre></div>
+<p>Ví dụ: Phân loại query → Truy xuất dữ liệu → Tạo báo cáo</p>
+<p><strong>2. Parallel (Fan-out/Fan-in):</strong></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>                  ┌→ Agent A (Phân tích GuardDuty)
+User Query → Router ┼→ Agent B (Review IAM) ┼→ Aggregator → Response
+                  └→ Agent C (Phân tích VPC Flow)</code></pre></div>
+<p>Ví dụ: Đánh giá bảo mật toàn diện qua nhiều services</p>
+<p><strong>3. Conditional (Decision Tree):</strong></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>User Query → Router → IF security_finding:
+                         Agent A (incident response)
+                      ELIF billing_alert:
+                         Agent B (cost optimization)
+                      ELSE:
+                         Agent C (general assistance)</code></pre></div>
+<p>Demo đã cho thấy một <strong>use case phát hiện gian lận</strong> với parallel agents:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>Suspicious Transaction Detected
+         ↓
+    Orchestrator
+         ↓
+   ┌─────┴──────┬────────┐
+   ↓            ↓        ↓
+Account      Behavior  External
+History      Pattern   Threat
+Agent        Agent     Intelligence
+   ↓            ↓        ↓
+ &#34;Normal    &#34;Anomalous  &#34;IP từ
+  user      login       danh sách
+  pattern&#34;  location&#34;   gian lận&#34;
+   └─────┬──────┴────────┘
+         ↓
+    Aggregator Agent
+    (Risk Scoring)
+         ↓
+    Block transaction + Alert security team</code></pre></div>
+<p>Mỗi agent chạy song song, kết quả được tổng hợp, quyết định được đưa ra trong ~3 giây.</p>
+<p><strong>Đối với Cloud Health Dashboard của tôi, pattern này cho phép:</strong></p>
+<p>User: &ldquo;Phân tích security posture của account X&rdquo;</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>Orchestrator
+    ↓
+┌───┴───┬─────────┬────────┐
+↓       ↓         ↓        ↓
+GuardDuty IAM     VPC      Data
+Analysis  Review  Config   Encryption
+Agent     Agent   Agent    Agent
+    └───┬───┴─────────┴────────┘
+        ↓
+   Report Generation Agent
+        ↓
+   Comprehensive Security Assessment</code></pre></div>
+<p><strong>Prompt Chaining &amp; Self-Refinement:</strong></p>
+<p>Advanced pattern nơi agent phê bình và cải thiện output của chính nó:</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>Bước 1: Tạo response ban đầu
+Bước 2: Phê bình response (agent riêng hoặc cùng agent với vai trò critic)
+Bước 3: Tinh chỉnh dựa trên phê bình
+Bước 4: Validate theo tiêu chí
+Bước 5: Trả về response cuối cùng</code></pre></div>
+<p>Demo đã cho thấy ví dụ tạo code:</p>
+<ol>
+<li>Agent tạo Python function</li>
+<li>Critic agent review về các vấn đề bảo mật, edge cases, efficiency</li>
+<li>Agent ban đầu tinh chỉnh code dựa trên feedback</li>
+<li>Validator kiểm tra xem code có pass test cases không</li>
+<li>Các vòng lặp tiếp tục cho đến khi validation pass (tối đa 3 vòng lặp)</li>
+</ol>
+<p>Self-refinement này cải thiện đáng kể chất lượng output, đặc biệt đối với các tác vụ phức tạp như IAM policy generation
+hoặc CloudFormation template creation.</p>
+<p><strong>Cost Optimization Techniques:</strong></p>
+<p>Henry đã chia sẻ production metrics cho thấy các tối ưu hóa của CloudThinker:</p>
+<p><strong>Không có tối ưu hóa:</strong></p>
+<ul>
+<li>Average conversation: 45K tokens</li>
+<li>Cost per conversation: $0.15 (Claude Sonnet)</li>
+<li>10,000 conversations/tháng: $1,500</li>
+</ul>
+<p><strong>Với CloudThinker optimization:</strong></p>
+<ul>
+<li>Average conversation: 18K tokens (giảm 60%)</li>
+<li>Cost per conversation: $0.06</li>
+<li>10,000 conversations/tháng: $600</li>
+</ul>
+<p><strong>Optimization techniques được sử dụng:</strong></p>
+<ol>
+<li><strong>Semantic caching:</strong> Cache embeddings cho các queries lặp lại (50% cache hit rate)</li>
+<li><strong>Lazy loading:</strong> Chỉ load knowledge base chunks khi cần thiết</li>
+<li><strong>Compression:</strong> Tóm tắt context cũ một cách mạnh mẽ</li>
+<li><strong>Model routing:</strong> Sử dụng các models rẻ hơn (Haiku) cho các queries đơn giản, Sonnet cho phức tạp</li>
+<li><strong>Batch processing:</strong> Nhóm các queries tương tự để tái sử dụng context</li>
+</ol>
+<p><strong>Key Takeaway cho Dự án của Tôi:</strong>
+Hierarchical memory system và multi-agent orchestration patterns là production-critical cho bất kỳ hệ thống agentic nào
+ở quy mô. Đối với dashboard của tôi, bắt đầu với một single agent là phù hợp, nhưng thiết kế kiến trúc cho việc mở rộng
+multi-agent trong tương lai (các agents riêng biệt cho GuardDuty, IAM, Network, Data protection) đảm bảo khả năng mở
+rộng. Các kỹ thuật tối ưu hóa chi phí là thiết yếu nếu tôi thêm các tính năng AI - ngay cả với AWS credits, token usage
+hiệu quả vẫn quan trọng.</p>
+<hr>
+<h2 id="hands-on-workshop-xây-dựng-bedrock-agent-1100---1200-pm">Hands-On Workshop: Xây dựng Bedrock Agent (11:00 - 12:00 PM)</h2>
+<p>Kha Văn đã dẫn dắt workshop thực hành nơi chúng tôi đã truy cập cloudthinker.io để tối ưu hóa chi phí, bảo mật và cung
+cấp đề xuất.</p>
+<hr>
+<h2 id="kết-luận--suy-ngẫm">Kết luận &amp; Suy ngẫm</h2>
+<p>AWS Bedrock Agentic AI workshop đã biến đổi sự hiểu biết của tôi về cách AI có thể chuyển từ các công cụ thụ động (
+chatbots) sang các hệ thống chủ động (agents). Năm lớp chính của các hệ thống agentic—foundation models, tool
+integration, knowledge bases, orchestration và guardrails—tạo ra các khả năng vượt xa các ứng dụng AI truyền thống.</p>
+<p><strong>Những Insights Có Giá trị Nhất:</strong></p>
+<ol>
+<li>
+<p><strong>Agents cho phép các UX patterns mới:</strong> Thay vì người dùng phải tìm ra phần dashboard nào để click hoặc API nào để
+gọi, họ đặt câu hỏi bằng ngôn ngữ tự nhiên và agent điều phối giải pháp. Điều này làm giảm đáng kể rào cản đối với
+chuyên môn bảo mật cloud.</p>
+</li>
+<li>
+<p><strong>Tool calling là bước đột phá:</strong> Khả năng của LLMs gọi một cách đáng tin cậy các functions bên ngoài (APIs,
+databases, AWS services) với các parameters đúng biến language models từ text generators thành task executors.</p>
+</li>
+<li>
+<p><strong>Knowledge bases giải quyết vấn đề freshness:</strong> Thay vì retrain models hoặc hardcode rules, knowledge bases cho phép
+agents truy cập thông tin cập nhật (AWS documentation, security best practices) thông qua semantic search.</p>
+</li>
+<li>
+<p><strong>Multi-agent orchestration cho phép chuyên môn hóa:</strong> Thay vì một monolithic agent cố gắng xử lý mọi thứ, các
+specialized agents (chuyên gia GuardDuty, chuyên gia IAM, chuyên gia VPC) có thể cộng tác, mỗi agent tận dụng kiến
+thức tập trung.</p>
+</li>
+<li>
+<p><strong>Production yêu cầu observability:</strong> Tính năng reasoning trace là thiết yếu cho debugging, compliance và cải tiến
+liên tục. Không có visibility vào việc ra quyết định của agent, triển khai production là liều lĩnh.</p>
+</li>
+</ol>
+<p><strong>Kết quả Học tập Cá nhân:</strong></p>
+<ol>
+<li>
+<p><strong>Technical Depth:</strong> Đạt được kinh nghiệm thực hành với Bedrock Agents, action groups, knowledge bases và OpenAPI
+schema design. Các ví dụ code từ workshop cung cấp template rõ ràng cho việc triển khai của tôi.</p>
+</li>
+<li>
+<p><strong>Architectural Thinking:</strong> Hiểu các tradeoffs giữa single-agent vs. multi-agent, synchronous vs. asynchronous và
+real-time vs. batch processing sẽ thông báo cho các quyết định thiết kế dashboard của tôi.</p>
+</li>
+<li>
+<p><strong>Production Mindset:</strong> Sự nhấn mạnh vào observability, cost optimization và guardrails củng cố rằng các hệ thống AI
+production yêu cầu infrastructure ngoài bản thân model—logging, monitoring, safety controls.</p>
+</li>
+<li>
+<p><strong>AWS Service Integration:</strong> Đã học cách Bedrock tích hợp với hệ sinh thái AWS rộng lớn hơn (Lambda, S3, OpenSearch,
+CloudWatch, IAM). Điều này củng cố sự hiểu biết của tôi về AWS service orchestration.</p>
+</li>
+</ol>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<a id="logo" href="/FCJ-report-HUGO-SE192671/index.html">
+  <svg
+    id="Layer_1"
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 60 30"
+    width="30%"
+  >
+    <defs>
+      <style>
+        .cls-1 {
+          fill: #fff;
+        }
+        .cls-2 {
+          fill: #f90;
+          fill-rule: evenodd;
+        }
+      </style>
+    </defs>
+    <title>AWS-Logo_White-Color</title>
+    <path
+      class="cls-1"
+      d="M14.09,10.85a4.7,4.7,0,0,0,.19,1.48,7.73,7.73,0,0,0,.54,1.19.77.77,0,0,1,.12.38.64.64,0,0,1-.32.49l-1,.7a.83.83,0,0,1-.44.15.69.69,0,0,1-.49-.23,3.8,3.8,0,0,1-.6-.77q-.25-.42-.51-1a6.14,6.14,0,0,1-4.89,2.3,4.54,4.54,0,0,1-3.32-1.19,4.27,4.27,0,0,1-1.22-3.2A4.28,4.28,0,0,1,3.61,7.75,6.06,6.06,0,0,1,7.69,6.46a12.47,12.47,0,0,1,1.76.13q.92.13,1.91.36V5.73a3.65,3.65,0,0,0-.79-2.66A3.81,3.81,0,0,0,7.86,2.3a7.71,7.71,0,0,0-1.79.22,12.78,12.78,0,0,0-1.79.57,4.55,4.55,0,0,1-.58.22l-.26,0q-.35,0-.35-.52V2a1.09,1.09,0,0,1,.12-.58,1.2,1.2,0,0,1,.47-.35A10.88,10.88,0,0,1,5.77.32,10.19,10.19,0,0,1,8.36,0a6,6,0,0,1,4.35,1.35,5.49,5.49,0,0,1,1.38,4.09ZM7.34,13.38a5.36,5.36,0,0,0,1.72-.31A3.63,3.63,0,0,0,10.63,12,2.62,2.62,0,0,0,11.19,11a5.63,5.63,0,0,0,.16-1.44v-.7a14.35,14.35,0,0,0-1.53-.28,12.37,12.37,0,0,0-1.56-.1,3.84,3.84,0,0,0-2.47.67A2.34,2.34,0,0,0,5,11a2.35,2.35,0,0,0,.61,1.76A2.4,2.4,0,0,0,7.34,13.38Zm13.35,1.8a1,1,0,0,1-.64-.16,1.3,1.3,0,0,1-.35-.65L15.81,1.51a3,3,0,0,1-.15-.67.36.36,0,0,1,.41-.41H17.7a1,1,0,0,1,.65.16,1.4,1.4,0,0,1,.33.65l2.79,11,2.59-11A1.17,1.17,0,0,1,24.39.6a1.1,1.1,0,0,1,.67-.16H26.4a1.1,1.1,0,0,1,.67.16,1.17,1.17,0,0,1,.32.65L30,12.39,32.88,1.25A1.39,1.39,0,0,1,33.22.6a1,1,0,0,1,.65-.16h1.54a.36.36,0,0,1,.41.41,1.36,1.36,0,0,1,0,.26,3.64,3.64,0,0,1-.12.41l-4,12.86a1.3,1.3,0,0,1-.35.65,1,1,0,0,1-.64.16H29.25a1,1,0,0,1-.67-.17,1.26,1.26,0,0,1-.32-.67L25.67,3.64,23.11,14.34a1.26,1.26,0,0,1-.32.67,1,1,0,0,1-.67.17Zm21.36.44a11.28,11.28,0,0,1-2.56-.29,7.44,7.44,0,0,1-1.92-.67,1,1,0,0,1-.61-.93v-.84q0-.52.38-.52a.9.9,0,0,1,.31.06l.42.17a8.77,8.77,0,0,0,1.83.58,9.78,9.78,0,0,0,2,.2,4.48,4.48,0,0,0,2.43-.55,1.76,1.76,0,0,0,.86-1.57,1.61,1.61,0,0,0-.45-1.16A4.29,4.29,0,0,0,43,9.22l-2.41-.76A5.15,5.15,0,0,1,38,6.78a3.94,3.94,0,0,1-.83-2.41,3.7,3.7,0,0,1,.45-1.85,4.47,4.47,0,0,1,1.19-1.37A5.27,5.27,0,0,1,40.51.29,7.4,7.4,0,0,1,42.6,0a8.87,8.87,0,0,1,1.12.07q.57.07,1.08.19t.95.26a4.27,4.27,0,0,1,.7.29,1.59,1.59,0,0,1,.49.41.94.94,0,0,1,.15.55v.79q0,.52-.38.52a1.76,1.76,0,0,1-.64-.2,7.74,7.74,0,0,0-3.2-.64,4.37,4.37,0,0,0-2.21.47,1.6,1.6,0,0,0-.79,1.48,1.58,1.58,0,0,0,.49,1.18,4.94,4.94,0,0,0,1.83.92L44.55,7a5.08,5.08,0,0,1,2.57,1.6A3.76,3.76,0,0,1,47.9,11a4.21,4.21,0,0,1-.44,1.93,4.4,4.4,0,0,1-1.21,1.47,5.43,5.43,0,0,1-1.85.93A8.25,8.25,0,0,1,42.05,15.62Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M45.19,23.81C39.72,27.85,31.78,30,25,30A36.64,36.64,0,0,1,.22,20.57c-.51-.46-.06-1.09.56-.74A49.78,49.78,0,0,0,25.53,26.4,49.23,49.23,0,0,0,44.4,22.53C45.32,22.14,46.1,23.14,45.19,23.81Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M47.47,21.21c-.7-.9-4.63-.42-6.39-.21-.53.06-.62-.4-.14-.74,3.13-2.2,8.27-1.57,8.86-.83s-.16,5.89-3.09,8.35c-.45.38-.88.18-.68-.32C46.69,25.8,48.17,22.11,47.47,21.21Z"
+    ></path>
+  </svg>
+</a>
+
+        </div>
+        <search><form action="/FCJ-report-HUGO-SE192671/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Tìm kiếm (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Tìm kiếm</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Tìm kiếm...">
+            <button class="search-clear" type="button" data-search-clear="" title="Xóa tìm kiếm"><i class="fas fa-times" title="Xóa tìm kiếm"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/1-worklog/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/1-worklog/index.html">1. Nhật ký làm việc</a><ul id="R-subsections-16447363d800ec5deaa3b0a76c63c922" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/2-proposal/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/2-proposal/index.html">2. Dự án (Proposal)</a></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/3-blogs/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/3-blogs/index.html">3. Dịch Blogs</a></li>
+            <li class="parent " data-nav-url="/FCJ-report-HUGO-SE192671/4-events/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/4-events/index.html">4. Sự kiện tham gia</a><ul id="R-subsections-ca643ad786661a2298fb23a5f22b3d7f" class="collapsible-menu">
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/4-events/event_1/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/4-events/event_1/index.html">Sự kiện 1</a></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/4-events/event_2/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/4-events/event_2/index.html">Sự kiện 2</a></li>
+            <li class="active " data-nav-url="/FCJ-report-HUGO-SE192671/4-events/event_7/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/4-events/event_7/index.html">Sự kiện 6</a></li></ul></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/5-workshop/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/5-workshop/index.html">5. Bài tập (Workshop)</a><ul id="R-subsections-3232083df9b680629be5cc26bdd904c0" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/6-evaluation/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/6-evaluation/index.html">6. Nhận xét bản thân</a></li>
+            <li class="" data-nav-url="/FCJ-report-HUGO-SE192671/7-feedback/index.html"><a class="padding" href="/FCJ-report-HUGO-SE192671/7-feedback/index.html">7. Chia sẻ và góp ý</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+			<li class="R-languageswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-language"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-language">Ngôn ngữ</label>
+                  <select id="R-select-language">
+                    <option id="R-select-language-vi" value="vi" data-url="/FCJ-report-HUGO-SE192671/4-events/event_7/index.html" lang="vi" selected data-selected>Vietnamese</option>
+                    <option id="R-select-language-en" value="en" data-url="/FCJ-report-HUGO-SE192671/en/4-events/event_7/index.html" lang="en">English</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="/FCJ-report-HUGO-SE192671/js/clipboard/clipboard.min.js?1765025903" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/perfect-scrollbar/perfect-scrollbar.min.js?1765025903" defer></script>
+    <script src="/FCJ-report-HUGO-SE192671/js/theme.js?1765025903" defer></script>
+  </body>
+</html>

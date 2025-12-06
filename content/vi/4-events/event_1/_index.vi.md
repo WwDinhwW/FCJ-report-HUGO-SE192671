@@ -5,11 +5,11 @@ type: "page"
 
 # BÀI THU HOẠCH SỰ KIỆN: “AWS Cloud Day Vietnam 2025 & GenAI Track”
 
-&emsp;**Ngày:** Thứ Năm, 18 tháng 09, 2025
+**Ngày:** Thứ Năm, 18 tháng 09, 2025
 
-&emsp;**Thời gian:** 9:00 AM – 5:00 PM
+**Thời gian:** 9:00 AM – 5:00 PM
 
-&emsp;**Địa điểm:** Văn phòng AWS Vietnam, Tòa nhà Bitexco Financial Tower, Quận 1, TP.HCM.
+**Địa điểm:** Văn phòng AWS Vietnam, Tòa nhà Bitexco Financial Tower, Quận 1, TP.HCM.
 
 ### Mục Đích Của Sự Kiện.
 
@@ -39,11 +39,11 @@ type: "page"
 
 - **Panelists:**
 
-  + Vu Van, Co-founder & CEO, ELSA Corp.
+    + Vu Van, Co-founder & CEO, ELSA Corp.
 
-  + Nguyen Hoa Binh, Chairman, Nexttech Group.
+    + Nguyen Hoa Binh, Chairman, Nexttech Group.
 
-  + Dieter Botha, CEO, TymeX.
+    + Dieter Botha, CEO, TymeX.
 
 #### Buổi trưa:
 
@@ -65,7 +65,8 @@ type: "page"
 
 - **Opening & Keynote (Eric Yeo, AWS)**: Giới thiệu tầm nhìn AWS tại Việt Nam và Đông Nam Á.
 
-- **Customer Keynote 1 (Techcombank)**: Ứng dụng AI trong tài chính – tăng hiệu quả vận hành, cải thiện trải nghiệm khách hàng.
+- **Customer Keynote 1 (Techcombank)**: Ứng dụng AI trong tài chính – tăng hiệu quả vận hành, cải thiện trải nghiệm
+  khách hàng.
 
 - **Customer Keynote 2 (U2U Network)**: Kết hợp blockchain và AI để xây dựng hệ sinh thái phi tập trung.
 
@@ -73,45 +74,45 @@ type: "page"
 
 - **Panel Discussion (Jeff Johnson + các CEO)**:
 
-  + Lãnh đạo cần định hướng văn hóa đổi mới.
+    + Lãnh đạo cần định hướng văn hóa đổi mới.
 
-  + GenAI là công cụ chiến lược chứ không chỉ là công nghệ.
+    + GenAI là công cụ chiến lược chứ không chỉ là công nghệ.
 
-  + Quản trị thay đổi là yếu tố then chốt khi tích hợp AI.
+    + Quản trị thay đổi là yếu tố then chốt khi tích hợp AI.
 
 #### Phần 2: GenAI Track.
 
 - **Building a Unified Data Foundation on AWS for AI and Analytics Workloads (Kien Nguyen)**:
 
-  + Chiến lược xây dựng nền tảng dữ liệu thống nhất, mở rộng và tối ưu cho AI & phân tích.
+    + Chiến lược xây dựng nền tảng dữ liệu thống nhất, mở rộng và tối ưu cho AI & phân tích.
 
-  + Tận dụng các dịch vụ AWS để quản lý ingestion, lưu trữ, xử lý và quản trị dữ liệu hiệu quả.
+    + Tận dụng các dịch vụ AWS để quản lý ingestion, lưu trữ, xử lý và quản trị dữ liệu hiệu quả.
 
 - **Building the Future: GenAI Adoption and Roadmap on AWS (Jun Kai Loke & Tamelly Lim)**:
 
-  + Trình bày tầm nhìn, xu hướng và lộ trình phát triển công nghệ GenAI trên AWS.
+    + Trình bày tầm nhìn, xu hướng và lộ trình phát triển công nghệ GenAI trên AWS.
 
-  + Giới thiệu các dịch vụ và sáng kiến giúp doanh nghiệp ứng dụng GenAI để đổi mới và nâng cao hiệu suất.
+    + Giới thiệu các dịch vụ và sáng kiến giúp doanh nghiệp ứng dụng GenAI để đổi mới và nâng cao hiệu suất.
 
 - **AI-Driven Development Lifecycle (AI-DLC) Shaping the Future of Software Implementation (Binh Tran)**:
 
-  + Cách tiếp cận mới tích hợp AI vào toàn bộ vòng đời phát triển phần mềm.
+    + Cách tiếp cận mới tích hợp AI vào toàn bộ vòng đời phát triển phần mềm.
 
-  + Kết hợp thực thi do AI hỗ trợ với giám sát con người để tăng tốc, nâng cao chất lượng và đổi mới phần mềm.
+    + Kết hợp thực thi do AI hỗ trợ với giám sát con người để tăng tốc, nâng cao chất lượng và đổi mới phần mềm.
 
 - **Securing Generative AI Applications (Taiki Dang)**:
 
-  + Thách thức bảo mật trong GenAI stack: hạ tầng, mô hình, ứng dụng.
+    + Thách thức bảo mật trong GenAI stack: hạ tầng, mô hình, ứng dụng.
 
-  + Biện pháp: encryption, zero-trust architecture, continuous monitoring, fine-grained access control.
+    + Biện pháp: encryption, zero-trust architecture, continuous monitoring, fine-grained access control.
 
 - **Beyond Automation: AI Agents (Michael Armentano)**:
 
-  + AI Agents không chỉ là automation mà là “đối tác thông minh”.
+    + AI Agents không chỉ là automation mà là “đối tác thông minh”.
 
-  + Có khả năng học, thích ứng, thực thi tác vụ phức tạp → tăng năng suất vượt bậc.
+    + Có khả năng học, thích ứng, thực thi tác vụ phức tạp → tăng năng suất vượt bậc.
 
-  + Mở ra tương lai nơi AI nhân lên năng suất lao động thay vì chỉ tối ưu hóa.
+    + Mở ra tương lai nơi AI nhân lên năng suất lao động thay vì chỉ tối ưu hóa.
 
 #### Keynotes.
 
@@ -135,15 +136,15 @@ type: "page"
 
 - **Securing Generative AI Applications (Taiki Dang)**:
 
-  + Các thách thức bảo mật trong GenAI stack (infrastructure, model, application).
+    + Các thách thức bảo mật trong GenAI stack (infrastructure, model, application).
 
-  + Biện pháp bảo mật: encryption, zero-trust, continuous monitoring, fine-grained access.
+    + Biện pháp bảo mật: encryption, zero-trust, continuous monitoring, fine-grained access.
 
 - **Beyond Automation: AI Agents (Michael Armentano)**:
 
-  - AI Agents như đối tác thông minh, vượt xa automation truyền thống.
+    - AI Agents như đối tác thông minh, vượt xa automation truyền thống.
 
-  - Khả năng học hỏi, thích ứng, thực thi tác vụ phức tạp → tăng năng suất vượt bậc.
+    - Khả năng học hỏi, thích ứng, thực thi tác vụ phức tạp → tăng năng suất vượt bậc.
 
 ### Những Gì Học Được
 
@@ -190,7 +191,7 @@ type: "page"
 #### Trải nghiệm kỹ thuật thực tế.
 
 - Hiểu rõ kiến trúc bảo mật khi triển khai GenAI.
-  
+
 - Nhận thức được tiềm năng của AI Agents trong tự động hóa nâng cao.
 
 #### Kết nối & Trao đổi.

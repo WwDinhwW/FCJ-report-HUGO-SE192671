@@ -5,10 +5,13 @@ type: "page"
 
 # EVENT REPORT: **AWS Cloud Mastery Series #1 — AI/ML/GenAI on AWS**
 
-&emsp;**Date:** Saturday, November 15, 2025  
-&emsp;**Time:** 8:00 AM – 11:30 AM  
-&emsp;**Location:** AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City  
-&emsp;**Objective:** Provide foundational to advanced understanding of AI/ML services and Generative AI (GenAI) on AWS.
+**Date:** Saturday, November 15, 2025  
+
+**Time:** 8:00 AM – 11:30 AM  
+
+**Location:** AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City  
+
+**Objective:** Provide foundational to advanced understanding of AI/ML services and Generative AI (GenAI) on AWS.
 
 ---
 
@@ -75,6 +78,7 @@ Participants concluded the session and proceeded to lunch (individual arrangemen
 ### Evaluation
 
 The session offered strong coverage of both pillars of AI on AWS:
+
 - **SageMaker** for full-cycle ML development and custom model training.
 - **Bedrock** for rapid GenAI deployment using Foundation Models.
 

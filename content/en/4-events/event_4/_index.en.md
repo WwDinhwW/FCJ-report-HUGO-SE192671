@@ -3,142 +3,93 @@ title: "Event 4"
 type: "page"
 ---
 
-# EVENT REPORT: **AWS Cloud Mastery Series #2 — DevOps on AWS**
+# EVENT REPORT: **AWS Edge Services Workshop**
 
-&emsp;**Date:** Monday, November 17, 2025  
-&emsp;**Time:** 8:30 AM – 5:00 PM  
-&emsp;**Location:** AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City  
-&emsp;**Objective:** Provide comprehensive understanding of DevOps culture, performance principles, and AWS DevOps tooling to build CI/CD pipelines, Infrastructure as Code (IaC), and full-stack observability.
+**Date:** Wednesday, November 19, 2025  
 
----
+**Time:** 8:30 AM – 5:00 PM  
 
-## MORNING SESSION (8:30 AM – 12:00 PM): CI/CD & INFRASTRUCTURE AS CODE
+**Location:** AWS Vietnam Office, Bitexco Financial Tower, District 1, Ho Chi Minh City
 
-### 1. Welcome & DevOps Mindset (8:30 – 9:00 AM)
-- Recap of previous AI/ML session, shifting focus toward productionizing ML and application workloads.
-- Emphasis on **DevOps culture and collaboration** between Development and Operations.
-- Introduction to key performance metrics including **DORA metrics** and **MTTR (Mean Time To Recovery)**.
+**Objective:** Strengthen knowledge of global content delivery via CloudFront, enhance web application security
+with AWS WAF, and apply real implementation through interactive hands-on sessions.
 
 ---
 
-### 2. AWS DevOps Services — CI/CD Pipeline Building (9:00 – 10:30 AM)
+## AGENDA SUMMARY
 
-Deep dive into AWS Code-family services for **Continuous Integration (CI)** and **Continuous Deployment (CD)** automation:
-
-- **Source Control:**  
-  AWS CodeCommit with discussion on **GitFlow** vs **Trunk-based** branching models.
-
-- **Build & Test Automation:**  
-  Using **CodeBuild** for compilation, unit testing, and automated test pipelines.
-
-- **Deployment Strategies — CodeDeploy:**  
-  Advanced rollout patterns including **Blue/Green**, **Canary**, and **Rolling updates**.
-
-- **Pipeline Orchestration:**  
-  **CodePipeline** for automating the full path from commit → test → deploy.
-
-- **Live Demo:**  
-  Full CI/CD pipeline showcase running on AWS.
+| Time              | Topic                                                    | Speaker(s)                                    | Key Focus                                                                   |
+|:------------------|:---------------------------------------------------------|:----------------------------------------------|:----------------------------------------------------------------------------|
+| **08:00 – 08:30** | Registration & Networking                                | —                                             | Check-in and networking with AWS architects.                                |
+| **08:30 – 09:30** | From Edge to Origin: CloudFront as Your Foundation       | Nguyễn Gia Hưng — Head of Solutions Architect | CDN architecture, Edge locations, global content distribution optimization. |
+| **09:30 – 10:45** | Attack Surface Defense: AWS WAF & Application Protection | Julian Ju — Senior Edge Services SA           | WAF rule sets, OWASP Top 10 mitigation, bot prevention.                     |
+| **10:45 – 12:00** | Lunch & Networking                                       | —                                             | Expanded discussions & networking.                                          |
+| **13:00 – 14:30** | Hands-On: Optimize Internet Web Application              | Hưng, Julian, Kevin Lim                       | CloudFront configuration, real-world performance tuning.                    |
+| **14:45 – 16:15** | Hands-On: Secure Internet Web Application                | Hưng, Julian, Kevin Lim                       | WAF rules, bot simulation & blocking, OWASP vulnerability defense.          |
+| **16:15 – 17:00** | Closing & Open Discussion                                | —                                             | Lessons learned, Q&A, advanced technical discussion.                        |
 
 ---
 
-### 3. Infrastructure as Code (IaC) (10:45 AM – 12:00 PM)
+## KEY KNOWLEDGE GAINED
 
-IaC as the foundation of modern scalable DevOps:
+### 1. CloudFront — Content Delivery & Edge Optimization
 
-- **AWS CloudFormation:**  
-  Understanding **Templates, Stacks, and Drift Detection** for reproducible environments.
+- Understanding CDN fundamentals & differences between Edge Location, Regional Edge Cache, and Origin.
+- Advanced routing + caching strategy to reduce latency and boost global distribution speed.
+- Implementing edge-level security layers (Origin Shield, cache policies, geo restrictions).
 
-- **AWS CDK — Modern IaC Approach:**  
-  Defining infrastructure using programming languages (TypeScript, Python, etc.) with **Constructs and Reusable Patterns**.
-
-- **Demo & Discussion:**  
-  Hands-on demonstration deploying infrastructure via both CloudFormation & CDK, plus decision criteria for choosing each approach.
+→ CloudFront is not only a CDN — it is also a performance + security perimeter for backend systems.
 
 ---
 
-## AFTERNOON SESSION (1:00 PM – 5:00 PM): CONTAINERS, OBSERVABILITY & BEST PRACTICES
+### 2. AWS WAF — Layered Web Protection
 
-### 4. Container Services on AWS (1:00 – 2:30 PM)
+- Configuring WAF against bots, SQL injection, XSS & **OWASP Top 10** threats.
+- Writing rules, conditions, match patterns, rate limiting, IP allow/deny lists.
+- Reduced malicious traffic load, protecting backend compute & business logic.
 
-- **Docker Fundamentals:**  
-  Microservices architecture and containerization essentials.
-
-- **Amazon ECR:**  
-  Container image registry with image scanning & lifecycle policy management.
-
-- **Amazon ECS vs EKS:**  
-  Comparison of AWS-native ECS vs Kubernetes-powered EKS — deployment, scaling, and use cases.
-
-- **AWS App Runner:**  
-  Simplified container deployment focusing on code, not infrastructure.
-
-- **Demo & Case Study:**  
-  Microservices deployment walkthrough and service comparison.
+→ Standout point: rules can be tailored precisely for each application’s behavior.
 
 ---
 
-### 5. Monitoring & Observability (2:45 – 4:00 PM)
+### 3. Hands-On Labs — Knowledge into Execution
 
-- **Amazon CloudWatch:**  
-  Metrics, logs, alarms, and dashboarding across AWS systems.
+**Workshop 1: Performance Optimization**
 
-- **AWS X-Ray:**  
-  Distributed tracing for identifying bottlenecks in microservices.
+- Configured CloudFront with Lambda@Edge/Function URL.
+- Compared latency before vs after configuration.
+- Improved cache-hit ratio and UI response speed.
 
-- **Demo:**  
-  Building a full-stack observability setup.
+**Workshop 2: Security Hardening**
 
-- **Best Practices:**  
-  Alerting strategy, dashboards, and on-call operational standards.
+- Designed WAF protection policies.
+- Simulated bot traffic & executed block/detect mechanisms.
+- Understood how WAF evaluates request intent before allowing or rejecting traffic.
 
----
-
-### 6. Best Practices & Real-World Case Studies (4:00 – 4:45 PM)
-
-- Advanced Deployment Tools — **Feature Flags, A/B Testing** for release control.
-- Automated testing deeply integrated with CI/CD pipelines.
-- Incident management structures, including postmortems for continuous improvement.
-- Case studies from successful DevOps transformations in startups and enterprises.
+→ Practical execution was the most valuable part — theory became tangible.
 
 ---
 
-### 7. Q&A & Closing Remarks (4:45 – 5:00 PM)
+## EVALUATION & FUTURE APPLICATION
 
-- Deep-dive question handling.
-- DevOps career roadmap & relevant AWS certifications.
+| Value Gained                    | Real-World Application                              |
+|---------------------------------|-----------------------------------------------------|
+| Advanced CloudFront knowledge   | Deploy CDN for large-scale global traffic handling. |
+| Deep AWS WAF understanding      | Harden enterprise apps & reduce attack surface.     |
+| Practical deployment experience | Faster production rollout — fewer config mistakes.  |
+| Networking with AWS specialists | More learning & collaboration opportunities.        |
 
----
+### Personal Next Steps
 
-## SUMMARY & APPLICABILITY
-
-### Evaluation
-
-The event covered the full DevOps lifecycle end-to-end — from culture, CI/CD automation, IaC provisioning, container orchestration, to observability and operational excellence. It provided a balanced mix of conceptual frameworks (DevOps principles, DORA metrics) and real AWS tooling (CodePipeline, CDK, X-Ray).
-
-### Key Takeaways
-
-- Understanding AWS CodeFamily for building automated CI/CD pipelines.
-- Strengths and trade-offs of **CloudFormation vs CDK** in IaC.
-- How to choose between ECS and EKS for container workloads.
-- Implementing proactive monitoring using CloudWatch & X-Ray.
-
-### Next Steps
-
-1. **CI/CD Practice:**  
-   Build a pipeline with **CodeCommit + CodeBuild + CodePipeline** for a project or sample repo.
-
-2. **Explore AWS CDK:**  
-   Begin infrastructure authoring using CDK with simple reusable Constructs.
-
-3. **Deploy Observability:**  
-   Integrate CloudWatch Logs + X-Ray tracing in project APIs and services.
+1. Build an internal CloudFront + WAF demo environment.
+2. Practice more WAF rules — especially bot control & OWASP attack defense use cases.
+3. Study Lambda@Edge for edge-level logic processing to reduce backend workload.
 
 ---
 
 ## Event Photos
 
-![](/images/4-Events/Event4.1.jpg)  
-![](/images/4-Events/Event4.2.jpg)  
-![](/images/4-Events/Event4.3.jpg)  
-![](/images/4-Events/Event4.4.jpg)
+![](/images/4-Events/Event5.1.jpg)  
+![](/images/4-Events/Event5.2.jpg)  
+![](/images/4-Events/Event5.3.jpg)  
+![](/images/4-Events/Event5.4.jpg)

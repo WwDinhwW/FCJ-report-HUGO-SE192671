@@ -3,78 +3,120 @@ title: "Sự kiện 3"
 type: "page"
 ---
 
-# BÀI THU HOẠCH SỰ KIỆN: TẬP TRUNG VÀO AWS BEDROCK AGENT VÀ WORKFLOW AGENTIC
+# BÀI THU HOẠCH SỰ KIỆN: "AWS Cloud Mastery Series #2 : DevOps on AWS"
 
-**Mục tiêu sự kiện:** Cung cấp kiến thức chuyên sâu về cách xây dựng và vận hành các quy trình làm việc tự động
-(Agentic Workflows) sử dụng **AWS Bedrock Agent** và giới thiệu giải pháp tối ưu hóa từ đối tác CloudThinker.
+**Ngày:** Thứ Hai, 17 tháng 11, 2025
 
+**Thời gian:** 8:30 AM – 5:00 PM
 
-## TÓM TẮT CHƯƠNG TRÌNH
+**Địa điểm:** Văn phòng AWS Vietnam, Tòa nhà Bitexco Financial Tower, Quận 1, TP.HCM.
 
-| Thời gian         | Chủ đề                                                                                | Diễn giả                                     | Điểm nổi bật                                                                      |
-|:------------------|:--------------------------------------------------------------------------------------|:---------------------------------------------|:----------------------------------------------------------------------------------|
-| **9:00 - 9:10**   | **Khai mạc**                                                                          | Nguyen Gia Hung, Head of Solutions Architect | Đặt mục tiêu và bối cảnh cho sự kiện.                                             |
-| **9:10 - 9:40**   | **AWS Bedrock Agent Core**                                                            | Kien Nguyen, Solutions Architect             | Phân tích kiến trúc, tính năng cốt lõi, và cơ chế hoạt động của Bedrock Agent.    |
-| **9:40 - 10:00**  | **[Use Case] Building Agentic Workflow on AWS**                                       | Viet Pham, Founder cum CEO                   | Trình bày ví dụ thực tế về việc triển khai workflow tự động hóa trên AWS.         |
-| **10:00 - 10:10** | **Giới thiệu CloudThinker**                                                           | Thang Ton, Co-founder & COO                  | Giới thiệu công ty và giải pháp tập trung vào tối ưu hóa GenAI.                   |
-| **10:10 - 10:40** | **CloudThinker Agentic Orchestration, Context Optimization on Amazon Bedrock (L300)** | Henry Bui, Head of Engineering               | Đi sâu vào kỹ thuật điều phối Agent và tối ưu hóa ngữ cảnh (context) cho Bedrock. |
-| **10:40 - 11:00** | **Nghỉ giải lao & Kết nối**                                                           |                                              | Cơ hội trao đổi và thư giãn.                                                      |
-| **11:00 - 12:00** | **CloudThinker Hack: Hands-on Workshop**                                              | Kha Van                                      | Thực hành trực tiếp xây dựng giải pháp Agentic.                                   |
-| **12:00**         | **Kết nối & Ăn trưa**                                                                 |                                              |                                                                                   |
+**Mục tiêu sự kiện:** Cung cấp kiến thức toàn diện về Văn hóa DevOps, các nguyên tắc, chỉ số hiệu suất, và bộ công
+cụ dịch vụ DevOps của AWS để xây dựng quy trình CI/CD, IaC, và Observability.
 
+---
 
-## KIẾN THỨC CHUYÊN SÂU THU ĐƯỢC
+## PHIÊN SÁNG (8:30 AM – 12:00 PM): CI/CD & INFRASTRUCTURE AS CODE
 
-### 1. Kiến trúc Cốt lõi của AWS Bedrock Agent
+### 1. Chào mừng & Tư duy DevOps (8:30 – 9:00 AM)
 
-* Bài trình bày của anh Kien Nguyen đã làm rõ vai trò của **Bedrock Agent** như một công cụ mạnh mẽ để **tự động hóa
-  các tác vụ phức tạp** bằng cách kết nối Mô hình Nền tảng (FM) với các hệ thống và API nghiệp vụ.
+* Sự kiện bắt đầu với phần **tổng kết nhanh** từ phiên AI/ML trước đó, đặt bối cảnh cho việc đưa các mô hình/ứng dụng
+  này vào sản xuất (Production).
+* Trọng tâm là **văn hóa và nguyên tắc DevOps**, nhấn mạnh sự hợp tác giữa Phát triển (Dev) và Vận hành (Ops).
+* Giới thiệu các **chỉ số hiệu suất quan trọng** như **DORA** (Deployment Frequency, Lead Time for Changes, MTTR, Change
+  Failure Rate) và **MTTR** (Mean Time To Recovery).
 
-* **Cơ chế hoạt động:** Agent sử dụng khả năng lập luận (reasoning) của FM để phân tích yêu cầu của người dùng, xác định
-  các bước cần thiết, và gọi các **Tools (Action Groups)** để hoàn thành tác vụ.
+### 2. Dịch vụ AWS DevOps – Xây dựng Pipeline CI/CD (9:00 – 10:30 AM)
 
-* **Lợi ích chính:** Giảm thiểu công sức lập trình cho các workflow đa bước và đảm bảo tính an toàn (safety guardrails)
-  khi truy cập vào dữ liệu hoặc hệ thống nội bộ.
+Phần này đi sâu vào bộ công cụ AWS CodeFamily để tự động hóa quy trình **Tích hợp Liên tục (CI)** và **Triển khai Liên
+tục (CD)**:
 
-### 2. Ứng dụng Thực tế: Xây dựng Workflow Agentic
+* **Source Control:** Sử dụng **AWS CodeCommit** và thảo luận về các chiến lược quản lý mã nguồn như **GitFlow** và *
+  *Trunk-based**.
+* **Build & Test:** Cấu hình **CodeBuild** để tự động biên dịch và chạy kiểm thử (testing pipelines).
+* **Deployment (Triển khai):** Phân tích các chiến lược triển khai tiên tiến với **CodeDeploy**, bao gồm **Blue/Green,
+  Canary, và Rolling updates**.
+* **Orchestration (Điều phối):** Sử dụng **CodePipeline** để tự động hóa toàn bộ quy trình từ commit đến production.
+* **Demo:** Trình diễn trực quan quy trình CI/CD hoàn chỉnh trên AWS.
 
-* **Use Case** từ anh Viet Pham đã minh họa cách chuyển đổi các quy trình thủ công, tuần tự thành **workflow tự động**
-  dựa trên Agent.
+### 3. Infrastructure as Code (IaC) (10:45 AM – 12:00 PM)
 
-* Điểm quan trọng là việc **định nghĩa rõ ràng các khả năng (capabilities)** và API của hệ thống để Agent có thể hiểu
-  và sử dụng một cách chính xác.
+IaC là nền tảng của DevOps hiện đại, đảm bảo tính nhất quán và khả năng tái tạo của môi trường:
 
-### 3. Tối ưu hóa Workflow Agentic với CloudThinker
+* **AWS CloudFormation:** Tìm hiểu về **Templates (Mẫu), Stacks (Ngăn xếp),** và cách sử dụng **Drift Detection** để
+  phát hiện sự sai lệch giữa trạng thái thực tế và mã nguồn.
+* **AWS CDK (Cloud Development Kit):** Giới thiệu về CDK như một phương pháp tiếp cận hiện đại hơn, sử dụng ngôn ngữ lập
+  trình quen thuộc (TypeScript, Python,...) để định nghĩa hạ tầng thông qua **Constructs** và các **Mẫu tái sử dụng (
+  reusable patterns)**.
+* **Demo & Thảo luận:** Trình diễn triển khai hạ tầng bằng cả CloudFormation và CDK, cùng thảo luận về tiêu chí lựa chọn
+  công cụ IaC phù hợp.
 
-* Phần trình bày của CloudThinker tập trung vào việc giải quyết các thách thức ở cấp độ chuyên sâu (L300) khi vận hành Agent:
+---
 
-    * **Agentic Orchestration:** Các chiến lược điều phối để quản lý nhiều Agent hoặc các bước phức tạp, đảm bảo tính nhất quán và hiệu suất.
+## PHIÊN CHIỀU (1:00 PM – 5:00 PM): CONTAINER, OBSERVABILITY & BEST PRACTICES
 
-    * **Context Optimization:** Kỹ thuật **tối ưu hóa ngữ cảnh** truyền vào FM (ví dụ: tối ưu hóa RAG, quản lý cửa sổ ngữ cảnh) để giảm chi phí token và cải thiện độ chính xác/khả năng lập luận của Agent.
+### 4. Dịch vụ Container trên AWS (1:00 – 2:30 PM)
 
-* Đây là chìa khóa để triển khai các ứng dụng Agentic **hiệu quả về chi phí** và **đáng tin cậy** trong môi trường doanh nghiệp.
+* **Docker Fundamentals:** Ôn lại kiến thức cơ bản về **Microservices** và **Containerization**.
+* **Amazon ECR (Elastic Container Registry):** Dịch vụ lưu trữ Image container, bao gồm tính năng **quét hình ảnh** và *
+  *chính sách vòng đời (lifecycle policies)**.
+* **Amazon ECS & EKS:** So sánh hai dịch vụ điều phối container chính: **ECS** (đơn giản, tích hợp AWS) và **EKS** (dựa
+  trên Kubernetes). Phân tích các chiến lược triển khai và mở rộng quy mô.
+* **AWS App Runner:** Giải pháp đơn giản hóa việc triển khai container, tập trung vào code thay vì hạ tầng.
+* **Demo & Case Study:** Minh họa việc triển khai kiến trúc microservices và so sánh sự khác biệt giữa các dịch vụ.
 
-### 4. Thực hành Chuyên sâu (Hands-on Workshop)
+### 5. Giám sát & Khả năng Quan sát (Monitoring & Observability) (2:45 – 4:00 PM)
 
-* Phiên **CloudThinker Hack** dưới sự hướng dẫn của Kha Van là cơ hội quý giá để người tham dự:
+* **CloudWatch:** Công cụ cốt lõi cho việc thu thập **metrics, logs, alarms, và dashboards** trên toàn bộ hệ thống AWS.
+* **AWS X-Ray:** Cung cấp **Distributed Tracing (truy vết phân tán)** để theo dõi luồng request qua các microservices,
+  giúp xác định nút cổ chai và các vấn đề hiệu suất.
+* **Demo:** Thiết lập hệ thống observability toàn diện (Full-stack observability).
+* **Best Practices:** Các thực hành tốt nhất về **Alerting (cảnh báo), dashboards,** và quy trình **on-call** (trực sự
+  cố).
 
-    * **Trực tiếp cấu hình** và triển khai một Agent đơn giản trên Amazon Bedrock.
+### 6. Thực tiễn Tốt nhất & Case Studies (4:00 – 4:45 PM)
 
-    * **Áp dụng các kỹ thuật tối ưu hóa** ngữ cảnh và điều phối của CloudThinker vào workflow đã xây dựng.
+* **Deployment Strategies Nâng cao:** Thảo luận về **Feature flags** (cờ tính năng) và **A/B testing** trong quy trình
+  triển khai.
+* **Tự động hóa Kiểm thử (Automated testing)** và tích hợp sâu với CI/CD.
+* **Incident Management:** Quản lý sự cố và tầm quan trọng của các báo cáo **Postmortems** (phân tích sau sự cố) để học
+  hỏi và cải tiến.
+* **Case Studies:** Bài học kinh nghiệm từ các công ty khởi nghiệp và doanh nghiệp lớn đã thực hiện chuyển đổi DevOps
+  thành công.
 
-* Phần thực hành giúp củng cố kiến thức lý thuyết và hiểu rõ hơn về **thách thức kỹ thuật** khi đưa Agent vào sản xuất.
+### 7. Hỏi đáp & Tổng kết (4:45 – 5:00 PM)
 
+* Giải đáp các thắc mắc chuyên sâu.
+* Cung cấp thông tin về **lộ trình nghề nghiệp DevOps** và các chứng chỉ AWS liên quan.
 
-## ĐÁNH GIÁ VÀ HÀNH ĐỘNG TIẾP THEO
+---
+
+## ĐÁNH GIÁ CHUNG VÀ ỨNG DỤNG
 
 **Đánh giá:**
+Sự kiện đã bao quát toàn bộ vòng đời DevOps, từ văn hóa, quy trình CI/CD, quản lý hạ tầng bằng mã, đến vận hành hệ thống
+container và observability. Kiến thức được truyền đạt rõ ràng, kết hợp giữa lý thuyết (DevOps Principles, DORA metrics)
+và công cụ thực tế (CodePipeline, CDK, X-Ray).
 
-Sự kiện đã thành công trong việc cung cấp một cái nhìn sâu sắc, từ cơ bản đến nâng cao (L300), về một trong những tính năng mạnh mẽ nhất của AWS GenAI: **Bedrock Agent**. Sự kết hợp giữa kiến thức nền tảng từ AWS và giải pháp tối ưu hóa từ đối tác CloudThinker mang lại giá trị thực tiễn cao, đặc biệt qua phần Hands-on Workshop.
+**Kiến thức Chính Thu được:**
 
-**Hành động đề xuất (Next Steps):**
+* Nắm vững các công cụ AWS CodeFamily để thiết lập pipeline CI/CD tự động.
+* Hiểu rõ ưu nhược điểm của CloudFormation và CDK trong IaC.
+* Phân biệt và ứng dụng các dịch vụ container (ECS, EKS).
+* Thiết lập hệ thống giám sát chủ động bằng CloudWatch và X-Ray.
 
-1.  **Thử nghiệm Bedrock Agent:** Xây dựng một Agent đơn giản để tự động hóa một tác vụ nghiệp vụ nhỏ (ví dụ: tra cứu dữ liệu từ DynamoDB hoặc gọi một API nội bộ) để củng cố kiến thức về **Action Groups**.
+**Hành động Đề xuất (Next Steps):**
 
-2.  **Nghiên cứu Tối ưu hóa Context:** Tìm hiểu sâu hơn về các kỹ thuật tối ưu hóa ngữ cảnh và prompt engineering nâng cao (như đã được trình bày bởi CloudThinker) để áp dụng vào các dự án GenAI hiện có.
+1. **Thực hành CI/CD:** Sử dụng **CodeCommit, CodeBuild, và CodePipeline** để tự động hóa việc triển khai cho dự án hiện
+   tại (nếu có) hoặc một ứng dụng mẫu.
+2. **Khám phá CDK:** Bắt đầu sử dụng **AWS CDK** để định nghĩa hạ tầng project thay vì sử dụng Console, tập trung vào
+   việc tạo các **Constructs** đơn giản.
+3. **Triển khai Observability:** Tích hợp **CloudWatch Logs** và thử nghiệm **AWS X-Ray** để theo dõi các chức năng (API
+   calls) trong project nhằm áp dụng nguyên tắc giám sát ngay từ đầu.
 
-3.  **Khám phá MLOps cho Agent:** Nghiên cứu cách **giám sát và quản lý vòng đời** của Bedrock Agent (AgentOps), bao gồm việc cập nhật Tools và mô hình Nền tảng.
+## Một số hình ảnh khi tham gia sự kiện.
+
+![](/images/4-Events/Event4.1.jpg)
+![](/images/4-Events/Event4.2.jpg)
+![](/images/4-Events/Event4.3.jpg)
+![](/images/4-Events/Event4.4.jpg)
