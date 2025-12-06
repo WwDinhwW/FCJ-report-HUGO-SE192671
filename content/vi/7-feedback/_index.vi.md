@@ -3,8 +3,6 @@ title: "7. Chia sẻ và góp ý"
 type: "page"
 ---
 
-# Phản Hồi Cá Nhân, Chương trình thực tập AWS First Cloud Journey (FCJ)
-
 Trong quá trình tham gia chương trình **First Cloud Journey (FCJ)** tại AWS Vietnam, em đã học và trải nghiệm một môi
 trường thực tế, nơi việc tự nghiên cứu và chủ động khám phá được đặt lên hàng đầu.  
 Với em, đây là một hành trình học tập rất giá trị và mang lại nhiều sự trưởng thành.

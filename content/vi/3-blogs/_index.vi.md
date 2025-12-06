@@ -3,7 +3,7 @@ title: "3. Dịch Blogs"
 type: "page"
 ---
 
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà em đã dịch.
+**Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà em đã dịch.**
 
 ### Blog 1 - Triển khai DevSecOps Ecosystem cho Amazon Connect tại NatWest
 

@@ -3,7 +3,7 @@ title: "5. Bài tập (Workshop)"
 type: "page"
 ---
 
-# Đây là bài Workshop của nhóm chúng em. Xin mời thầy/cô/anh/chị xem các nội dung phía dưới.
+**Đây là bài Workshop của nhóm chúng em. Xin mời thầy/cô/anh/chị xem các nội dung phía dưới.**
 
 #### Nội dung
 

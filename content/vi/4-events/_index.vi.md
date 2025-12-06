@@ -3,8 +3,8 @@ title: "4. Sự kiện tham gia"
 type: "page"
 ---
 
-Trong quá trình thực tập, em đã tham gia 6 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới,
-thú vị và bổ ích, cùng với đó là những món quà và những khoảnh khắc rất tuyệt vời.
+**Trong quá trình thực tập, em đã tham gia 6 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới,
+thú vị và bổ ích, cùng với đó là những món quà và những khoảnh khắc rất tuyệt vời.**
 
 ### [Event 1](event_1/)
 

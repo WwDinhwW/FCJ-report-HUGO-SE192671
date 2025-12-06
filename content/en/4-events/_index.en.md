@@ -3,8 +3,8 @@ title: "4. Events Attended"
 type: "page"
 ---
 
-During my internship, I participated in six AWS events — each one a memorable experience filled with new knowledge,
-hands-on learning, valuable insights, along with fun moments and community interaction.
+**During my internship, I participated in 6 AWS events, each one a memorable experience filled with new knowledge,
+hands-on learning, valuable insights, along with fun moments and community interaction.**
 
 ### [Event 1](event_1/)
 

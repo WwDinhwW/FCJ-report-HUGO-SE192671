@@ -3,8 +3,6 @@ title: "7. Sharing and Feedback"
 type: "page"
 ---
 
-# Personal Feedback – AWS First Cloud Journey (FCJ)
-
 During my time in AWS Vietnam under the **First Cloud Journey (FCJ)** program, I experienced a learning environment that
 challenged me, accelerated my growth, and pushed me beyond the typical student-level knowledge.
 

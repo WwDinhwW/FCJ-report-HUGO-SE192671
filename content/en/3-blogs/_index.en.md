@@ -3,7 +3,7 @@ title: "3. Translated Blogs"
 type: "page"
 ---
 
-This section will list and introduce the blogs that I have translated.
+**This component will list and introduce the blogs that I have translated.**
 
 ### Blog 1 - Implementing DevSecOps Ecosystem for Amazon Connect at NatWest.
 
