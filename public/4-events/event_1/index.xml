@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sự kiện 1 :: AWS Báo Cáo Thực Tập</title>
-    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/4-events/event_1/index.html</link>
-    <description>BÀI THU HOẠCH SỰ KIỆN: “AWS Cloud Day Vietnam 2025 &amp; GenAI Track” Ngày: Thứ Năm, 18 tháng 09, 2025&#xA;Thời gian: 9:00 AM – 5:00 PM&#xA;Địa điểm: Văn phòng AWS Vietnam, Tòa nhà Bitexco Financial Tower, Quận 1, TP.HCM.&#xA;Mục Đích Của Sự Kiện. Giới thiệu các xu hướng công nghệ mới nhất từ AWS, đặc biệt là Generative AI.&#xA;Chia sẻ case study từ doanh nghiệp lớn tại Việt Nam và khu vực.</description>
-    <generator>Hugo</generator>
-    <language>vi</language>
-    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/4-events/event_1/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sự kiện 1 :: AWS Báo Cáo Thực Tập</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/4-events/event_1/index.html</link><description>BÀI THU HOẠCH SỰ KIỆN: “AWS Cloud Day Vietnam 2025 &amp; GenAI Track” Ngày: Thứ Năm, 18 tháng 09, 2025
+Thời gian: 9:00 AM – 5:00 PM
+Địa điểm: Văn phòng AWS Vietnam, Tòa nhà Bitexco Financial Tower, Quận 1, TP.HCM.
+Mục Đích Của Sự Kiện. Giới thiệu các xu hướng công nghệ mới nhất từ AWS, đặc biệt là Generative AI.
+Chia sẻ case study từ doanh nghiệp lớn tại Việt Nam và khu vực.</description><generator>Hugo</generator><language>vi</language><atom:link href="https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/4-events/event_1/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

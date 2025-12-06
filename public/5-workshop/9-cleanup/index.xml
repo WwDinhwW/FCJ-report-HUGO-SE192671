@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>9. Dọn dẹp tài nguyên :: AWS Báo Cáo Thực Tập</title>
-    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/9-cleanup/index.html</link>
-    <description>Để tránh phát sinh chi phí không cần thiết — đặc biệt là từ NAT Gateway — bạn nên xóa toàn bộ tài nguyên sau khi hoàn thành workshop.&#xA;Thực hiện theo các bước sau theo đúng thứ tự:&#xA;9.1 Terminate EC2 Instances Mở EC2 Console Chọn cả EC2-Public và EC2-Private Nhấn Instance state → Terminate (quá trình có thể mất vài phút) Xác nhận hành động</description>
-    <generator>Hugo</generator>
-    <language>vi</language>
-    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/9-cleanup/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>9. Dọn dẹp tài nguyên :: AWS Báo Cáo Thực Tập</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/5-workshop/9-cleanup/index.html</link><description>Để tránh phát sinh chi phí không cần thiết — đặc biệt là từ NAT Gateway — bạn nên xóa toàn bộ tài nguyên sau khi hoàn thành workshop.
+Thực hiện theo các bước sau theo đúng thứ tự:
+9.1 Terminate EC2 Instances Mở EC2 Console Chọn cả EC2-Public và EC2-Private Nhấn Instance state → Terminate (quá trình có thể mất vài phút) Xác nhận hành động</description><generator>Hugo</generator><language>vi</language><atom:link href="https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/5-workshop/9-cleanup/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

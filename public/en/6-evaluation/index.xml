@@ -1,11 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>6. Self-Evaluation :: AWS Intership Report</title>
-    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/6-evaluation/index.html</link>
-    <description>Work In Progress</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/en/6-evaluation/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>6. Self-Evaluation :: AWS Intership Report</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/6-evaluation/index.html</link><description>During my internship at AWS Vietnam (September – December 2025), I had the opportunity to explore cloud computing in depth while building and documenting a practical learning project. I approached each task sincerely, researching carefully, understanding concepts before applying them, and prioritizing correctness over rushing.
+Across the 12 weeks, I steadily expanded my abilities in AWS services, backend development, cloud optimization, DevOps, and security engineering. The internship helped me form a structured technical mindset and improved my confidence in working with real cloud infrastructure.</description><generator>Hugo</generator><language>en</language><atom:link href="https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/6-evaluation/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

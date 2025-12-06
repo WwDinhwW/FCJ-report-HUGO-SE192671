@@ -1,11 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>6. Cấu hình Route Table :: AWS Báo Cáo Thực Tập</title>
-    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/6-routetb/index.html</link>
-    <description>Route Tables quyết định hướng lưu lượng mạng bên trong VPC của bạn. Trong phần này, bạn sẽ:&#xA;Tạo route table riêng cho public subnet và private subnet Định tuyến lưu lượng Internet từ public subnet → Internet Gateway Định tuyến lưu lượng từ private subnet → NAT Gateway để truy cập Internet đầu ra 6.1 Tạo Route Table cho Public Subnet Trong VPC Console, mở Route Tables Nhấn Create route table Nhập: Name: Public-RT VPC: Workshop-VPC Nhấn Create route table</description>
-    <generator>Hugo</generator>
-    <language>vi</language>
-    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/5-workshop/6-routetb/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>6. Cấu hình Route Table :: AWS Báo Cáo Thực Tập</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/5-workshop/6-routetb/index.html</link><description>Route Tables quyết định hướng lưu lượng mạng bên trong VPC của bạn. Trong phần này, bạn sẽ:
+Tạo route table riêng cho public subnet và private subnet Định tuyến lưu lượng Internet từ public subnet → Internet Gateway Định tuyến lưu lượng từ private subnet → NAT Gateway để truy cập Internet đầu ra 6.1 Tạo Route Table cho Public Subnet Trong VPC Console, mở Route Tables Nhấn Create route table Nhập: Name: Public-RT VPC: Workshop-VPC Nhấn Create route table</description><generator>Hugo</generator><language>vi</language><atom:link href="https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/5-workshop/6-routetb/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

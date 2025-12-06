@@ -1,11 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>2. Dự án (Proposal) :: AWS Báo Cáo Thực Tập</title>
-    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/2-proposal/index.html</link>
-    <description>Work In Progress</description>
-    <generator>Hugo</generator>
-    <language>vi</language>
-    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/2-proposal/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2. Dự án (Proposal) :: AWS Báo Cáo Thực Tập</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/2-proposal/index.html</link><description>AWS Cloud Health Dashboard Tải về bản chính thức Project Plan (Docx) 1. Tóm tắt điều hành AWS Cloud Health Dashboard là một nền tảng SaaS đa khách hàng cấp production với triển khai DevSecOps tự động hóa, cho phép doanh nghiệp giám sát và tối ưu hóa hạ tầng AWS cho nhiều khách hàng từ một hệ thống tập trung duy nhất.
+Điểm nổi bật chính: Kiến trúc cấp Production: Application Load Balancer với SSL/TLS termination, Elastic IP, health checks và khả năng triển khai zero-downtime Pipeline DevSecOps: CI/CD tự động với quét bảo mật và chiến lược triển khai blue-green Kiến trúc đa khách hàng: Được thiết kế để hỗ trợ 10-50+ tài khoản AWS khách hàng (demo được test với 3-5 khách hàng) High Availability: ALB với health checks, khả năng failover tự động và SLA 99.99% Chi phí nền tảng: $39-49/tháng (Năm 1) với hạ tầng cấp production Chi phí mỗi khách hàng: ~$0.59/tháng (có thể mở rộng và dự đoán được) Thiết kế bảo mật ưu tiên: AWS Secrets Manager + mã hóa KMS + chứng chỉ ACM Triển khai tự động: CodePipeline + CodeBuild với triển khai zero-downtime 5 bảng DynamoDB: Mô hình dữ liệu tối ưu với cô lập khách hàng Redis caching: Khả năng giảm 60-80% chi phí đọc database Hệ thống thông báo email: Tích hợp AWS SES cho cảnh báo quan trọng Elastic IP: IP tĩnh MIỄN PHÍ cho sự ổn định production Stack công nghệ: FastAPI (Python) + React + DynamoDB + Redis + ALB + Elastic IP + ACM + AWS Secrets Manager + KMS + CloudWatch + CloudTrail + CodePipeline + CodeBuild + EC2 t3.micro 2. Vấn đề cần giải quyết Thách thức hiện tại: Các doanh nghiệp quản lý hạ tầng AWS cho nhiều khách hàng đối mặt với:</description><generator>Hugo</generator><language>vi</language><atom:link href="https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/2-proposal/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

@@ -1,11 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>4. Create Internet Gateway :: AWS Intership Report</title>
-    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/5-workshop/4-ig/index.html</link>
-    <description>The Internet Gateway (IGW) allows resources inside your Public Subnet to send and receive traffic from the Internet. Without it, even a subnet with public IP will still be isolated.&#xA;4.1 Create an Internet Gateway In the AWS Console, open VPC service On the left panel, select Internet Gateways Click Create internet gateway Fill in: Name tag: Workshop-IGW Click Create internet gateway</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/en/5-workshop/4-ig/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>4. Create Internet Gateway :: AWS Intership Report</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/5-workshop/4-ig/index.html</link><description>The Internet Gateway (IGW) allows resources inside your Public Subnet to send and receive traffic from the Internet. Without it, even a subnet with public IP will still be isolated.
+4.1 Create an Internet Gateway In the AWS Console, open VPC service On the left panel, select Internet Gateways Click Create internet gateway Fill in: Name tag: Workshop-IGW Click Create internet gateway</description><generator>Hugo</generator><language>en</language><atom:link href="https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/5-workshop/4-ig/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sự kiện 4 :: AWS Báo Cáo Thực Tập</title>
-    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/4-events/event_4/index.html</link>
-    <description>BÀI THU HOẠCH SỰ KIỆN: “AWS Cloud Mastery Series #2 : DevOps on AWS” Ngày: Thứ Hai, 17 tháng 11, 2025&#xA;Thời gian: 8:30 AM – 5:00 PM&#xA;Địa điểm: Văn phòng AWS Vietnam, Tòa nhà Bitexco Financial Tower, Quận 1, TP.HCM.&#xA;Mục tiêu sự kiện: Cung cấp kiến thức toàn diện về Văn hóa DevOps, các nguyên tắc, chỉ số hiệu suất, và bộ công cụ dịch vụ DevOps của AWS để xây dựng quy trình CI/CD, IaC, và Observability.</description>
-    <generator>Hugo</generator>
-    <language>vi</language>
-    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/4-events/event_4/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sự kiện 4 :: AWS Báo Cáo Thực Tập</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/4-events/event_4/index.html</link><description>BÀI THU HOẠCH SỰ KIỆN: “AWS Cloud Mastery Series #2 : DevOps on AWS” Ngày: Thứ Hai, 17 tháng 11, 2025
+Thời gian: 8:30 AM – 5:00 PM
+Địa điểm: Văn phòng AWS Vietnam, Tòa nhà Bitexco Financial Tower, Quận 1, TP.HCM.
+Mục tiêu sự kiện: Cung cấp kiến thức toàn diện về Văn hóa DevOps, các nguyên tắc, chỉ số hiệu suất, và bộ công cụ dịch vụ DevOps của AWS để xây dựng quy trình CI/CD, IaC, và Observability.</description><generator>Hugo</generator><language>vi</language><atom:link href="https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/4-events/event_4/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

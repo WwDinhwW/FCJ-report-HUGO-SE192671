@@ -1,11 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>5. Create NAT Gateway :: AWS Intership Report</title>
-    <link>http://localhost:1313/FCJ-report-HUGO-SE192671/en/5-workshop/5-nat/index.html</link>
-    <description>The NAT Gateway allows instances in the Private Subnet to access the Internet without being publicly exposed. This is how the private EC2 will yum install, download updates, etc.&#xA;5.1 Allocate Elastic IP In the left VPC menu, select Elastic IPs Click Allocate Elastic IP address Choose default settings Click Allocate 5.2 Create NAT Gateway In the left VPC panel, go to NAT gateways Click Create NAT gateway Configure: Field Value Name Workshop-NAT Availability mode Zonal Subnet Public-Subnet Connectivity type Public Elastic IP allocation Select the one you just created Click Create NAT gateway</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="http://localhost:1313/FCJ-report-HUGO-SE192671/en/5-workshop/5-nat/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>5. Create NAT Gateway :: AWS Intership Report</title><link>https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/5-workshop/5-nat/index.html</link><description>The NAT Gateway allows instances in the Private Subnet to access the Internet without being publicly exposed. This is how the private EC2 will yum install, download updates, etc.
+5.1 Allocate Elastic IP In the left VPC menu, select Elastic IPs Click Allocate Elastic IP address Choose default settings Click Allocate 5.2 Create NAT Gateway In the left VPC panel, go to NAT gateways Click Create NAT gateway Configure: Field Value Name Workshop-NAT Availability mode Zonal Subnet Public-Subnet Connectivity type Public Elastic IP allocation Select the one you just created Click Create NAT gateway</description><generator>Hugo</generator><language>en</language><atom:link href="https://wwdinhww.github.io/FCJ-report-HUGO-SE192671/en/5-workshop/5-nat/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
